@@ -22,7 +22,7 @@ import org.pdfclown.files.SerializationModeEnum;
  * This example uses RSyntaxTextArea 2.5.6.
  */
 public class Main extends JFrame {
-	private RSyntaxTextArea textArea;
+	private RTextArea textArea;
 	
 	/**
 	 * 
@@ -36,6 +36,7 @@ public class Main extends JFrame {
 		JPanel topWestPanel = new JPanel();
 		topWestPanel.setLayout(new BorderLayout());
 		JPanel bottomWestPanel = new JPanel();
+		topWestPanel.setLayout(new BorderLayout());
 		
 		
 		JPanel eastPanel = new JPanel();
@@ -314,10 +315,11 @@ public class Main extends JFrame {
 			}
 		});
 		
-		textArea = new RSyntaxTextArea(20, 120);
+		textArea = new RTextArea(20, 120);
+		//textArea = new RSyntaxTextArea();
 		//textArea.setSyntaxEditingStyle(SyntaxConstants.SYNTAX_STYLE_XML);
-		textArea.setCodeFoldingEnabled(false);
-		textArea.setAnimateBracketMatching(false);
+		//textArea.setCodeFoldingEnabled(false);
+		//textArea.setAnimateBracketMatching(false);
 		textArea.setEditable(true);
 
 		RTextScrollPane syntaxTextAreaScrollPane = new RTextScrollPane(textArea, false);
@@ -325,7 +327,7 @@ public class Main extends JFrame {
 
 		redirectSystemStreams();
 		
-		bottomWestPanel.add(syntaxTextAreaScrollPane);
+		bottomWestPanel.add(syntaxTextAreaScrollPane, BorderLayout.CENTER);
 		
 		
 		JTabbedPane tabbedPane = new JTabbedPane();
@@ -353,8 +355,8 @@ public class Main extends JFrame {
 		
 
 		setContentPane(horizontalSplitPane);
-		setTitle("Text Editor Demo");
-		setResizable(false);
+		setTitle("Movies Organizer");
+		//setResizable(false);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		pack();
 		setLocationRelativeTo(null);
