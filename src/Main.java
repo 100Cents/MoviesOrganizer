@@ -30,8 +30,8 @@ public class Main extends JFrame {
 	private static final long serialVersionUID = -5012568741736697767L;
 
 	public Main() {
-		System.setProperty("http.proxyHost", "195.213.138.202");
-		System.setProperty("http.proxyPort", "8080");
+		//System.setProperty("http.proxyHost", "195.213.138.202");
+		//System.setProperty("http.proxyPort", "8080");
 		
 		JPanel topWestPanel = new JPanel();
 		topWestPanel.setLayout(new BorderLayout());

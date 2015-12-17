@@ -550,7 +550,7 @@ public class MoviesBackup {
 		}
 		
 		
-		Utility.getDiff(fromDirectory, toDirectory);
+		//Utility.getDiff(fromDirectory, toDirectory);
 		
 		
 		File parentDirectory = toDirectory.getParentFile();
