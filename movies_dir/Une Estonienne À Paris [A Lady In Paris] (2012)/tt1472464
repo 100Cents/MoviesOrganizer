@@ -1,0 +1,13 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Une Estonienne à Paris",
+      "de":"Eine Dame in Paris",
+      "it":"A Lady in Paris",
+      "ru":"Эстонка в Париже"
+    },
+    "otlc":"ot",
+    "year":2012,
+    "imdbCode":"tt1472464"
+  }
+}

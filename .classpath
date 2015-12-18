@@ -10,5 +10,8 @@
 	<classpathentry kind="lib" path="lib/rsyntaxtextarea-2.5.7.jar"/>
 	<classpathentry kind="lib" path="lib/commons-io-2.4.jar"/>
 	<classpathentry kind="lib" path="lib/jna-4.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/unbescape-1.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

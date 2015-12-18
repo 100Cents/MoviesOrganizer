@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Das brandneue Testament",
+      "ot":"Le tout nouveau testament",
+      "it":"Dio esiste e vive a Bruxelles",
+      "fr":"Le tout nouveau testament",
+      "ru":"Новейший завет"
+    },
+    "otlc":"ot",
+    "year":2015,
+    "imdbCode":"tt3792960"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der letzte Wolf",
+      "ot":"Wolf Totem",
+      "it":"L'ultimo lupo",
+      "fr":"Le dernier loup",
+      "ru":"Тотем волка"
+    },
+    "otlc":"ot",
+    "year":2015,
+    "imdbCode":"tt2909116"
+  }
+}

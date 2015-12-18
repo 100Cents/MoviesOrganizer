@@ -33,8 +33,8 @@ public class Main extends JFrame {
 	private static final long serialVersionUID = -5012568741736697767L;
 
 	public Main() {
-		//System.setProperty("http.proxyHost", "195.213.138.202");
-		//System.setProperty("http.proxyPort", "8080");
+		System.setProperty("http.proxyHost", "195.213.138.202");
+		System.setProperty("http.proxyPort", "8080");
 		
 		JPanel topWestPanel = new JPanel();
 		topWestPanel.setLayout(new BorderLayout());
@@ -346,12 +346,17 @@ public class Main extends JFrame {
 		
 		JComponent[] panelComponents1 = new JComponent[3];
 		
-		JTextField x = new JTextField(30);
+		JTextField x = new JTextField(60);
 		x.setText(new File(Utility.BASE_DIRECTORY).getAbsolutePath());
 		panelComponents1[0] = x;
 		
-		panelComponents1[1] = new JTextField(30);
-		panelComponents1[2] = new JTextField(30);
+		JTextField y = new JTextField(60);
+		y.setText(System.getProperty("http.proxyHost"));
+		panelComponents1[1] = y;
+		
+		JTextField z = new JTextField(60);
+		z.setText(System.getProperty("http.proxyPort"));
+		panelComponents1[2] = z;
 		
 		String[] labels1 = { "BASE_DIRECTORY:", "http.proxyHost:", "http.proxyPort:" };
 		
@@ -359,22 +364,6 @@ public class Main extends JFrame {
         JComponent backupByTagForm1 = new JPanel(new BorderLayout(5,5));
         backupByTagForm1.add(new JLabel("Purchase Form", SwingConstants.CENTER), BorderLayout.PAGE_START);
         backupByTagForm1.add(labelsAndFields1, BorderLayout.CENTER);
-		
-		/*
-		panel1.setLayout(new GridLayout(3, 1));
-		
-        JLabel label1 = new JLabel("BASE_DIRECTORY: " + new File(Utility.BASE_DIRECTORY).getAbsolutePath());
-        label1.setHorizontalAlignment(JLabel.LEFT);
-        panel1.add(label1);
-        
-        JLabel label2 = new JLabel("http.proxyHost: " + System.getProperty("http.proxyHost"));
-        label2.setHorizontalAlignment(JLabel.LEFT);
-        panel1.add(label2);
-        
-        JLabel label3 = new JLabel("http.proxyPort: " + System.getProperty("http.proxyPort"));
-        label3.setHorizontalAlignment(JLabel.LEFT);
-        panel1.add(label3);
-        */
         
         panel1.add(backupByTagForm1);
         tabbedPane.add(panel1, "Main");
