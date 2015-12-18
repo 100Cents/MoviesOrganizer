@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "de":"Das Waisenhaus",
+      "ot":"El orfanato",
+      "it":"The Orphanage",
+      "fr":"L'orphelinat",
+      "en":"The Orphanage",
+      "ru":"Приют"
+    },
+    "otlc":"ot",
+    "year":2007,
+    "imdbCode":"tt0464141"
+  }
+}

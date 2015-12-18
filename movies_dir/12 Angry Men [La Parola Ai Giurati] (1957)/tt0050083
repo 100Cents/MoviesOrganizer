@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die zwölf Geschworenen",
+      "ot":"12 Angry Men",
+      "it":"La parola ai giurati",
+      "fr":"12 hommes en colère",
+      "ru":"12 рaзгневанных мужчин"
+    },
+    "otlc":"ot",
+    "year":1957,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0050083"
+  }
+}

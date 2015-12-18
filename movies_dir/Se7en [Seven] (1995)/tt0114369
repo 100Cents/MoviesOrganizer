@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Sieben",
+      "ot":"Se7en",
+      "it":"Seven",
+      "fr":"Seven",
+      "ru":"Семь"
+    },
+    "otlc":"ot",
+    "year":1995,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0114369"
+  }
+}

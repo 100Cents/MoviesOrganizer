@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"X-Men",
+      "ot":"X-Men",
+      "fr":"X-Men",
+      "ru":"Люди Икс"
+    },
+    "otlc":"ot",
+    "year":2000,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120903"
+  }
+}

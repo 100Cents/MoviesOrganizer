@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Happiness",
+      "it":"Happiness",
+      "fr":"Happiness",
+      "ru":"Счастье"
+    },
+    "otlc":"ot",
+    "year":1998,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0147612"
+  }
+}

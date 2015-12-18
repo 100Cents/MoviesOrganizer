@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Trainspotting - Neue Helden",
+      "ot":"Trainspotting",
+      "it":"Trainspotting",
+      "fr":"Trainspotting",
+      "ru":"На игле"
+    },
+    "otlc":"ot",
+    "year":1996,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0117951"
+  }
+}

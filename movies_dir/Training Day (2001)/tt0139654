@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Training Day",
+      "ot":"Training Day",
+      "it":"Training Day",
+      "fr":"Training Day",
+      "ru":"Тренировочный день"
+    },
+    "otlc":"ot",
+    "year":2001,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0139654"
+  }
+}

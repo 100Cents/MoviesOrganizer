@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Bucht",
+      "ot":"The Cove",
+      "it":"The Cove - La baia dove muoiono i delfini",
+      "fr":"The cove - La baie de la honte",
+      "ru":"Бухта"
+    },
+    "otlc":"ot",
+    "year":2009,
+    "imdbCode":"tt1313104"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Trois couleurs: Bleu",
+      "de":"Drei Farben - Blau",
+      "it":"Tre colori - Film blu",
+      "en":"Three Colors: Blue",
+      "ru":"Три цвета: Синий"
+    },
+    "otlc":"ot",
+    "year":1993,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0108394"
+  }
+}

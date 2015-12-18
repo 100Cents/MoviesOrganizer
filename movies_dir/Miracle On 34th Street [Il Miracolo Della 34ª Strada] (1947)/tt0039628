@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Miracle on 34th Street",
+      "it":"Il miracolo della 34ª strada",
+      "fr":"Le miracle de la 34ème rue",
+      "en":"Miracle on 34th Street",
+      "ru":"Чyдо на 34-й улице"
+    },
+    "otlc":"ot",
+    "year":1947,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0039628"
+  }
+}

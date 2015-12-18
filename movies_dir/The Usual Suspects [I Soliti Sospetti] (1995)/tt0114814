@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die üblichen Verdächtigen",
+      "ot":"The Usual Suspects",
+      "it":"I soliti sospetti",
+      "fr":"Usual Suspects",
+      "ru":"Подозрительные лица"
+    },
+    "otlc":"ot",
+    "year":1995,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0114814"
+  }
+}

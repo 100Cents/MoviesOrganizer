@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Idi i smotri",
+      "it":"Va' e vedi",
+      "fr":"Requiem pour un massacre",
+      "en":"Come and See",
+      "ru":"Иди и смотри"
+    },
+    "otlc":"ot",
+    "year":1985,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0091251"
+  }
+}

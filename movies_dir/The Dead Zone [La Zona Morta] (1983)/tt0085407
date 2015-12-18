@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Dead Zone - Der Attentäter",
+      "ot":"The Dead Zone",
+      "it":"La zona morta",
+      "fr":"Dead Zone",
+      "ru":"Мертвая зона"
+    },
+    "otlc":"ot",
+    "year":1983,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0085407"
+  }
+}

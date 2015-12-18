@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"L.A. Confidential",
+      "ot":"L.A. Confidential",
+      "fr":"L.A. Confidential",
+      "ru":"Секреты Лос-Анджелеса"
+    },
+    "otlc":"ot",
+    "year":1997,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0119488"
+  }
+}

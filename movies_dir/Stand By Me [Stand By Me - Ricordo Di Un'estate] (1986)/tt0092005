@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Stand by Me - Das Geheimnis eines Sommers",
+      "ot":"Stand by Me",
+      "it":"Stand by Me - Ricordo di un'estate",
+      "fr":"Stand by me - Compte sur moi",
+      "ru":"Останься со мной"
+    },
+    "otlc":"ot",
+    "year":1986,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0092005"
+  }
+}

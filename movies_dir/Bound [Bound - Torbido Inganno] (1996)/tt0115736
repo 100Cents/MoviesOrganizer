@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Gefesselt",
+      "ot":"Bound",
+      "it":"Bound - Torbido inganno",
+      "fr":"Bound",
+      "ru":"Связь"
+    },
+    "otlc":"ot",
+    "year":1996,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0115736"
+  }
+}

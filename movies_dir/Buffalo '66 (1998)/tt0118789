@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Buffalo '66",
+      "fr":"Buffalo '66",
+      "ru":"Баффало 66"
+    },
+    "otlc":"ot",
+    "year":1998,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0118789"
+  }
+}

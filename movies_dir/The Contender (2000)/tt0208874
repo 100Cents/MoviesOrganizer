@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Rufmord - Jenseits der Moral",
+      "ot":"The Contender",
+      "fr":"Manipulations",
+      "ru":"Претендент"
+    },
+    "otlc":"ot",
+    "year":2000,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0208874"
+  }
+}

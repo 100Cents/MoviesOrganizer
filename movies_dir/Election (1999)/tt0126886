@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Election",
+      "ot":"Election",
+      "fr":"L'arriviste",
+      "ru":"Выскочка"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0126886"
+  }
+}

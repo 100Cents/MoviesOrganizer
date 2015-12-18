@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der Unbeugsame",
+      "ot":"Cool Hand Luke",
+      "it":"Nick mano fredda",
+      "fr":"Luke la main froide",
+      "ru":"Хладнокровный Люк"
+    },
+    "otlc":"ot",
+    "year":1967,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0061512"
+  }
+}

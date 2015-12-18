@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Big Trouble in Little China",
+      "it":"Grosso guaio a Chinatown",
+      "fr":"Les aventures de Jack Burton dans les griffes du Mandarin",
+      "ru":"Большой переполох в маленьком Китае"
+    },
+    "otlc":"ot",
+    "year":1986,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0090728"
+  }
+}

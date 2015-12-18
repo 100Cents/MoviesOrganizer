@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"In America",
+      "it":"In America - Il sogno che non c'era",
+      "fr":"In America",
+      "ru":"В Америке"
+    },
+    "otlc":"ot",
+    "year":2002,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0298845"
+  }
+}

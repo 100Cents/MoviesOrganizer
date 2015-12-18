@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Assault on Precinct 13",
+      "it":"Distretto 13: le brigate della morte",
+      "fr":"Assaut",
+      "en":"Assault on Precinct 13",
+      "ru":"Нападение на 13-й участок"
+    },
+    "otlc":"ot",
+    "year":1976,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0074156"
+  }
+}

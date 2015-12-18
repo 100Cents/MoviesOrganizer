@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Asche meiner Mutter",
+      "ot":"Angela's Ashes",
+      "it":"Le ceneri di Angela",
+      "fr":"Les cendres d'Angela",
+      "ru":"Прах Анджелы"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0145653"
+  }
+}

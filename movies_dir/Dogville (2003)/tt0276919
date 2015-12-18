@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Dogville",
+      "ot":"Dogville",
+      "fr":"Dogville",
+      "ru":"Догвилль"
+    },
+    "otlc":"ot",
+    "year":2003,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0276919"
+  }
+}

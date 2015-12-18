@@ -1,0 +1,13 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Guardians of the Galaxy",
+      "it":"Guardiani della Galassia",
+      "fr":"Les gardiens de la galaxie",
+      "ru":"Стражи Галактики"
+    },
+    "otlc":"ot",
+    "year":2014,
+    "imdbCode":"tt2015381"
+  }
+}

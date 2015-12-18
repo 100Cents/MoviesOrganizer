@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Bringing Out the Dead - Nächte der Erinnerung",
+      "ot":"Bringing Out the Dead",
+      "it":"Al di là della vita",
+      "fr":"À tombeau ouvert",
+      "ru":"Воскрешая мертвецов"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0163988"
+  }
+}

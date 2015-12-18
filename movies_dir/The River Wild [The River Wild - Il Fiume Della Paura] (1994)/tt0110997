@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Am wilden Fluß",
+      "ot":"The River Wild",
+      "it":"The River Wild - Il fiume della paura",
+      "fr":"La rivière sauvage",
+      "ru":"Дикая река"
+    },
+    "otlc":"ot",
+    "year":1994,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0110997"
+  }
+}

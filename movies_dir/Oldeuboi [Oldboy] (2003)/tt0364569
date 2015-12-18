@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Oldboy",
+      "ot":"Oldeuboi",
+      "it":"Oldboy",
+      "fr":"Old Boy",
+      "ru":"Олдбой"
+    },
+    "otlc":"ot",
+    "year":2003,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0364569"
+  }
+}

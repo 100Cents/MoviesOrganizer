@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Rio Bravo",
+      "it":"Un dollaro d'onore",
+      "fr":"Rio Bravo",
+      "ru":"Рио Браво"
+    },
+    "otlc":"ot",
+    "year":1959,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0053221"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Saturday Night Fever",
+      "it":"La febbre del sabato sera",
+      "fr":"La fièvre du samedi soir",
+      "ru":"Лихорадка субботнего вечера"
+    },
+    "otlc":"ot",
+    "year":1977,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0076666"
+  }
+}

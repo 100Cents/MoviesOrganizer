@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Barton Fink",
+      "ot":"Barton Fink",
+      "it":"Barton Fink - È successo a Hollywood",
+      "fr":"Barton Fink",
+      "ru":"Бартон Финк"
+    },
+    "otlc":"ot",
+    "year":1991,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0101410"
+  }
+}

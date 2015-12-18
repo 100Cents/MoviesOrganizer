@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"King of New York",
+      "it":"King of New York",
+      "fr":"The King of New York",
+      "ru":"Король Нью-Йорка"
+    },
+    "otlc":"ot",
+    "year":1990,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0099939"
+  }
+}

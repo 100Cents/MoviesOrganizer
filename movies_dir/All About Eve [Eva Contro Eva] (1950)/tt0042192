@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Alles über Eva",
+      "ot":"All About Eve",
+      "it":"Eva contro Eva",
+      "fr":"Ève",
+      "ru":"Всё о Еве"
+    },
+    "otlc":"ot",
+    "year":1950,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0042192"
+  }
+}

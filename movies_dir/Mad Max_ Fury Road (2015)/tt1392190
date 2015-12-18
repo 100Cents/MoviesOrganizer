@@ -1,0 +1,12 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Mad Max: Fury Road",
+      "en":"Mad Max: Fury Road",
+      "ru":"Безумный Макс: Дорога ярости"
+    },
+    "otlc":"ot",
+    "year":2015,
+    "imdbCode":"tt1392190"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"The Addiction",
+      "it":"The Addiction - Vampiri a New York",
+      "fr":"The Addiction",
+      "ru":"Зависимость"
+    },
+    "otlc":"ot",
+    "year":1995,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0112288"
+  }
+}

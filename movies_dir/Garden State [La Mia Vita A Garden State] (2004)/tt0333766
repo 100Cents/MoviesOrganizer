@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Garden State",
+      "it":"La mia vita a Garden State",
+      "ru":"Страна садов"
+    },
+    "otlc":"ot",
+    "year":2004,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0333766"
+  }
+}

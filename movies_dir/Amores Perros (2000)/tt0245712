@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"Amores perros",
+      "ot":"Amores perros",
+      "it":"Amores perros",
+      "fr":"Amours chiennes",
+      "en":"Amores Perros",
+      "ru":"Сука любовь"
+    },
+    "otlc":"ot",
+    "year":2000,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0245712"
+  }
+}

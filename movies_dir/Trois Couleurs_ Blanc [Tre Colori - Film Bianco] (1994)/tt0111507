@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Trois couleurs: Blanc",
+      "de":"Drei Farben - Weiß",
+      "it":"Tre colori - Film bianco",
+      "en":"Three Colors: White",
+      "ru":"Три цвета: Белый"
+    },
+    "otlc":"ot",
+    "year":1994,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0111507"
+  }
+}

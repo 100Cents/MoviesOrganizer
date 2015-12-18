@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Private Parts",
+      "fr":"Parties intimes",
+      "ru":"Чaсти тела"
+    },
+    "otlc":"ot",
+    "year":1997,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0119951"
+  }
+}

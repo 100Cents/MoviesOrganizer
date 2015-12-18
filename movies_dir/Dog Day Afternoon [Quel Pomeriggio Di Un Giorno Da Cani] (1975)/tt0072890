@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Hundstage",
+      "ot":"Dog Day Afternoon",
+      "it":"Quel pomeriggio di un giorno da cani",
+      "fr":"Un après-midi de chien",
+      "ru":"Собачий полдень"
+    },
+    "otlc":"ot",
+    "year":1975,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0072890"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Eyes Wide Shut",
+      "ot":"Eyes Wide Shut",
+      "fr":"Eyes Wide Shut",
+      "ru":"С широко закрытыми глазами"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120663"
+  }
+}

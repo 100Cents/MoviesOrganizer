@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"The Jungle Book",
+      "it":"Il libro della giungla",
+      "fr":"Le livre de la jungle",
+      "ru":"Книга джунглей"
+    },
+    "otlc":"ot",
+    "year":1967,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0061852"
+  }
+}

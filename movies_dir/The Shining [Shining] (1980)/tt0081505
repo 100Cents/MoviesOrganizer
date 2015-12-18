@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Shining",
+      "ot":"The Shining",
+      "it":"Shining",
+      "fr":"Shining",
+      "ru":"Сияние"
+    },
+    "otlc":"ot",
+    "year":1980,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0081505"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Basic Instinct",
+      "ot":"Basic Instinct",
+      "it":"Basic Instinct",
+      "fr":"Basic Instinct",
+      "ru":"Основной инстинкт"
+    },
+    "otlc":"ot",
+    "year":1992,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0103772"
+  }
+}

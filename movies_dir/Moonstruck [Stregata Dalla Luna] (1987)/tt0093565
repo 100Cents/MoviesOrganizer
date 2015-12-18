@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Mondsüchtig",
+      "ot":"Moonstruck",
+      "it":"Stregata dalla luna",
+      "fr":"Éclair de lune",
+      "ru":"Во власти Луны"
+    },
+    "otlc":"ot",
+    "year":1987,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0093565"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Das Reich der Sonne",
+      "ot":"Empire of the Sun",
+      "it":"L'impero del sole",
+      "fr":"Empire du soleil",
+      "ru":"Империя Солнца"
+    },
+    "otlc":"ot",
+    "year":1987,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0092965"
+  }
+}

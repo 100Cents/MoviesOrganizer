@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "ot":"The Ghost Writer",
+      "de":"Der Ghostwriter",
+      "it":"L'uomo nell'ombra",
+      "en":"The Ghost Writer",
+      "ru":"Призрак"
+    },
+    "otlc":"ot",
+    "year":2010,
+    "imdbCode":"tt1139328"
+  }
+}

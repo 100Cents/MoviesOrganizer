@@ -1,0 +1,13 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Quantum of Solace",
+      "de":"James Bond 007 - Ein Quantum Trost",
+      "it":"Quantum of Solace",
+      "ru":"Квант милосердия"
+    },
+    "otlc":"ot",
+    "year":2008,
+    "imdbCode":"tt0830515"
+  }
+}

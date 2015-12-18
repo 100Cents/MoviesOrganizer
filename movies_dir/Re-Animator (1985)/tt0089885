@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Re-Animator",
+      "fr":"Re-Animator",
+      "ru":"Реаниматор"
+    },
+    "otlc":"ot",
+    "year":1985,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0089885"
+  }
+}

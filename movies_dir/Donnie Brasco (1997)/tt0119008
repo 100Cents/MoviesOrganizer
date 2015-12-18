@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Donnie Brasco",
+      "ot":"Donnie Brasco",
+      "it":"Donnie Brasco",
+      "fr":"Donnie Brasco",
+      "ru":"Донни Браско"
+    },
+    "otlc":"ot",
+    "year":1997,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0119008"
+  }
+}

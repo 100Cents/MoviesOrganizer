@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Platoon",
+      "it":"Platoon",
+      "fr":"Platoon",
+      "en":"Platoon",
+      "ru":"Взвод"
+    },
+    "otlc":"ot",
+    "year":1986,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0091763"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Peanuts - Der Film",
+      "ot":"The Peanuts Movie",
+      "it":"Snoopy & Friends - Il film dei Peanuts",
+      "fr":"Snoopy et les Peanuts: Le film",
+      "en":"Snoopy and Charlie Brown: The Peanuts Movie",
+      "ru":"Снупи и мелочь пузатая в кино"
+    },
+    "otlc":"ot",
+    "year":2015,
+    "imdbCode":"tt2452042"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Truman Show",
+      "ot":"The Truman Show",
+      "fr":"The Truman Show",
+      "ru":"Шоу Трумана"
+    },
+    "otlc":"ot",
+    "year":1998,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120382"
+  }
+}

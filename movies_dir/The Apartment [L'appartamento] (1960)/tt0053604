@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Das Appartement",
+      "ot":"The Apartment",
+      "it":"L'appartamento",
+      "fr":"La garçonnière",
+      "ru":"Квартира"
+    },
+    "otlc":"ot",
+    "year":1960,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0053604"
+  }
+}

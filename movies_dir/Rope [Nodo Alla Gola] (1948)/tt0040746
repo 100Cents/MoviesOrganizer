@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Rope",
+      "it":"Nodo alla gola",
+      "fr":"La corde",
+      "ru":"Веревка"
+    },
+    "otlc":"ot",
+    "year":1948,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0040746"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"James Bond 007 - Im Geheimdienst Ihrer Majestät",
+      "ot":"On Her Majesty's Secret Service",
+      "it":"Agente 007 - Al servizio segreto di Sua Maestà",
+      "fr":"Au service secret de Sa Majesté",
+      "ru":"На секретной службе Ее Величества"
+    },
+    "otlc":"ot",
+    "year":1969,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0064757"
+  }
+}

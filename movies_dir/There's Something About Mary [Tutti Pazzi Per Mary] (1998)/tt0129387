@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Verrückt nach Mary",
+      "ot":"There's Something About Mary",
+      "it":"Tutti pazzi per Mary",
+      "fr":"Mary à tout prix",
+      "ru":"Все без ума от Мэри"
+    },
+    "otlc":"ot",
+    "year":1998,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0129387"
+  }
+}

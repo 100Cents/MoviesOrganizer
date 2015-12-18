@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Annie Hall",
+      "de":"Der Stadtneurotiker",
+      "it":"Io & Annie",
+      "ru":"Энни Холл"
+    },
+    "otlc":"ot",
+    "year":1977,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0075686"
+  }
+}

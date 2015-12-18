@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Taxi",
+      "it":"Taxxi",
+      "ru":"Такси"
+    },
+    "otlc":"ot",
+    "year":1998,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0152930"
+  }
+}

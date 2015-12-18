@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"The Exorcist",
+      "it":"L'esorcista",
+      "fr":"L'exorciste",
+      "ru":"Изгоняющий дьявола"
+    },
+    "otlc":"ot",
+    "year":1973,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0070047"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Natural Born Killers",
+      "ot":"Natural Born Killers",
+      "it":"Assassini nati - Natural Born Killers",
+      "fr":"Tueurs nés",
+      "ru":"Прирожденные убийцы"
+    },
+    "otlc":"ot",
+    "year":1994,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0110632"
+  }
+}

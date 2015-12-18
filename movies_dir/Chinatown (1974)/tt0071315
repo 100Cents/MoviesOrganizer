@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Chinatown",
+      "it":"Chinatown",
+      "fr":"Chinatown",
+      "ru":"Китайский квартал"
+    },
+    "otlc":"ot",
+    "year":1974,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0071315"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Sweeney Todd",
+      "ot":"Sweeney Todd: The Demon Barber of Fleet Street",
+      "it":"Sweeney Todd - Il diabolico barbiere di Fleet Street",
+      "fr":"Sweeney Todd, le diabolique barbier de Fleet Street",
+      "ru":"Суини Тодд, демон-парикмахер с Флит-стрит"
+    },
+    "otlc":"ot",
+    "year":2007,
+    "imdbCode":"tt0408236"
+  }
+}

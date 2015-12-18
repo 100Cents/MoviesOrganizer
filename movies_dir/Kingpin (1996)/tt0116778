@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Kingpin",
+      "de":"Kingpin - Zwei Trottel auf der Bowlingbahn",
+      "ru":"Заводила"
+    },
+    "otlc":"ot",
+    "year":1996,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0116778"
+  }
+}

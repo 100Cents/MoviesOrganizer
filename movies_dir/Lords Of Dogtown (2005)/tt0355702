@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Dogtown Boys",
+      "ot":"Lords of Dogtown",
+      "fr":"Les seigneurs de Dogtown",
+      "ru":"Короли Догтауна"
+    },
+    "otlc":"ot",
+    "year":2005,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0355702"
+  }
+}

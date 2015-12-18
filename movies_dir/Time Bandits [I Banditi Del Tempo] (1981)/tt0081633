@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Time Bandits",
+      "it":"I banditi del tempo",
+      "fr":"Bandits, bandits",
+      "ru":"Бандиты во времени"
+    },
+    "otlc":"ot",
+    "year":1981,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0081633"
+  }
+}

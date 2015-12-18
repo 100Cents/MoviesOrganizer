@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"The Color of Money",
+      "it":"Il colore dei soldi",
+      "fr":"La couleur de l'argent",
+      "ru":"Цвет денег"
+    },
+    "otlc":"ot",
+    "year":1986,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0090863"
+  }
+}

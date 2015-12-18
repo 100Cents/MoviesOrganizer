@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Snatch - Schweine und Diamanten",
+      "ot":"Snatch.",
+      "it":"Snatch - Lo strappo",
+      "fr":"Snatch - Tu braques ou tu raques",
+      "ru":"Большой куш"
+    },
+    "otlc":"ot",
+    "year":2000,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0208092"
+  }
+}

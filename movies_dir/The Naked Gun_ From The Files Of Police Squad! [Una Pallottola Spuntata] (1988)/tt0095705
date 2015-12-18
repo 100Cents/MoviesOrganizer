@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die nackte Kanone",
+      "ot":"The Naked Gun: From the Files of Police Squad!",
+      "it":"Una pallottola spuntata",
+      "fr":"Y a-t-il un flic pour sauver la reine?",
+      "ru":"Голый пистолет"
+    },
+    "otlc":"ot",
+    "year":1988,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0095705"
+  }
+}

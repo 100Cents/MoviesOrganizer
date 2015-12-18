@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Hellboy",
+      "ot":"Hellboy",
+      "fr":"Hellboy",
+      "ru":"Хеллбой: Герой из пекла"
+    },
+    "otlc":"ot",
+    "year":2004,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0167190"
+  }
+}

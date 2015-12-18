@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Dark City",
+      "ot":"Dark City",
+      "fr":"Dark City",
+      "ru":"Тёмный город"
+    },
+    "otlc":"ot",
+    "year":1998,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0118929"
+  }
+}

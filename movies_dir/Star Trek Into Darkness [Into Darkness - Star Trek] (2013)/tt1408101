@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Star Trek: Into Darkness",
+      "ot":"Star Trek Into Darkness",
+      "it":"Into Darkness - Star Trek",
+      "fr":"Star Trek: Into Darkness",
+      "ru":"Стартрек: Возмездие"
+    },
+    "otlc":"ot",
+    "year":2013,
+    "imdbCode":"tt1408101"
+  }
+}

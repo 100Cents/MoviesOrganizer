@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der Hobbit - Smaugs Einöde",
+      "ot":"The Hobbit: The Desolation of Smaug",
+      "it":"Lo Hobbit - La desolazione di Smaug",
+      "fr":"Le Hobbit: La désolation de Smaug",
+      "ru":"Хоббит: Пустошь Смауга"
+    },
+    "otlc":"ot",
+    "year":2013,
+    "imdbCode":"tt1170358"
+  }
+}

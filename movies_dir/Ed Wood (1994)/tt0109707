@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Ed Wood",
+      "ot":"Ed Wood",
+      "fr":"Ed Wood",
+      "ru":"Эд Вуд"
+    },
+    "otlc":"ot",
+    "year":1994,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0109707"
+  }
+}

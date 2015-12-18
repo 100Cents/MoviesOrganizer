@@ -1,0 +1,12 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Sherlock Holmes",
+      "fr":"Sherlock Holmes",
+      "ru":"Шерлок Холмс"
+    },
+    "otlc":"ot",
+    "year":2009,
+    "imdbCode":"tt0988045"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Unter Haien in Hollywood",
+      "ot":"Swimming with Sharks",
+      "it":"Il prezzo di Hollywood",
+      "fr":"Swimming with Sharks",
+      "ru":"Среди акул"
+    },
+    "otlc":"ot",
+    "year":1994,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0114594"
+  }
+}

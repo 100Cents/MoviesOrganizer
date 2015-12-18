@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Life of Pi: Schiffbruch mit Tiger",
+      "ot":"Life of Pi",
+      "it":"Vita di Pi",
+      "fr":"L'odyssée de Pi",
+      "ru":"Жизнь Пи"
+    },
+    "otlc":"ot",
+    "year":2012,
+    "imdbCode":"tt0454876"
+  }
+}

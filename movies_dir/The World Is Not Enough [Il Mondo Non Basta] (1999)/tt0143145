@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"James Bond 007 - Die Welt ist nicht genug",
+      "ot":"The World Is Not Enough",
+      "it":"Il mondo non basta",
+      "fr":"Le monde ne suffit pas",
+      "ru":"И целого мира мало"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0143145"
+  }
+}

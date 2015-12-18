@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"A.I.: Künstliche Intelligenz",
+      "ot":"Artificial Intelligence: AI",
+      "it":"A.I. - Intelligenza artificiale",
+      "fr":"A.I. intelligence artificielle",
+      "en":"A.I. Artificial Intelligence",
+      "ru":"Искусственный разум"
+    },
+    "otlc":"ot",
+    "year":2001,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0212720"
+  }
+}

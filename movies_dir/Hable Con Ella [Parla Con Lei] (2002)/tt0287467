@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"Sprich mit ihr",
+      "ot":"Hable con ella",
+      "it":"Parla con lei",
+      "fr":"Parle avec elle",
+      "en":"Talk to Her",
+      "ru":"Поговори с ней"
+    },
+    "otlc":"ot",
+    "year":2002,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0287467"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"Stirb langsam - Jetzt erst recht",
+      "ot":"Die Hard: With a Vengeance",
+      "it":"Die Hard - Duri a morire",
+      "fr":"Une journée en enfer - Die Hard 3",
+      "en":"Die Hard: With a Vengeance",
+      "ru":"Крепкий орешек 3"
+    },
+    "otlc":"ot",
+    "year":1995,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0112864"
+  }
+}

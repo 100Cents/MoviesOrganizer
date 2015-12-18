@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Eine Frage der Ehre",
+      "ot":"A Few Good Men",
+      "it":"Codice d'onore",
+      "fr":"Des hommes d'honneur",
+      "ru":"Несколько хороших парней"
+    },
+    "otlc":"ot",
+    "year":1992,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0104257"
+  }
+}

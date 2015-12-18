@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"The Fog of War: Eleven Lessons from the Life of Robert S. McNamara",
+      "it":"The fog of war: La guerra secondo Robert McNamara",
+      "ru":"Туман войны"
+    },
+    "otlc":"ot",
+    "year":2003,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0317910"
+  }
+}

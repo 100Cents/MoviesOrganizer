@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Inglourious Basterds",
+      "it":"Bastardi senza gloria",
+      "fr":"Inglourious Basterds",
+      "ru":"Бесславные ублюдки"
+    },
+    "otlc":"ot",
+    "year":2009,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0361748"
+  }
+}

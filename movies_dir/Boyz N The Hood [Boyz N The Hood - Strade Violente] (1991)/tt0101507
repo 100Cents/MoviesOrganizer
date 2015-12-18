@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Boyz n the Hood - Jungs im Viertel",
+      "ot":"Boyz n the Hood",
+      "it":"Boyz n the Hood - Strade violente",
+      "fr":"Boyz'n the Hood, la loi de la rue",
+      "ru":"Ребята с улицы"
+    },
+    "otlc":"ot",
+    "year":1991,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0101507"
+  }
+}

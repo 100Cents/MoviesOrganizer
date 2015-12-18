@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Superman II - Allein gegen alle",
+      "ot":"Superman II",
+      "fr":"Superman II",
+      "ru":"Супермен 2"
+    },
+    "otlc":"ot",
+    "year":1980,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0081573"
+  }
+}

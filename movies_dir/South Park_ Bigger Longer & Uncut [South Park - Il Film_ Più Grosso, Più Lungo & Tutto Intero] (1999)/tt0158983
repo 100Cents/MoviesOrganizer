@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"South Park - Der Film",
+      "ot":"South Park: Bigger Longer & Uncut",
+      "it":"South Park - Il film: Più grosso, più lungo & tutto intero",
+      "fr":"South Park, le film - Plus long, plus grand et pas coupé",
+      "ru":"Южный Парк: Большой, длинный, необрезанный"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0158983"
+  }
+}

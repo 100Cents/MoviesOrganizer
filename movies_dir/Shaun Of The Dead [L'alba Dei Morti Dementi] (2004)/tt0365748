@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Shaun of the Dead",
+      "it":"L'alba dei morti dementi",
+      "fr":"Shaun of the Dead",
+      "ru":"Зомби по имени Шон"
+    },
+    "otlc":"ot",
+    "year":2004,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0365748"
+  }
+}

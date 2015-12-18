@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Heathers",
+      "it":"Schegge di follia",
+      "fr":"Fatal Games",
+      "ru":"Смертельное влечение"
+    },
+    "otlc":"ot",
+    "year":1988,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0097493"
+  }
+}

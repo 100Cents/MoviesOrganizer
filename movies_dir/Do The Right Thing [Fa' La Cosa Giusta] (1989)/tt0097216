@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Do the Right Thing",
+      "it":"Fa' la cosa giusta",
+      "fr":"Do the Right Thing",
+      "ru":"Делай как надо"
+    },
+    "otlc":"ot",
+    "year":1989,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0097216"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Zurück in die Zukunft",
+      "ot":"Back to the Future",
+      "it":"Ritorno al futuro",
+      "fr":"Retour vers le futur",
+      "ru":"Назад в будущее"
+    },
+    "otlc":"ot",
+    "year":1985,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0088763"
+  }
+}

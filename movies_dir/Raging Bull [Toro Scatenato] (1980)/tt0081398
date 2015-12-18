@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Wie ein wilder Stier",
+      "ot":"Raging Bull",
+      "it":"Toro scatenato",
+      "fr":"Raging Bull",
+      "ru":"Бешеный бык"
+    },
+    "otlc":"ot",
+    "year":1980,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0081398"
+  }
+}

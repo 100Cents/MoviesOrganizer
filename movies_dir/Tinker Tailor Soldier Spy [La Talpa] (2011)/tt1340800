@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Dame, König, As, Spion",
+      "ot":"Tinker Tailor Soldier Spy",
+      "it":"La talpa",
+      "fr":"La taupe",
+      "ru":"Шпион, выйди вон!"
+    },
+    "otlc":"ot",
+    "year":2011,
+    "imdbCode":"tt1340800"
+  }
+}

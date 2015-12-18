@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Auf der Flucht",
+      "ot":"The Fugitive",
+      "it":"Il fuggitivo",
+      "fr":"Le fugitif",
+      "ru":"Беглец"
+    },
+    "otlc":"ot",
+    "year":1993,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0106977"
+  }
+}

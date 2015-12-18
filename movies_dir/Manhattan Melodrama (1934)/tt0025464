@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Manhattan Melodrama",
+      "fr":"L'ennemi public n° 1",
+      "ru":"Манхэттенская мелодрама"
+    },
+    "otlc":"ot",
+    "year":1934,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0025464"
+  }
+}

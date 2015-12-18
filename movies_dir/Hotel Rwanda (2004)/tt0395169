@@ -1,0 +1,13 @@
+{
+  "myData":{
+    "title":{
+      "de":"Hotel Ruanda",
+      "ot":"Hotel Rwanda",
+      "fr":"Hôtel Rwanda",
+      "ru":"Отель Руанда"
+    },
+    "otlc":"ot",
+    "year":2004,
+    "imdbCode":"tt0395169"
+  }
+}

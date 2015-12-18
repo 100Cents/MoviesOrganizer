@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Larry Flynt - Die nackte Wahrheit",
+      "ot":"The People vs. Larry Flynt",
+      "it":"Larry Flynt - Oltre lo scandalo",
+      "fr":"Larry Flynt",
+      "ru":"Народ против Ларри Флинта"
+    },
+    "otlc":"ot",
+    "year":1996,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0117318"
+  }
+}

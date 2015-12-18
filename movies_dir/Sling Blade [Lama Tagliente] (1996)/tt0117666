@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Sling Blade",
+      "de":"Sling Blade - Auf Messers Schneide",
+      "it":"Lama tagliente",
+      "ru":"Отточенное лезвие"
+    },
+    "otlc":"ot",
+    "year":1996,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0117666"
+  }
+}

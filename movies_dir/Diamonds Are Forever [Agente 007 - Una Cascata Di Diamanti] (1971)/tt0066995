@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"James Bond 007 - Diamantenfieber",
+      "ot":"Diamonds Are Forever",
+      "it":"Agente 007 - Una cascata di diamanti",
+      "fr":"Les diamants sont éternels",
+      "ru":"Бриллианты навсегда"
+    },
+    "otlc":"ot",
+    "year":1971,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0066995"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Gimme Shelter",
+      "ru":"Дай мне кров"
+    },
+    "otlc":"ot",
+    "year":1970,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0065780"
+  }
+}

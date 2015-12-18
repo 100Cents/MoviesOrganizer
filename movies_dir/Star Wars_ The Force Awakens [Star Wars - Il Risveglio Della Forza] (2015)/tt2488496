@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "de":"Star Wars: Das Erwachen der Macht",
+      "ot":"Star Wars: The Force Awakens",
+      "it":"Star Wars - Il risveglio della Forza",
+      "fr":"Star Wars: Le réveil de la Force",
+      "en":"Star Wars: The Force Awakens",
+      "ru":"Звёздные войны: Пробуждение Силы"
+    },
+    "otlc":"ot",
+    "year":2015,
+    "imdbCode":"tt2488496"
+  }
+}

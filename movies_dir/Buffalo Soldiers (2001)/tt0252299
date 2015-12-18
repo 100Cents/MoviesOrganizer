@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Army Go Home!",
+      "ot":"Buffalo Soldiers",
+      "fr":"Buffalo Soldiers",
+      "ru":"Солдаты Буффало"
+    },
+    "otlc":"ot",
+    "year":2001,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0252299"
+  }
+}

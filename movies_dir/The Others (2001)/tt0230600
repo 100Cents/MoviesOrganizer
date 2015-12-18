@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"The Others",
+      "ot":"The Others",
+      "fr":"Les autres",
+      "ru":"Другие"
+    },
+    "otlc":"ot",
+    "year":2001,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0230600"
+  }
+}

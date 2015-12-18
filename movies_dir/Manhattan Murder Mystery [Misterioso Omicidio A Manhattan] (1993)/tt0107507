@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Manhattan Murder Mystery",
+      "ot":"Manhattan Murder Mystery",
+      "it":"Misterioso omicidio a Manhattan",
+      "fr":"Meurtre mystérieux à Manhattan",
+      "ru":"Загадочное убийство в Манхэттэне"
+    },
+    "otlc":"ot",
+    "year":1993,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0107507"
+  }
+}

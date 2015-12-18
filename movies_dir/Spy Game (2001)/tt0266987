@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Spy Game - Der finale Countdown",
+      "ot":"Spy Game",
+      "fr":"Spy game - Jeu d'espions",
+      "ru":"Шпионские игры"
+    },
+    "otlc":"ot",
+    "year":2001,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0266987"
+  }
+}

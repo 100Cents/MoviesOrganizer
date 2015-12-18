@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Ein Fisch namens Wanda",
+      "ot":"A Fish Called Wanda",
+      "it":"Un pesce di nome Wanda",
+      "fr":"Un poisson nommé Wanda",
+      "ru":"Рыбка по имени Ванда"
+    },
+    "otlc":"ot",
+    "year":1988,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0095159"
+  }
+}

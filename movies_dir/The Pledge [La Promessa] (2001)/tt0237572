@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Das Versprechen",
+      "ot":"The Pledge",
+      "it":"La promessa",
+      "fr":"The Pledge",
+      "ru":"Обещание"
+    },
+    "otlc":"ot",
+    "year":2001,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0237572"
+  }
+}

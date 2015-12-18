@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Big Fish",
+      "de":"Big Fish - Der Zauber, der ein Leben zur Legende macht",
+      "it":"Big Fish - Le storie di una vita incredibile",
+      "ru":"Крупная рыба"
+    },
+    "otlc":"ot",
+    "year":2003,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0319061"
+  }
+}

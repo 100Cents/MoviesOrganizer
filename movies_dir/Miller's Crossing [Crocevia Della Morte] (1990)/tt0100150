@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Miller's Crossing",
+      "it":"Crocevia della morte",
+      "fr":"Miller's Crossing",
+      "ru":"Перекресток Миллера"
+    },
+    "otlc":"ot",
+    "year":1990,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0100150"
+  }
+}

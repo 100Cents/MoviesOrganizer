@@ -1,0 +1,12 @@
+{
+  "myData":{
+    "title":{
+      "ot":"The Artist",
+      "en":"The Artist",
+      "ru":"Артист"
+    },
+    "otlc":"ot",
+    "year":2011,
+    "imdbCode":"tt1655442"
+  }
+}

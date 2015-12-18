@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"Für eine Handvoll Dollar",
+      "ot":"Per un pugno di dollari",
+      "ww-en":"A Fistful of Dollars",
+      "fr":"Pour une poignée de dollars",
+      "en":"A Fistful of Dollars",
+      "ru":"За пригоршню долларов"
+    },
+    "otlc":"ot",
+    "year":1964,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0058461"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Star Trek",
+      "it":"Star Trek",
+      "ru":"Звездный путь"
+    },
+    "otlc":"ot",
+    "year":2009,
+    "imdbCode":"tt0796366"
+  }
+}

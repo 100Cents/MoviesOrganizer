@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Star Wars: Episode I - Die dunkle Bedrohung",
+      "ot":"Star Wars: Episode I - The Phantom Menace",
+      "it":"Star Wars: Episodio I - La minaccia fantasma",
+      "fr":"Star Wars: Épisode I - La menace fantôme",
+      "ru":"Звёздные войны. Эпизод 1: Скрытая угроза"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120915"
+  }
+}

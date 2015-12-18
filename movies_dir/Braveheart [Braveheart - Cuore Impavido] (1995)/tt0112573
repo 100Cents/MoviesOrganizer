@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Braveheart",
+      "ot":"Braveheart",
+      "it":"Braveheart - Cuore impavido",
+      "fr":"Braveheart",
+      "ru":"Храброе сердце"
+    },
+    "otlc":"ot",
+    "year":1995,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0112573"
+  }
+}

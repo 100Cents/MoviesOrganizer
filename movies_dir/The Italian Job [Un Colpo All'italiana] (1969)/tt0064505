@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"The Italian Job",
+      "it":"Un colpo all'italiana",
+      "fr":"L'or se barre",
+      "ru":"Итальянская работа"
+    },
+    "otlc":"ot",
+    "year":1969,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0064505"
+  }
+}

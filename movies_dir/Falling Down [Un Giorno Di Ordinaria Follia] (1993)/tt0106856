@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Falling Down - Ein ganz normaler Tag",
+      "ot":"Falling Down",
+      "it":"Un giorno di ordinaria follia",
+      "fr":"Chute libre",
+      "ru":"С меня хватит!"
+    },
+    "otlc":"ot",
+    "year":1993,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0106856"
+  }
+}

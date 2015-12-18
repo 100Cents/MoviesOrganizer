@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Von Löwen und Lämmern",
+      "ot":"Lions for Lambs",
+      "it":"Leoni per agnelli",
+      "fr":"Lions et agneaux",
+      "ru":"Львы для ягнят"
+    },
+    "otlc":"ot",
+    "year":2007,
+    "imdbCode":"tt0891527"
+  }
+}

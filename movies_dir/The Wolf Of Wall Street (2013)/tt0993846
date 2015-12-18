@@ -1,0 +1,13 @@
+{
+  "myData":{
+    "title":{
+      "ot":"The Wolf of Wall Street",
+      "it":"The Wolf of Wall Street",
+      "fr":"Le loup de Wall Street",
+      "ru":"Волк с Уолл-стрит"
+    },
+    "otlc":"ot",
+    "year":2013,
+    "imdbCode":"tt0993846"
+  }
+}

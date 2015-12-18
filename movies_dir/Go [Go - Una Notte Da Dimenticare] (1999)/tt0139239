@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Go! Das Leben beginnt erst um 3.00 Uhr morgens",
+      "ot":"Go",
+      "it":"Go - Una notte da dimenticare",
+      "fr":"Go",
+      "ru":"Экстази"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0139239"
+  }
+}

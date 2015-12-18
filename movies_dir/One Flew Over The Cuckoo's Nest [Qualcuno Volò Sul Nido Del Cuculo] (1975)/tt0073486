@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Einer flog über das Kuckucksnest",
+      "ot":"One Flew Over the Cuckoo's Nest",
+      "it":"Qualcuno volò sul nido del cuculo",
+      "fr":"Vol au-dessus d'un nid de coucou",
+      "ru":"Пролетая над гнездом кукушки"
+    },
+    "otlc":"ot",
+    "year":1975,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0073486"
+  }
+}

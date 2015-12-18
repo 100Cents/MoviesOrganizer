@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der Tintenfisch und der Wal",
+      "ot":"The Squid and the Whale",
+      "it":"Il calamaro e la balena",
+      "fr":"Les Berkman se séparent",
+      "ru":"Кальмар и кит"
+    },
+    "otlc":"ot",
+    "year":2005,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0367089"
+  }
+}

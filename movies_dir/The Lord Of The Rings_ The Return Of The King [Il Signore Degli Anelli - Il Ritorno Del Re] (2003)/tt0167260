@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der Herr der Ringe - Die Rückkehr des Königs",
+      "ot":"The Lord of the Rings: The Return of the King",
+      "it":"Il signore degli anelli - Il ritorno del re",
+      "fr":"Le seigneur des anneaux: Le retour du roi",
+      "ru":"Властелин колец: Возвращение короля"
+    },
+    "otlc":"ot",
+    "year":2003,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0167260"
+  }
+}

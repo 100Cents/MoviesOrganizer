@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Indiana Jones und der Tempel des Todes",
+      "ot":"Indiana Jones and the Temple of Doom",
+      "it":"Indiana Jones e il tempio maledetto",
+      "fr":"Indiana Jones et le temple maudit",
+      "ru":"Индиана Джонс и Храм судьбы"
+    },
+    "otlc":"ot",
+    "year":1984,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0087469"
+  }
+}

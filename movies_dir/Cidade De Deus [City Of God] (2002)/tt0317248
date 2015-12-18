@@ -1,0 +1,19 @@
+{
+  "myData":{
+    "title":{
+      "de":"City of God",
+      "ot":"Cidade de Deus",
+      "ww-en":"City of God",
+      "it":"City of God",
+      "fr":"La cité de Dieu",
+      "en":"City of God",
+      "ru":"Город Бога"
+    },
+    "otlc":"ot",
+    "year":2002,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0317248"
+  }
+}

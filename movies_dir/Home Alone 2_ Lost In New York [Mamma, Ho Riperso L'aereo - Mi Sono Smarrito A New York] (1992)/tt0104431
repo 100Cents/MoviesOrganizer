@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Kevin - Allein in New York",
+      "ot":"Home Alone 2: Lost in New York",
+      "it":"Mamma, ho riperso l'aereo - Mi sono smarrito a New York",
+      "fr":"Maman, j'ai encore raté l'avion",
+      "ru":"Один дома 2: Затерянный в Нью-Йорке"
+    },
+    "otlc":"ot",
+    "year":1992,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0104431"
+  }
+}

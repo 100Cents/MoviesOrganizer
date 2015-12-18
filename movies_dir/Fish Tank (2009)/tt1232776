@@ -1,0 +1,12 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Fish Tank",
+      "fr":"Fish Tank",
+      "ru":"Аквариум"
+    },
+    "otlc":"ot",
+    "year":2009,
+    "imdbCode":"tt1232776"
+  }
+}

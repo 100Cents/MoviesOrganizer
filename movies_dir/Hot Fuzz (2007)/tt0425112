@@ -1,0 +1,12 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Hot Fuzz",
+      "de":"Hot Fuzz - Zwei abgewichste Profis",
+      "ru":"Типа крутые легавые"
+    },
+    "otlc":"ot",
+    "year":2007,
+    "imdbCode":"tt0425112"
+  }
+}

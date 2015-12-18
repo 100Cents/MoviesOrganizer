@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Superman",
+      "fr":"Superman",
+      "ru":"Супермен"
+    },
+    "otlc":"ot",
+    "year":1978,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0078346"
+  }
+}

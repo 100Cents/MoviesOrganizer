@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Willkommen, Mr. Chance",
+      "ot":"Being There",
+      "it":"Oltre il giardino",
+      "fr":"Bienvenue Mister Chance",
+      "ru":"Будучи там"
+    },
+    "otlc":"ot",
+    "year":1979,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0078841"
+  }
+}

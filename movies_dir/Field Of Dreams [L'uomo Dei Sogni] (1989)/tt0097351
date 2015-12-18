@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Feld der Träume",
+      "ot":"Field of Dreams",
+      "it":"L'uomo dei sogni",
+      "fr":"Jusqu'au bout du rêve",
+      "ru":"Поле чудес"
+    },
+    "otlc":"ot",
+    "year":1989,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0097351"
+  }
+}

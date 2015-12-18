@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der letzte Exorzismus",
+      "ot":"The Last Exorcism",
+      "it":"L'ultimo esorcismo",
+      "fr":"Le dernier exorcisme",
+      "ru":"Последнее изгнание дьявола"
+    },
+    "otlc":"ot",
+    "year":2010,
+    "imdbCode":"tt1320244"
+  }
+}

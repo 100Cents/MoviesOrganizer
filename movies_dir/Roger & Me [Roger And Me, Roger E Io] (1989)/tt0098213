@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Roger & Me",
+      "it":"Roger and me, Roger e io",
+      "fr":"Roger et moi",
+      "ru":"Роджер и я"
+    },
+    "otlc":"ot",
+    "year":1989,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0098213"
+  }
+}

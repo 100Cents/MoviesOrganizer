@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Ferris macht blau",
+      "ot":"Ferris Bueller's Day Off",
+      "it":"Una pazza giornata di vacanza",
+      "fr":"La folle journée de Ferris Bueller",
+      "ru":"Выходной день Ферриса Бьюллера"
+    },
+    "otlc":"ot",
+    "year":1986,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0091042"
+  }
+}

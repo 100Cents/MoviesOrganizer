@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"House of Games",
+      "it":"La casa dei giochi",
+      "fr":"Engrenages",
+      "ru":"Игорный дом"
+    },
+    "otlc":"ot",
+    "year":1987,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0093223"
+  }
+}

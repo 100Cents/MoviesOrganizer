@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Thief",
+      "it":"Strade violente",
+      "fr":"Le solitaire",
+      "en":"Thief",
+      "ru":"Boр"
+    },
+    "otlc":"ot",
+    "year":1981,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0083190"
+  }
+}

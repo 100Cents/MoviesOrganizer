@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der Mondmann",
+      "ot":"Man on the Moon",
+      "fr":"Man on the Moon",
+      "ru":"Чeловек на луне"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0125664"
+  }
+}

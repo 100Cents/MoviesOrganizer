@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Arlo & Spot",
+      "ot":"The Good Dinosaur",
+      "it":"Il viaggio di Arlo",
+      "fr":"Le voyage d'Arlo",
+      "ru":"Хороший динозавр"
+    },
+    "otlc":"ot",
+    "year":2015,
+    "imdbCode":"tt1979388"
+  }
+}

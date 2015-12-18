@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Pulp Fiction",
+      "ot":"Pulp Fiction",
+      "it":"Pulp Fiction",
+      "fr":"Pulp Fiction",
+      "ru":"Криминальное чтиво"
+    },
+    "otlc":"ot",
+    "year":1994,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0110912"
+  }
+}

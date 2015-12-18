@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Cop Land",
+      "ot":"Cop Land",
+      "fr":"Copland",
+      "ru":"Полицейские"
+    },
+    "otlc":"ot",
+    "year":1997,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0118887"
+  }
+}

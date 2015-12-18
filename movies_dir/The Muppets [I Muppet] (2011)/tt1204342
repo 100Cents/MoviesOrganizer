@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Muppets",
+      "ot":"The Muppets",
+      "it":"I Muppet",
+      "fr":"Les Muppets, le retour",
+      "ru":"Маппеты"
+    },
+    "otlc":"ot",
+    "year":2011,
+    "imdbCode":"tt1204342"
+  }
+}

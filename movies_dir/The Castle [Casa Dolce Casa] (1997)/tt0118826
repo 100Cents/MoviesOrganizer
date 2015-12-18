@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"My Home Is My Castle",
+      "ot":"The Castle",
+      "it":"Casa dolce casa",
+      "fr":"Une maison de rêve",
+      "ru":"Замок"
+    },
+    "otlc":"ot",
+    "year":1997,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0118826"
+  }
+}

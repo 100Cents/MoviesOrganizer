@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Bloody Sunday",
+      "fr":"Bloody Sunday",
+      "ru":"Кровавое воскресенье"
+    },
+    "otlc":"ot",
+    "year":2002,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0280491"
+  }
+}

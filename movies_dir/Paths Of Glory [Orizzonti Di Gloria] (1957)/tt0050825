@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Wege zum Ruhm",
+      "ot":"Paths of Glory",
+      "it":"Orizzonti di gloria",
+      "fr":"Les sentiers de la gloire",
+      "ru":"Тропы славы"
+    },
+    "otlc":"ot",
+    "year":1957,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0050825"
+  }
+}

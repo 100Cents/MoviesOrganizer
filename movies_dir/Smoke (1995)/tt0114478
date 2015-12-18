@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Smoke - Raucher unter sich",
+      "ot":"Smoke",
+      "fr":"Smoke",
+      "en":"Smoke",
+      "ru":"Дым"
+    },
+    "otlc":"ot",
+    "year":1995,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0114478"
+  }
+}

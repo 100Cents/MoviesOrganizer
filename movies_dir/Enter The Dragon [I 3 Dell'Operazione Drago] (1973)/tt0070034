@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Enter the Dragon",
+      "ww-en":"Operation Dragon",
+      "it":"I 3 dell'Operazione Drago",
+      "fr":"Opération dragon",
+      "ru":"Выход Дракона"
+    },
+    "otlc":"ot",
+    "year":1973,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0070034"
+  }
+}

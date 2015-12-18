@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Gladiator",
+      "ot":"Gladiator",
+      "it":"Il gladiatore",
+      "fr":"Gladiator",
+      "ru":"Гладиатор"
+    },
+    "otlc":"ot",
+    "year":2000,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0172495"
+  }
+}

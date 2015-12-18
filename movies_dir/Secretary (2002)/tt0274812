@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Secretary - Womit kann ich dienen?",
+      "ot":"Secretary",
+      "it":"Secretary",
+      "fr":"La secrétaire",
+      "ru":"Секретарша"
+    },
+    "otlc":"ot",
+    "year":2002,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0274812"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der dritte Mann",
+      "ot":"The Third Man",
+      "it":"Il terzo uomo",
+      "fr":"Le troisième homme",
+      "ru":"Третий человек"
+    },
+    "otlc":"ot",
+    "year":1949,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0041959"
+  }
+}

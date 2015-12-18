@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Sixth Sense",
+      "ot":"The Sixth Sense",
+      "it":"The Sixth Sense - Il sesto senso",
+      "fr":"Sixième sens",
+      "ru":"Шестое чувство"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0167404"
+  }
+}

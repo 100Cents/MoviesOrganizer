@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Braindead",
+      "ot":"Braindead",
+      "it":"Splatters - Gli schizzacervelli",
+      "fr":"Braindead",
+      "ru":"Живая мертвечина"
+    },
+    "otlc":"ot",
+    "year":1992,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0103873"
+  }
+}

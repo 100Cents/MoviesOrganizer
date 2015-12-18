@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Jenseits der weißen Linie",
+      "ot":"Deep Cover",
+      "it":"Massima copertura",
+      "fr":"Dernière limite",
+      "ru":"Под прикрытием"
+    },
+    "otlc":"ot",
+    "year":1992,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0104073"
+  }
+}

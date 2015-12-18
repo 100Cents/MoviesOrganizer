@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Drachenzähmen leicht gemacht",
+      "ot":"How to Train Your Dragon",
+      "it":"Dragon Trainer",
+      "fr":"Dragons",
+      "ru":"Как приручить дракона"
+    },
+    "otlc":"ot",
+    "year":2010,
+    "imdbCode":"tt0892769"
+  }
+}

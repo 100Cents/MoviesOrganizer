@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der Elefantenmensch",
+      "ot":"The Elephant Man",
+      "fr":"Elephant Man",
+      "ru":"Человек-Слон"
+    },
+    "otlc":"ot",
+    "year":1980,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0080678"
+  }
+}

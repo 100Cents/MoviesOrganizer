@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Fight Club",
+      "ot":"Fight Club",
+      "fr":"Fight Club",
+      "ru":"Бойцовский клуб"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0137523"
+  }
+}

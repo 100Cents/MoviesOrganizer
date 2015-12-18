@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Narc",
+      "it":"Narc - Analisi di un delitto",
+      "fr":"Narc",
+      "ru":"Наркобарон"
+    },
+    "otlc":"ot",
+    "year":2002,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0272207"
+  }
+}

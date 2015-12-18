@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Batman",
+      "fr":"Batman",
+      "ru":"Бэтмен"
+    },
+    "otlc":"ot",
+    "year":1989,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0096895"
+  }
+}

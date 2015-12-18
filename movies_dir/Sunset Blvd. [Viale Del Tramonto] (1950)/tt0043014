@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Sunset Blvd.",
+      "de":"Boulevard der Dämmerung",
+      "it":"Viale del tramonto",
+      "fr":"Boulevard du Crépuscule",
+      "en":"Sunset Boulevard"
+    },
+    "otlc":"ot",
+    "year":1950,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0043014"
+  }
+}

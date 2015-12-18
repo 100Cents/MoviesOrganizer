@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Meine Braut, ihr Vater und ich",
+      "ot":"Meet the Parents",
+      "it":"Ti presento i miei",
+      "fr":"Mon beau-père et moi",
+      "ru":"Знакомство с родителями"
+    },
+    "otlc":"ot",
+    "year":2000,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0212338"
+  }
+}

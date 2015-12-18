@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Save the Tiger",
+      "it":"Salvate la tigre",
+      "fr":"Sauvez le tigre",
+      "ru":"Спасите тигра"
+    },
+    "otlc":"ot",
+    "year":1973,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0070640"
+  }
+}

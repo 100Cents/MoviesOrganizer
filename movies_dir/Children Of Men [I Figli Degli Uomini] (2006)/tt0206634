@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Children of Men",
+      "ot":"Children of Men",
+      "it":"I figli degli uomini",
+      "fr":"Les fils de l'homme",
+      "ru":"Дитя человеческое"
+    },
+    "otlc":"ot",
+    "year":2006,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0206634"
+  }
+}

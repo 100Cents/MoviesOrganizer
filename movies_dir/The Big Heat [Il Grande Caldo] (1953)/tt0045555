@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"The Big Heat",
+      "it":"Il grande caldo",
+      "fr":"Règlement de comptes",
+      "ru":"Сильная жара"
+    },
+    "otlc":"ot",
+    "year":1953,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0045555"
+  }
+}

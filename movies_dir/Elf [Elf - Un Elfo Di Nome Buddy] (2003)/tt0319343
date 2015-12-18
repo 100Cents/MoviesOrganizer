@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Buddy - Der Weihnachtself",
+      "ot":"Elf",
+      "it":"Elf - Un elfo di nome Buddy",
+      "fr":"Elfe",
+      "ru":"Эльф"
+    },
+    "otlc":"ot",
+    "year":2003,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0319343"
+  }
+}

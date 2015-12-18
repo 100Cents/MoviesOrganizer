@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Three Kings - Es ist schön König zu sein",
+      "ot":"Three Kings",
+      "it":"Three Kings",
+      "fr":"Les rois du désert",
+      "ru":"Три короля"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120188"
+  }
+}

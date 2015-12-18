@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Poltergeist",
+      "it":"Poltergeist - Demoniache presenze",
+      "fr":"Poltergeist",
+      "en":"Poltergeist",
+      "ru":"Полтергейст"
+    },
+    "otlc":"ot",
+    "year":1982,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0084516"
+  }
+}

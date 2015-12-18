@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "de":"X-Men: Erste Entscheidung",
+      "ot":"X-Men: First Class",
+      "it":"X-Men - L'inizio",
+      "fr":"X-Men: Le commencement",
+      "en":"X-Men: First Class",
+      "ru":"Люди Икс: Первый класс"
+    },
+    "otlc":"ot",
+    "year":2011,
+    "imdbCode":"tt1270798"
+  }
+}

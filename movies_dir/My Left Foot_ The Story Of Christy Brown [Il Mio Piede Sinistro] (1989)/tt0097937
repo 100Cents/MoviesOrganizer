@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "ot":"My Left Foot: The Story of Christy Brown",
+      "it":"Il mio piede sinistro",
+      "fr":"My Left Foot",
+      "en":"My Left Foot",
+      "ru":"Моя левая нога"
+    },
+    "otlc":"ot",
+    "year":1989,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0097937"
+  }
+}

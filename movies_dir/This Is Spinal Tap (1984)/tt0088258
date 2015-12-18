@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Jungs von Spinal Tap",
+      "ot":"This Is Spinal Tap",
+      "fr":"Spinal Tap",
+      "ru":"Это - Spinal Tap"
+    },
+    "otlc":"ot",
+    "year":1984,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0088258"
+  }
+}

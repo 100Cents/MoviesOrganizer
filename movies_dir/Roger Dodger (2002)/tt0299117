@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Roger Dodger",
+      "ru":"Любимец женщин"
+    },
+    "otlc":"ot",
+    "year":2002,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0299117"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Kill Bill: Vol. 2",
+      "ot":"Kill Bill: Vol. 2",
+      "it":"Kill Bill - Volume 2",
+      "fr":"Kill Bill: Volume II",
+      "ru":"Убить Билла 2"
+    },
+    "otlc":"ot",
+    "year":2004,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0378194"
+  }
+}

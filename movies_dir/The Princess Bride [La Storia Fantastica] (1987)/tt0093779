@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Braut des Prinzen",
+      "ot":"The Princess Bride",
+      "it":"La storia fantastica",
+      "fr":"Princess Bride",
+      "ru":"Принцесса-невеста"
+    },
+    "otlc":"ot",
+    "year":1987,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0093779"
+  }
+}

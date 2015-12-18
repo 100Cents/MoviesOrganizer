@@ -1,0 +1,13 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Me and Earl and the Dying Girl",
+      "de":"Ich und Earl und das Mädchen",
+      "it":"Quel fantastico peggior anno della mia vita",
+      "ru":"Я, Эрл и умирающая девушка"
+    },
+    "otlc":"ot",
+    "year":2015,
+    "imdbCode":"tt2582496"
+  }
+}

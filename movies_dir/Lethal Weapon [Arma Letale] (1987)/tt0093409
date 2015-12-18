@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Lethal Weapon - Zwei stahlharte Profis",
+      "ot":"Lethal Weapon",
+      "it":"Arma letale",
+      "fr":"L'arme fatale",
+      "ru":"Смертельное оружие"
+    },
+    "otlc":"ot",
+    "year":1987,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0093409"
+  }
+}

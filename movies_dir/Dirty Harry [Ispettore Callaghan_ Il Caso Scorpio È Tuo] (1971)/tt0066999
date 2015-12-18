@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Dirty Harry",
+      "it":"Ispettore Callaghan: il caso Scorpio è tuo",
+      "fr":"L'inspecteur Harry",
+      "ru":"Грязный Гарри"
+    },
+    "otlc":"ot",
+    "year":1971,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0066999"
+  }
+}

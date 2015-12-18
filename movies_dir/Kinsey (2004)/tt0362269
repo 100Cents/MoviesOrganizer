@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Kinsey - Die Wahrheit über Sex",
+      "ot":"Kinsey",
+      "fr":"Dr. Kinsey",
+      "ru":"Доктор Кинси"
+    },
+    "otlc":"ot",
+    "year":2004,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0362269"
+  }
+}

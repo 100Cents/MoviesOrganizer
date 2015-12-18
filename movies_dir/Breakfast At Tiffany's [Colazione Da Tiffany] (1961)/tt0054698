@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Frühstück bei Tiffany",
+      "ot":"Breakfast at Tiffany's",
+      "it":"Colazione da Tiffany",
+      "fr":"Diamants sur canapé",
+      "ru":"Завтрак у Тиффани"
+    },
+    "otlc":"ot",
+    "year":1961,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0054698"
+  }
+}

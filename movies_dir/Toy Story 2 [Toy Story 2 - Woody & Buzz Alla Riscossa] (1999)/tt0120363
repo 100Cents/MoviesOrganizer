@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Toy Story 2",
+      "it":"Toy Story 2 - Woody & Buzz alla riscossa",
+      "fr":"Toy Story 2",
+      "ru":"История игрушек 2"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120363"
+  }
+}

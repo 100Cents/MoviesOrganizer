@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der Dialog",
+      "ot":"The Conversation",
+      "it":"La conversazione",
+      "fr":"Conversation secrète",
+      "ru":"Разговор"
+    },
+    "otlc":"ot",
+    "year":1974,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0071360"
+  }
+}

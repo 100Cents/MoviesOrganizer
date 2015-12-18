@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der Fall Randall Adams",
+      "ot":"The Thin Blue Line",
+      "it":"La sottile linea blu",
+      "fr":"Le dossier Adams",
+      "ru":"Тонкая голубая линия"
+    },
+    "otlc":"ot",
+    "year":1988,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0096257"
+  }
+}

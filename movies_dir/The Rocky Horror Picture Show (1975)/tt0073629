@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"The Rocky Horror Picture Show",
+      "it":"The Rocky Horror Picture Show",
+      "fr":"The Rocky Horror Picture Show",
+      "ru":"Шоу ужасов Рокки Хоррора"
+    },
+    "otlc":"ot",
+    "year":1975,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0073629"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Mission: Impossible II",
+      "ot":"Mission: Impossible II",
+      "it":"Mission: Impossible II",
+      "fr":"M-I:2 Mission: Impossible 2",
+      "ru":"Миссия: невыполнима 2"
+    },
+    "otlc":"ot",
+    "year":2000,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120755"
+  }
+}

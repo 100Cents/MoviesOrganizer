@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Gangster Nr. 1",
+      "ot":"Gangster No. 1",
+      "it":"Gangster n° 1",
+      "fr":"Gangster Number One",
+      "ru":"Гангстер номер 1"
+    },
+    "otlc":"ot",
+    "year":2000,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0210065"
+  }
+}

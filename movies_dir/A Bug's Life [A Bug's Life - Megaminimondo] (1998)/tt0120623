@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Das große Krabbeln",
+      "ot":"A Bug's Life",
+      "it":"A Bug's Life - Megaminimondo",
+      "fr":"1001 pattes",
+      "ru":"Приключения Флика"
+    },
+    "otlc":"ot",
+    "year":1998,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120623"
+  }
+}

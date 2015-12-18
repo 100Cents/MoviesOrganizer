@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Badlands",
+      "it":"La rabbia giovane",
+      "fr":"La balade sauvage",
+      "ru":"Пустоши"
+    },
+    "otlc":"ot",
+    "year":1973,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0069762"
+  }
+}

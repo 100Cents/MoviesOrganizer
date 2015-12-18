@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Ratatouille",
+      "ot":"Ratatouille",
+      "it":"Ratatouille",
+      "fr":"Ratatouille",
+      "ru":"Рататуй"
+    },
+    "otlc":"ot",
+    "year":2007,
+    "imdbCode":"tt0382932"
+  }
+}

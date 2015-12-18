@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der Pate 3",
+      "ot":"The Godfather: Part III",
+      "it":"Il Padrino - Parte III",
+      "fr":"Le parrain, 3ème partie",
+      "ru":"Крестный отец: Часть III"
+    },
+    "otlc":"ot",
+    "year":1990,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0099674"
+  }
+}

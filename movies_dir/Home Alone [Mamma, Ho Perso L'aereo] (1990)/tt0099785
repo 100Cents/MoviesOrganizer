@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Kevin - Allein zu Haus",
+      "ot":"Home Alone",
+      "it":"Mamma, ho perso l'aereo",
+      "fr":"Maman, j'ai raté l'avion!",
+      "ru":"Один дома"
+    },
+    "otlc":"ot",
+    "year":1990,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0099785"
+  }
+}

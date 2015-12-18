@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Gattaca",
+      "ot":"Gattaca",
+      "it":"Gattaca - La porta dell'universo",
+      "fr":"Bienvenue à Gattaca",
+      "ru":"Гаттака"
+    },
+    "otlc":"ot",
+    "year":1997,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0119177"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Ghost Dog - Der Weg des Samurai",
+      "ot":"Ghost Dog: The Way of the Samurai",
+      "it":"Ghost Dog - Il codice del samurai",
+      "fr":"Ghost Dog, la voie du samouraï",
+      "ru":"Пёс-призрак: Путь самурая"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0165798"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"High Fidelity",
+      "ot":"High Fidelity",
+      "it":"Alta fedeltà",
+      "fr":"High Fidelity",
+      "ru":"Фанатик"
+    },
+    "otlc":"ot",
+    "year":2000,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0146882"
+  }
+}

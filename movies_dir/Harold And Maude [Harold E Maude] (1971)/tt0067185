@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Harold and Maude",
+      "it":"Harold e Maude",
+      "fr":"Harold et Maude",
+      "ru":"Гарольд и Мод"
+    },
+    "otlc":"ot",
+    "year":1971,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0067185"
+  }
+}

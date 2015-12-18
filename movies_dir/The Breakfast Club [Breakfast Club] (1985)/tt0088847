@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"The Breakfast Club",
+      "it":"Breakfast Club",
+      "fr":"Breakfast Club",
+      "ru":"Клуб Завтрак"
+    },
+    "otlc":"ot",
+    "year":1985,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0088847"
+  }
+}

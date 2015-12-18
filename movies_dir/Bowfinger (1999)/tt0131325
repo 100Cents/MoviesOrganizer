@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Bowfingers große Nummer",
+      "ot":"Bowfinger",
+      "fr":"Bowfinger, roi d'Hollywood",
+      "ru":"Клевый парень"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0131325"
+  }
+}

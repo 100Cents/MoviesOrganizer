@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Wayne's World 2",
+      "it":"Fusi di testa 2 - Waynestock",
+      "fr":"Wayne's World 2",
+      "ru":"Мир Уэйна 2"
+    },
+    "otlc":"ot",
+    "year":1993,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0108525"
+  }
+}

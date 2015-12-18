@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Ronin",
+      "ot":"Ronin",
+      "fr":"Ronin",
+      "ru":"Ронин"
+    },
+    "otlc":"ot",
+    "year":1998,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0122690"
+  }
+}

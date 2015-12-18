@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Eine Hochzeit zum Verlieben",
+      "ot":"The Wedding Singer",
+      "it":"Prima o poi me lo sposo",
+      "fr":"Wedding singer - Demain on se marie!",
+      "ru":"Певец на свадьбе"
+    },
+    "otlc":"ot",
+    "year":1998,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120888"
+  }
+}

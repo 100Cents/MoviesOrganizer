@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der Pate 2",
+      "ot":"The Godfather: Part II",
+      "it":"Il Padrino - Parte II",
+      "fr":"Le parrain, 2ème partie",
+      "ru":"Крёстный отец 2"
+    },
+    "otlc":"ot",
+    "year":1974,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0071562"
+  }
+}

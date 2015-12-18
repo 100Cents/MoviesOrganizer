@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Vier Hochzeiten und ein Todesfall",
+      "ot":"Four Weddings and a Funeral",
+      "it":"Quattro matrimoni e un funerale",
+      "fr":"4 mariages et 1 enterrement",
+      "ru":"Четыре свадьбы и oдни похороны"
+    },
+    "otlc":"ot",
+    "year":1994,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0109831"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"Kung Fu Hustle",
+      "ot":"Kung fu",
+      "it":"Kung Fusion",
+      "fr":"Crazy kung-fu",
+      "en":"Kung Fu Hustle",
+      "ru":"Разборки в стиле Кунг-фу"
+    },
+    "otlc":"ot",
+    "year":2004,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0373074"
+  }
+}

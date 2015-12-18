@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Blood Simple - Eine mörderische Nacht",
+      "ot":"Blood Simple.",
+      "it":"Blood Simple - Sangue facile",
+      "fr":"Sang pour sang",
+      "ru":"Просто кровь"
+    },
+    "otlc":"ot",
+    "year":1984,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0086979"
+  }
+}

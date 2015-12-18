@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Broadcast News - Nachrichtenfieber",
+      "ot":"Broadcast News",
+      "it":"Dentro la notizia",
+      "fr":"Broadcast News",
+      "ru":"Теленовости"
+    },
+    "otlc":"ot",
+    "year":1987,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0092699"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Durchgeknallt",
+      "ot":"Bottle Rocket",
+      "it":"Un colpo da dilettanti",
+      "fr":"Tête brûlée",
+      "ru":"Бутылочная ракета"
+    },
+    "otlc":"ot",
+    "year":1996,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0115734"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Auto Focus",
+      "ru":"Автофокус"
+    },
+    "otlc":"ot",
+    "year":2002,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0298744"
+  }
+}

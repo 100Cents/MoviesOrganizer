@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Simpsons: Der Film",
+      "ot":"The Simpsons Movie",
+      "it":"I Simpson - Il film",
+      "fr":"Les Simpson: le film",
+      "ru":"Симпсоны в кино"
+    },
+    "otlc":"ot",
+    "year":2007,
+    "imdbCode":"tt0462538"
+  }
+}

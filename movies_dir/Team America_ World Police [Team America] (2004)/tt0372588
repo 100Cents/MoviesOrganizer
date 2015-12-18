@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"Team America",
+      "ot":"Team America: World Police",
+      "it":"Team America",
+      "fr":"Team america, police du monde",
+      "en":"Team America: World Police",
+      "ru":"Отряд 'Америка': Всемирная полиция"
+    },
+    "otlc":"ot",
+    "year":2004,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0372588"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Strange Days",
+      "ot":"Strange Days",
+      "fr":"Strange Days",
+      "ru":"Странные дни"
+    },
+    "otlc":"ot",
+    "year":1995,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0114558"
+  }
+}

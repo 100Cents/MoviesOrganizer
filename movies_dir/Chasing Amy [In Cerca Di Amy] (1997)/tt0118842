@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Chasing Amy",
+      "it":"In cerca di Amy",
+      "fr":"Méprise multiple",
+      "ru":"В погоне за Эми"
+    },
+    "otlc":"ot",
+    "year":1997,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0118842"
+  }
+}

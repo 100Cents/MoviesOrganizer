@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Forrest Gump",
+      "ot":"Forrest Gump",
+      "fr":"Forrest Gump",
+      "ru":"Форрест Гамп"
+    },
+    "otlc":"ot",
+    "year":1994,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0109830"
+  }
+}

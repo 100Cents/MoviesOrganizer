@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"Battle Royale",
+      "ot":"Batoru rowaiaru",
+      "it":"Battle Royale",
+      "fr":"Battle Royale",
+      "en":"Battle Royale",
+      "ru":"Королевская битва"
+    },
+    "otlc":"ot",
+    "year":2000,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0266308"
+  }
+}

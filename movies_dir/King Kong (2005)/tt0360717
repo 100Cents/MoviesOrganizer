@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"King Kong",
+      "de":"King Kong",
+      "ru":"Кинг Конг"
+    },
+    "otlc":"ot",
+    "year":2005,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0360717"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"Spiel mir das Lied vom Tod",
+      "ot":"C'era una volta il West",
+      "ww-en":"Once Upon a Time in the West",
+      "fr":"Il était une fois dans l'Ouest",
+      "en":"Once Upon a Time in the West",
+      "ru":"Однажды на Диком Западе"
+    },
+    "otlc":"ot",
+    "year":1968,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0064116"
+  }
+}

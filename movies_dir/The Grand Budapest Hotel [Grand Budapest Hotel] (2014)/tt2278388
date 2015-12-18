@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Grand Budapest Hotel",
+      "ot":"The Grand Budapest Hotel",
+      "it":"Grand Budapest Hotel",
+      "fr":"The Grand Budapest hotel",
+      "ru":"Отель Гранд Будапешт"
+    },
+    "otlc":"ot",
+    "year":2014,
+    "imdbCode":"tt2278388"
+  }
+}

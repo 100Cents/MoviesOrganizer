@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Predator",
+      "fr":"Predator",
+      "ru":"Хищник"
+    },
+    "otlc":"ot",
+    "year":1987,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0093773"
+  }
+}

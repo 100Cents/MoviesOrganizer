@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Royal Tenenbaums",
+      "ot":"The Royal Tenenbaums",
+      "it":"I Tenenbaum",
+      "fr":"La famille Tenenbaum",
+      "ru":"Семейка Тененбаум"
+    },
+    "otlc":"ot",
+    "year":2001,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0265666"
+  }
+}

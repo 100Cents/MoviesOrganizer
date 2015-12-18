@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"Mad Max 2 - Der Vollstrecker",
+      "ot":"Mad Max 2",
+      "it":"Interceptor - Il guerriero della strada",
+      "fr":"Mad Max 2: le défi",
+      "en":"Mad Max 2: The Road Warrior",
+      "ru":"Безумный Макс 2: Воин дороги"
+    },
+    "otlc":"ot",
+    "year":1981,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0082694"
+  }
+}

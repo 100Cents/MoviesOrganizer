@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"James Bond 007 - Goldfinger",
+      "ot":"Goldfinger",
+      "it":"Agente 007 - Missione Goldfinger",
+      "fr":"Goldfinger",
+      "ru":"Голдфингер"
+    },
+    "otlc":"ot",
+    "year":1964,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0058150"
+  }
+}

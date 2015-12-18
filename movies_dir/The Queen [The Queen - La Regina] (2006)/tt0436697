@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Queen",
+      "ot":"The Queen",
+      "it":"The Queen - La regina",
+      "fr":"The Queen",
+      "ru":"Королева"
+    },
+    "otlc":"ot",
+    "year":2006,
+    "imdbCode":"tt0436697"
+  }
+}

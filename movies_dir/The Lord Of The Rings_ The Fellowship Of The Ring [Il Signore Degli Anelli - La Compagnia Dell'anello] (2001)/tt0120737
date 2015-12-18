@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der Herr der Ringe - Die Gefährten",
+      "ot":"The Lord of the Rings: The Fellowship of the Ring",
+      "it":"Il signore degli anelli - La compagnia dell'anello",
+      "fr":"Le seigneur des anneaux: La communauté de l'anneau",
+      "en":"The Lord of the Rings: The Fellowship of the Ring",
+      "ru":"Властелин колец: Братство кольца"
+    },
+    "otlc":"ot",
+    "year":2001,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120737"
+  }
+}

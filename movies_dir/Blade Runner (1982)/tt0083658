@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Blade Runner",
+      "ot":"Blade Runner",
+      "it":"Blade Runner",
+      "fr":"Blade Runner",
+      "ru":"Бегущий по лезвию"
+    },
+    "otlc":"ot",
+    "year":1982,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0083658"
+  }
+}

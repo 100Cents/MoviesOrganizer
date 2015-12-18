@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Edward mit den Scherenhänden",
+      "ot":"Edward Scissorhands",
+      "it":"Edward mani di forbice",
+      "fr":"Edward aux mains d'argent",
+      "ru":"Эдвард руки-ножницы"
+    },
+    "otlc":"ot",
+    "year":1990,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0099487"
+  }
+}

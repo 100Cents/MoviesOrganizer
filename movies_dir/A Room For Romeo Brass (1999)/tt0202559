@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "ot":"A Room for Romeo Brass",
+      "ru":"Комната для Ромео Брасса"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0202559"
+  }
+}

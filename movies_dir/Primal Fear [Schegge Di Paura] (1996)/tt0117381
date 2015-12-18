@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Zwielicht",
+      "ot":"Primal Fear",
+      "it":"Schegge di paura",
+      "fr":"Peur primale",
+      "ru":"Первобытный страх"
+    },
+    "otlc":"ot",
+    "year":1996,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0117381"
+  }
+}

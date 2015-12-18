@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Beverly Hills Cop - Ich lös' den Fall auf jeden Fall",
+      "ot":"Beverly Hills Cop",
+      "it":"Beverly Hills Cop - Un piedipiatti a Beverly Hills",
+      "fr":"Le flic de Beverly Hills",
+      "ru":"Полицейский из Беверли-Хиллз"
+    },
+    "otlc":"ot",
+    "year":1984,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0086960"
+  }
+}

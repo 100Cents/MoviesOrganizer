@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der schwarze Falke",
+      "ot":"The Searchers",
+      "it":"Sentieri selvaggi",
+      "fr":"La prisonnière du désert",
+      "ru":"Искатели"
+    },
+    "otlc":"ot",
+    "year":1956,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0049730"
+  }
+}

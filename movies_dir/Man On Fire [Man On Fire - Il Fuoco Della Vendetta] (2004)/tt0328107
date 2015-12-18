@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Mann unter Feuer",
+      "ot":"Man on Fire",
+      "it":"Man on Fire - Il fuoco della vendetta",
+      "fr":"Man on Fire",
+      "ru":"Гнев"
+    },
+    "otlc":"ot",
+    "year":2004,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0328107"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "de":"Trollhunter",
+      "ot":"Trolljegeren",
+      "it":"Trollhunter",
+      "fr":"Troll Hunter",
+      "en":"Trollhunter",
+      "ru":"Охотники на троллей"
+    },
+    "otlc":"ot",
+    "year":2010,
+    "imdbCode":"tt1740707"
+  }
+}

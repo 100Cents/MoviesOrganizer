@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"James Bond 007 - Man lebt nur zweimal",
+      "ot":"You Only Live Twice",
+      "it":"Agente 007 - Si vive solo due volte",
+      "fr":"On ne vit que deux fois",
+      "ru":"Живешь только дважды"
+    },
+    "otlc":"ot",
+    "year":1967,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0062512"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Blue Velvet",
+      "it":"Velluto blu",
+      "fr":"Blue Velvet",
+      "ru":"Синий бархат"
+    },
+    "otlc":"ot",
+    "year":1986,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0090756"
+  }
+}

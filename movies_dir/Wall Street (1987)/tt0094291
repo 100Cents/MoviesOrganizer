@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Wall Street",
+      "it":"Wall Street",
+      "fr":"Wall Street",
+      "ru":"Уолл Стрит"
+    },
+    "otlc":"ot",
+    "year":1987,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0094291"
+  }
+}

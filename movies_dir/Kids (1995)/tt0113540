@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Kids",
+      "it":"Kids",
+      "ru":"Детки"
+    },
+    "otlc":"ot",
+    "year":1995,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0113540"
+  }
+}

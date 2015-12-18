@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Jackass: Der Film",
+      "ot":"Jackass: The Movie",
+      "it":"Jackass: Il film",
+      "fr":"Jackass: Le film",
+      "ru":"Чудaки"
+    },
+    "otlc":"ot",
+    "year":2002,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0322802"
+  }
+}

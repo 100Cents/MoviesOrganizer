@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"When We Were Kings - Einst waren wir Könige",
+      "ot":"When We Were Kings",
+      "it":"Quando eravamo re",
+      "fr":"When We Were Kings",
+      "ru":"Когда мы были королями"
+    },
+    "otlc":"ot",
+    "year":1996,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0118147"
+  }
+}

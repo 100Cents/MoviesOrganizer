@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"No Way Out - Es gibt kein Zurück",
+      "ot":"No Way Out",
+      "it":"Senza via di scampo",
+      "fr":"Sens unique",
+      "ru":"Нет выхода"
+    },
+    "otlc":"ot",
+    "year":1987,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0093640"
+  }
+}

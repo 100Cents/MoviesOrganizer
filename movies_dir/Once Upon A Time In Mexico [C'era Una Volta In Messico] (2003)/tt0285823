@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Irgendwann in Mexico",
+      "ot":"Once Upon a Time in Mexico",
+      "it":"C'era una volta in Messico",
+      "fr":"Desperado 2 - Il était une fois au Mexique",
+      "ru":"Однажды в Мексике: Отчаянный 2"
+    },
+    "otlc":"ot",
+    "year":2003,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0285823"
+  }
+}

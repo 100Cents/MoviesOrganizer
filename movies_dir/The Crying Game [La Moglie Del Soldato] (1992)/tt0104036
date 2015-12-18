@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"The Crying Game",
+      "ot":"The Crying Game",
+      "it":"La moglie del soldato",
+      "fr":"The Crying Game",
+      "ru":"Жестокая игра"
+    },
+    "otlc":"ot",
+    "year":1992,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0104036"
+  }
+}

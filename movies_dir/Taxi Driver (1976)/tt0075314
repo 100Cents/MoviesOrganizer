@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Taxi Driver",
+      "it":"Taxi Driver",
+      "fr":"Taxi Driver",
+      "en":"Taxi Driver",
+      "ru":"Таксист"
+    },
+    "otlc":"ot",
+    "year":1976,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0075314"
+  }
+}

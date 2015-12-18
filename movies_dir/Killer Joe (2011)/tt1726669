@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "de":"Killer Joe",
+      "ot":"Killer Joe",
+      "it":"Killer Joe",
+      "fr":"Killer Joe",
+      "en":"Killer Joe",
+      "ru":"Киллер Джо"
+    },
+    "otlc":"ot",
+    "year":2011,
+    "imdbCode":"tt1726669"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der Malteser Falke",
+      "ot":"The Maltese Falcon",
+      "it":"Il mistero del falco",
+      "fr":"Le faucon maltais",
+      "ru":"Мальтийский сокол"
+    },
+    "otlc":"ot",
+    "year":1941,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0033870"
+  }
+}

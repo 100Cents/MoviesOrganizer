@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "ot":"The Lego Movie",
+      "it":"The Lego Movie",
+      "fr":"La grande aventure Lego",
+      "en":"The Lego Movie",
+      "ru":"Лего. Фильм"
+    },
+    "otlc":"ot",
+    "year":2014,
+    "imdbCode":"tt1490017"
+  }
+}

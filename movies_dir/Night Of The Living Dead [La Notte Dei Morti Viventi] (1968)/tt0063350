@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Nacht der lebenden Toten",
+      "ot":"Night of the Living Dead",
+      "it":"La notte dei morti viventi",
+      "fr":"La nuit des morts-vivants",
+      "ru":"Ночь живых мертвецов"
+    },
+    "otlc":"ot",
+    "year":1968,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0063350"
+  }
+}

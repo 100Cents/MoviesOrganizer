@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Schöne und das Biest",
+      "ot":"Beauty and the Beast",
+      "it":"La bella e la bestia",
+      "fr":"La Belle et la Bête",
+      "ru":"Красавица и чудовище"
+    },
+    "otlc":"ot",
+    "year":1991,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0101414"
+  }
+}

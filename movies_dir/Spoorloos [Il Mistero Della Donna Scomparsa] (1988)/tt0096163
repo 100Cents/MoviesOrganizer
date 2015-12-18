@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Spoorloos",
+      "it":"Il mistero della donna scomparsa",
+      "fr":"L'homme qui voulait savoir",
+      "ru":"Исчезновение"
+    },
+    "otlc":"ot",
+    "year":1988,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0096163"
+  }
+}

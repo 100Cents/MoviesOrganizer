@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"Apollo 13",
+      "ot":"Apollo 13",
+      "it":"Apollo 13",
+      "fr":"Apollo 13",
+      "en":"Apollo 13",
+      "ru":"Аполлон 13"
+    },
+    "otlc":"ot",
+    "year":1995,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0112384"
+  }
+}

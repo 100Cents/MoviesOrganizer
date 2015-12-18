@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Paris, Texas",
+      "ru":"Париж, Техас"
+    },
+    "otlc":"ot",
+    "year":1984,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0087884"
+  }
+}

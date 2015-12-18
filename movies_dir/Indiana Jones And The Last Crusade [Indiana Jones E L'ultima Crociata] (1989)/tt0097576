@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Indiana Jones und der letzte Kreuzzug",
+      "ot":"Indiana Jones and the Last Crusade",
+      "it":"Indiana Jones e l'ultima crociata",
+      "fr":"Indiana Jones et la dernière croisade",
+      "ru":"Индиана Джонс и последний крестовый поход"
+    },
+    "otlc":"ot",
+    "year":1989,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0097576"
+  }
+}

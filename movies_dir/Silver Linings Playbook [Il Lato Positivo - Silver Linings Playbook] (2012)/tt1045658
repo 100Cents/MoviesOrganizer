@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Silver Linings",
+      "ot":"Silver Linings Playbook",
+      "it":"Il lato positivo - Silver Linings Playbook",
+      "fr":"Happiness Therapy",
+      "ru":"Мой парень - псих"
+    },
+    "otlc":"ot",
+    "year":2012,
+    "imdbCode":"tt1045658"
+  }
+}

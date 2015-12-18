@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Philadelphia",
+      "ot":"Philadelphia",
+      "fr":"Philadelphia",
+      "ru":"Филадельфия"
+    },
+    "otlc":"ot",
+    "year":1993,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0107818"
+  }
+}

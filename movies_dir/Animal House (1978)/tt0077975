@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Ich glaub', mich tritt ein Pferd",
+      "ot":"Animal House",
+      "it":"Animal House",
+      "fr":"American College",
+      "ru":"Зверинец"
+    },
+    "otlc":"ot",
+    "year":1978,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0077975"
+  }
+}

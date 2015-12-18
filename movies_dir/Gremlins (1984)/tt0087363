@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Gremlins",
+      "fr":"Gremlins",
+      "ru":"Гремлины"
+    },
+    "otlc":"ot",
+    "year":1984,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0087363"
+  }
+}

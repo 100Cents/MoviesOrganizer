@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"A Hard Day's Night",
+      "it":"Tutti per uno",
+      "fr":"Quatre garçons dans le vent",
+      "ru":"The Beatles: Yечер трудного дня"
+    },
+    "otlc":"ot",
+    "year":1964,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0058182"
+  }
+}

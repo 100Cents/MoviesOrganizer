@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Ben Hur",
+      "ot":"Ben-Hur",
+      "it":"Ben-Hur",
+      "fr":"Ben-Hur",
+      "ru":"Бен-Гур"
+    },
+    "otlc":"ot",
+    "year":1959,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0052618"
+  }
+}

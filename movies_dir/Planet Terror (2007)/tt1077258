@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "de":"Planet Terror",
+      "ot":"Planet Terror",
+      "it":"Planet Terror",
+      "fr":"Planète terreur",
+      "en":"Planet Terror",
+      "ru":"Планета страха"
+    },
+    "otlc":"ot",
+    "year":2007,
+    "imdbCode":"tt1077258"
+  }
+}

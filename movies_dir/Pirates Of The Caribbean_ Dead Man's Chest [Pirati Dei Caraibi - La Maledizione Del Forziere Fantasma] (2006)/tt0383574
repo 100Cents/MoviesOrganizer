@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Fluch der Karibik 2",
+      "ot":"Pirates of the Caribbean: Dead Man's Chest",
+      "it":"Pirati dei Caraibi - La maledizione del forziere fantasma",
+      "fr":"Pirates des Caraïbes - Le secret du coffre maudit",
+      "ru":"Пираты Карибского моря: Сундук мертвеца"
+    },
+    "otlc":"ot",
+    "year":2006,
+    "imdbCode":"tt0383574"
+  }
+}

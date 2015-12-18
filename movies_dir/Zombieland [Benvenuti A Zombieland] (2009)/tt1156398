@@ -1,0 +1,13 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Zombieland",
+      "it":"Benvenuti a Zombieland",
+      "fr":"Bienvenue à Zombieland",
+      "ru":"Добро пожаловать в Зомбилэнд"
+    },
+    "otlc":"ot",
+    "year":2009,
+    "imdbCode":"tt1156398"
+  }
+}

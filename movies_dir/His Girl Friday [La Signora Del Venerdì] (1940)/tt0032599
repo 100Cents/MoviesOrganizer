@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"His Girl Friday - Sein Mädchen für besondere Fälle",
+      "ot":"His Girl Friday",
+      "it":"La signora del venerdì",
+      "fr":"La dame du vendredi",
+      "ru":"Его девушка Пятница"
+    },
+    "otlc":"ot",
+    "year":1940,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0032599"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"The Long Good Friday",
+      "it":"Il giorno del venerdì santo",
+      "fr":"Racket",
+      "ru":"Долгая Страстная пятница"
+    },
+    "otlc":"ot",
+    "year":1980,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0081070"
+  }
+}

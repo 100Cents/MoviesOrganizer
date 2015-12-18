@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Magnolia",
+      "ot":"Magnolia",
+      "fr":"Magnolia",
+      "ru":"Магнолия"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0175880"
+  }
+}

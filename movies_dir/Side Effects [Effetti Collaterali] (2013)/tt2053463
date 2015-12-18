@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "de":"Side Effects - Tödliche Nebenwirkungen",
+      "ot":"Side Effects",
+      "it":"Effetti collaterali",
+      "fr":"Effets secondaires",
+      "en":"Side Effects",
+      "ru":"Побочный эффект"
+    },
+    "otlc":"ot",
+    "year":2013,
+    "imdbCode":"tt2053463"
+  }
+}

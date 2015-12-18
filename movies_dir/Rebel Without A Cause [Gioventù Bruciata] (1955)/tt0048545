@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"...denn sie wissen nicht, was sie tun",
+      "ot":"Rebel Without a Cause",
+      "it":"Gioventù bruciata",
+      "fr":"La fureur de vivre",
+      "ru":"Бунтарь без идеала"
+    },
+    "otlc":"ot",
+    "year":1955,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0048545"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"True Romance",
+      "ot":"True Romance",
+      "it":"Una vita al massimo",
+      "fr":"True Romance",
+      "en":"True Romance",
+      "ru":"Настоящая любовь"
+    },
+    "otlc":"ot",
+    "year":1993,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0108399"
+  }
+}

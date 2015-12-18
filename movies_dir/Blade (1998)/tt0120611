@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Blade",
+      "ot":"Blade",
+      "fr":"Blade",
+      "ru":"Блэйд"
+    },
+    "otlc":"ot",
+    "year":1998,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120611"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Lockere Geschäfte",
+      "ot":"Risky Business",
+      "it":"Risky Business - Fuori i vecchi... i figli ballano",
+      "fr":"Risky Business",
+      "ru":"Рискованный бизнес"
+    },
+    "otlc":"ot",
+    "year":1983,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0086200"
+  }
+}

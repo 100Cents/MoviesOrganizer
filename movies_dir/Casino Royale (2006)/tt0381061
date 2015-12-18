@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"James Bond 007 - Casino Royale",
+      "ot":"Casino Royale",
+      "it":"Casino Royale",
+      "fr":"Casino Royale",
+      "ru":"Казино Рояль"
+    },
+    "otlc":"ot",
+    "year":2006,
+    "imdbCode":"tt0381061"
+  }
+}

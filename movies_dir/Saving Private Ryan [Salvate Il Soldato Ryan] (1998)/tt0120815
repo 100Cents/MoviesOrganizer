@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der Soldat James Ryan",
+      "ot":"Saving Private Ryan",
+      "it":"Salvate il soldato Ryan",
+      "fr":"Il faut sauver le soldat Ryan",
+      "ru":"Спасти рядового Райана"
+    },
+    "otlc":"ot",
+    "year":1998,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120815"
+  }
+}

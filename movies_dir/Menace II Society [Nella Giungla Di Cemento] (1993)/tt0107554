@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Menace II Society",
+      "it":"Nella giungla di cemento",
+      "fr":"Menace to Society",
+      "ru":"Угроза для общества"
+    },
+    "otlc":"ot",
+    "year":1993,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0107554"
+  }
+}

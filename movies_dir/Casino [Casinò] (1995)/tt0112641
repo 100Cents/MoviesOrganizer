@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Casino",
+      "ot":"Casino",
+      "it":"Casinò",
+      "fr":"Casino",
+      "ru":"Казино"
+    },
+    "otlc":"ot",
+    "year":1995,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0112641"
+  }
+}

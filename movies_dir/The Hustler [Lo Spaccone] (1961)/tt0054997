@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Haie der Großstadt",
+      "ot":"The Hustler",
+      "it":"Lo spaccone",
+      "fr":"L'arnaqueur",
+      "ru":"Бильярдист"
+    },
+    "otlc":"ot",
+    "year":1961,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0054997"
+  }
+}

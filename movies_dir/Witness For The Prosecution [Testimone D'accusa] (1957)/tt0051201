@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Zeugin der Anklage",
+      "ot":"Witness for the Prosecution",
+      "it":"Testimone d'accusa",
+      "fr":"Témoin à charge",
+      "ru":"Свидетель обвинения"
+    },
+    "otlc":"ot",
+    "year":1957,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0051201"
+  }
+}

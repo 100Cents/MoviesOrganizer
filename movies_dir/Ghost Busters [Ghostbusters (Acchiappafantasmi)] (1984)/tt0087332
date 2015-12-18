@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Ghostbusters - Die Geisterjäger",
+      "ot":"Ghost Busters",
+      "it":"Ghostbusters (Acchiappafantasmi)",
+      "fr":"S.O.S. fantômes",
+      "ru":"Охотники за привидениями"
+    },
+    "otlc":"ot",
+    "year":1984,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0087332"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Blutgericht in Texas",
+      "ot":"The Texas Chain Saw Massacre",
+      "it":"Non aprite quella porta",
+      "fr":"Massacre à la tronçonneuse",
+      "ru":"Техасская резня бензопилой"
+    },
+    "otlc":"ot",
+    "year":1974,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0072271"
+  }
+}

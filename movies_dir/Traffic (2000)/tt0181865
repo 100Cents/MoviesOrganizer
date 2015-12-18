@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Traffic - Die Macht des Kartells",
+      "ot":"Traffic",
+      "fr":"Traffic",
+      "ru":"Траффик"
+    },
+    "otlc":"ot",
+    "year":2000,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0181865"
+  }
+}

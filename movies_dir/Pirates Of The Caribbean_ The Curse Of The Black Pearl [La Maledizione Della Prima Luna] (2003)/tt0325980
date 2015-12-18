@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Fluch der Karibik",
+      "ot":"Pirates of the Caribbean: The Curse of the Black Pearl",
+      "it":"La maledizione della prima luna",
+      "fr":"Pirates des Caraïbes - La malédiction du Black Pearl",
+      "ru":"Пираты Карибского моря: Проклятие черной жемчужины"
+    },
+    "otlc":"ot",
+    "year":2003,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0325980"
+  }
+}

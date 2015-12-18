@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Spartacus",
+      "fr":"Spartacus",
+      "ru":"Спартак"
+    },
+    "otlc":"ot",
+    "year":1960,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0054331"
+  }
+}

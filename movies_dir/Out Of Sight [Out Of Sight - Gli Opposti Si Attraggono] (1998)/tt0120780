@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Out of Sight",
+      "ot":"Out of Sight",
+      "it":"Out of Sight - Gli opposti si attraggono",
+      "fr":"Hors d'atteinte",
+      "ru":"Вне поля зрения"
+    },
+    "otlc":"ot",
+    "year":1998,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120780"
+  }
+}

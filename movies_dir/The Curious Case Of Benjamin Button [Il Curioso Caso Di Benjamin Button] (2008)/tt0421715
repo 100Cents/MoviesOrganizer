@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der seltsame Fall des Benjamin Button",
+      "ot":"The Curious Case of Benjamin Button",
+      "it":"Il curioso caso di Benjamin Button",
+      "fr":"L'étrange histoire de Benjamin Button",
+      "ru":"Загадочная история Бенджамина Баттона"
+    },
+    "otlc":"ot",
+    "year":2008,
+    "imdbCode":"tt0421715"
+  }
+}

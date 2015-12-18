@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"Starship Troopers",
+      "ot":"Starship Troopers",
+      "it":"Starship Troopers - Fanteria dello spazio",
+      "fr":"Starship Troopers",
+      "en":"Starship Troopers",
+      "ru":"Звездный десант"
+    },
+    "otlc":"ot",
+    "year":1997,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120201"
+  }
+}

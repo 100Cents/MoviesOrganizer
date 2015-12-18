@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die zweite Chance",
+      "ot":"In the Line of Fire",
+      "it":"Nel centro del mirino",
+      "fr":"Dans la ligne de mire",
+      "ru":"На линии огня"
+    },
+    "otlc":"ot",
+    "year":1993,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0107206"
+  }
+}

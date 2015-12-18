@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"L.A. Crash",
+      "ot":"Crash",
+      "it":"Crash: Contatto fisico",
+      "fr":"Collision",
+      "ru":"Столкновение"
+    },
+    "otlc":"ot",
+    "year":2004,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0375679"
+  }
+}

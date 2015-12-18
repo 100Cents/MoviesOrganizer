@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Santa sangre",
+      "fr":"Santa sangre",
+      "ru":"Святая кровь"
+    },
+    "otlc":"ot",
+    "year":1989,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0098253"
+  }
+}

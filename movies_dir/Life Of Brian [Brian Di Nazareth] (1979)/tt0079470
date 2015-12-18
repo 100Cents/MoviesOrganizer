@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Das Leben des Brian",
+      "ot":"Life of Brian",
+      "it":"Brian di Nazareth",
+      "fr":"La vie de Brian",
+      "ru":"Жизнь Брайана по Монти Пайтон"
+    },
+    "otlc":"ot",
+    "year":1979,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0079470"
+  }
+}

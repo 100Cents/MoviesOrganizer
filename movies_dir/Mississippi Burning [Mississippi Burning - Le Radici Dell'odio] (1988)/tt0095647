@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Mississippi Burning",
+      "it":"Mississippi Burning - Le radici dell'odio",
+      "fr":"Mississippi Burning",
+      "ru":"Миссисипи в огне"
+    },
+    "otlc":"ot",
+    "year":1988,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0095647"
+  }
+}

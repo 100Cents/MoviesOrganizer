@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Nixon",
+      "ot":"Nixon",
+      "it":"Gli intrighi del potere - Nixon",
+      "fr":"Nixon",
+      "ru":"Никсон"
+    },
+    "otlc":"ot",
+    "year":1995,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0113987"
+  }
+}

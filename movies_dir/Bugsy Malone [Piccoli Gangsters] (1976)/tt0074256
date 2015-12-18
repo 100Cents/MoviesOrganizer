@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Bugsy Malone",
+      "it":"Piccoli gangsters",
+      "fr":"Bugsy Malone",
+      "ru":"Багси Мэлоун"
+    },
+    "otlc":"ot",
+    "year":1976,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0074256"
+  }
+}

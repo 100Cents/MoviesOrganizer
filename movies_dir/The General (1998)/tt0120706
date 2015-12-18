@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der Meisterdieb von Dublin",
+      "ot":"The General",
+      "it":"The General",
+      "fr":"Le général",
+      "ru":"Генерал"
+    },
+    "otlc":"ot",
+    "year":1998,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120706"
+  }
+}

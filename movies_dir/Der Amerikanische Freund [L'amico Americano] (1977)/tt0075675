@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Der amerikanische Freund",
+      "it":"L'amico americano",
+      "fr":"L'ami américain",
+      "en":"The American Friend",
+      "ru":"Американский друг"
+    },
+    "otlc":"ot",
+    "year":1977,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0075675"
+  }
+}

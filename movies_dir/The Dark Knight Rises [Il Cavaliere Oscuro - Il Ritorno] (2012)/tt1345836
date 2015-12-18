@@ -1,0 +1,13 @@
+{
+  "myData":{
+    "title":{
+      "ot":"The Dark Knight Rises",
+      "it":"Il cavaliere oscuro - Il ritorno",
+      "fr":"The Dark Knight Rises",
+      "ru":"Темный рыцарь: Возрождение легенды"
+    },
+    "otlc":"ot",
+    "year":2012,
+    "imdbCode":"tt1345836"
+  }
+}

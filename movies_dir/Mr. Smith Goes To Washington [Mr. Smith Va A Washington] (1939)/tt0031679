@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Mr. Smith geht nach Washington",
+      "ot":"Mr. Smith Goes to Washington",
+      "it":"Mr. Smith va a Washington",
+      "fr":"Monsieur Smith au sénat",
+      "ru":"Мистер Смит едет в Вашингтон"
+    },
+    "otlc":"ot",
+    "year":1939,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0031679"
+  }
+}

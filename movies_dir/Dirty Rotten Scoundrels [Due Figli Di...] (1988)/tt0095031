@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Dirty Rotten Scoundrels",
+      "it":"Due figli di...",
+      "fr":"Le plus escroc des deux",
+      "ru":"Отпетые мошенники"
+    },
+    "otlc":"ot",
+    "year":1988,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0095031"
+  }
+}

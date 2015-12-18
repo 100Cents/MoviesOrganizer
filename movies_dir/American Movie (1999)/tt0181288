@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "ot":"American Movie",
+      "ru":"Американское кино"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0181288"
+  }
+}

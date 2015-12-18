@@ -1,0 +1,13 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Melodie des Meeres",
+      "ot":"Song of the Sea",
+      "fr":"Le chant de la mer",
+      "ru":"Песнь моря"
+    },
+    "otlc":"ot",
+    "year":2014,
+    "imdbCode":"tt1865505"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Fast Times at Ridgemont High",
+      "it":"Fuori di testa",
+      "ru":"Беспечные времена в Риджмонт Хай"
+    },
+    "otlc":"ot",
+    "year":1982,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0083929"
+  }
+}

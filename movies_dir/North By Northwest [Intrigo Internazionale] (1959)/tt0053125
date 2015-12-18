@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"North by Northwest",
+      "de":"Der unsichtbare Dritte",
+      "it":"Intrigo internazionale",
+      "fr":"La mort aux trousses"
+    },
+    "otlc":"ot",
+    "year":1959,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0053125"
+  }
+}

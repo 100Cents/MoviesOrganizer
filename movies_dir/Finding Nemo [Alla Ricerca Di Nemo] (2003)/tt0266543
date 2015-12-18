@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Findet Nemo",
+      "ot":"Finding Nemo",
+      "it":"Alla ricerca di Nemo",
+      "fr":"Le monde de Nemo",
+      "ru":"В поисках Немо"
+    },
+    "otlc":"ot",
+    "year":2003,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0266543"
+  }
+}

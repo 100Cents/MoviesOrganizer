@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Zeit der Zärtlichkeit",
+      "ot":"Terms of Endearment",
+      "it":"Voglia di tenerezza",
+      "fr":"Tendres passions",
+      "ru":"Язык нежности"
+    },
+    "otlc":"ot",
+    "year":1983,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0086425"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Star Wars: Episode V - Das Imperium schlägt zurück",
+      "ot":"Star Wars: Episode V - The Empire Strikes Back",
+      "it":"L'Impero colpisce ancora",
+      "fr":"L'empire contre-attaque",
+      "ru":"Звёздные войны. Эпизод 5: Империя наносит ответный удар"
+    },
+    "otlc":"ot",
+    "year":1980,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0080684"
+  }
+}

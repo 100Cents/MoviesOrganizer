@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "de":"Slumdog Millionär",
+      "ot":"Slumdog Millionaire",
+      "it":"The Millionaire",
+      "fr":"Slumdog Millionaire",
+      "ru":"Миллионер из трущоб"
+    },
+    "otlc":"ot",
+    "year":2008,
+    "imdbCode":"tt1010048"
+  }
+}

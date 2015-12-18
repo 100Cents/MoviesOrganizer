@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Michael Collins",
+      "ot":"Michael Collins",
+      "fr":"Michael Collins",
+      "ru":"Майкл Коллинз"
+    },
+    "otlc":"ot",
+    "year":1996,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0117039"
+  }
+}

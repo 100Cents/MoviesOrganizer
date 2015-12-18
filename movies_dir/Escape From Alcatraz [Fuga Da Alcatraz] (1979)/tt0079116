@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Flucht von Alcatraz",
+      "ot":"Escape from Alcatraz",
+      "it":"Fuga da Alcatraz",
+      "fr":"L'évadé d'Alcatraz",
+      "ru":"Побег из Алькатраса"
+    },
+    "otlc":"ot",
+    "year":1979,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0079116"
+  }
+}

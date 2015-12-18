@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Rocky",
+      "fr":"Rocky",
+      "ru":"Рокки"
+    },
+    "otlc":"ot",
+    "year":1976,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0075148"
+  }
+}

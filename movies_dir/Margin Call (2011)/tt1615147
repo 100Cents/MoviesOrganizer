@@ -1,0 +1,13 @@
+{
+  "myData":{
+    "title":{
+      "de":"Der große Crash - Margin Call",
+      "ot":"Margin Call",
+      "fr":"Margin Call",
+      "ru":"Предел риска"
+    },
+    "otlc":"ot",
+    "year":2011,
+    "imdbCode":"tt1615147"
+  }
+}

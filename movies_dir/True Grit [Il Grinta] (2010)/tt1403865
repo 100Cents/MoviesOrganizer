@@ -1,0 +1,13 @@
+{
+  "myData":{
+    "title":{
+      "ot":"True Grit",
+      "de":"True Grit - Vergeltung",
+      "it":"Il Grinta",
+      "ru":"Железная хватка"
+    },
+    "otlc":"ot",
+    "year":2010,
+    "imdbCode":"tt1403865"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Rache der Eierköpfe",
+      "ot":"Revenge of the Nerds",
+      "it":"La rivincita dei nerds",
+      "fr":"Les tronches",
+      "ru":"Месть придурков"
+    },
+    "otlc":"ot",
+    "year":1984,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0088000"
+  }
+}

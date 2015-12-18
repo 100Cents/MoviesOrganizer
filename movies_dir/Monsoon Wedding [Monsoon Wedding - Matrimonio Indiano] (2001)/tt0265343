@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Monsoon Wedding",
+      "it":"Monsoon wedding - Matrimonio indiano",
+      "fr":"Le mariage des moussons",
+      "ru":"Свадьба в сезон дождей"
+    },
+    "otlc":"ot",
+    "year":2001,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0265343"
+  }
+}

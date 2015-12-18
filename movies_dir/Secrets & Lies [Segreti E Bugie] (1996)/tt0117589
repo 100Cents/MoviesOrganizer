@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"Lügen und Geheimnisse",
+      "ot":"Secrets & Lies",
+      "it":"Segreti e bugie",
+      "fr":"Secrets et mensonges",
+      "en":"Secrets & Lies",
+      "ru":"Тайны и ложь"
+    },
+    "otlc":"ot",
+    "year":1996,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0117589"
+  }
+}

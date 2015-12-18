@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Interview mit einem Vampir",
+      "ot":"Interview with the Vampire: The Vampire Chronicles",
+      "it":"Intervista col vampiro",
+      "fr":"Entretien avec un vampire",
+      "ru":"Интервью с вампиром"
+    },
+    "otlc":"ot",
+    "year":1994,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0110148"
+  }
+}

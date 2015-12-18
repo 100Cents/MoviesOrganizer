@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Total Recall - Die totale Erinnerung",
+      "ot":"Total Recall",
+      "it":"Atto di forza",
+      "fr":"Total Recall",
+      "ru":"Вспомнить всё"
+    },
+    "otlc":"ot",
+    "year":1990,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0100802"
+  }
+}

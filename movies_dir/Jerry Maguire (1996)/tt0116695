@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Jerry Maguire: Spiel des Lebens",
+      "ot":"Jerry Maguire",
+      "fr":"Jerry Maguire",
+      "ru":"Джерри Магуайер"
+    },
+    "otlc":"ot",
+    "year":1996,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0116695"
+  }
+}

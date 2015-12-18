@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"From Dusk Till Dawn",
+      "ot":"From Dusk Till Dawn",
+      "it":"Dal tramonto all'alba",
+      "fr":"Une nuit en enfer",
+      "ru":"От заката до рассвета"
+    },
+    "otlc":"ot",
+    "year":1996,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0116367"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Unheimliche Begegnung der dritten Art",
+      "ot":"Close Encounters of the Third Kind",
+      "it":"Incontri ravvicinati del terzo tipo",
+      "fr":"Rencontres du troisième type",
+      "ru":"Близкие контакты третьей степени"
+    },
+    "otlc":"ot",
+    "year":1977,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0075860"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Slap Shot",
+      "it":"Colpo secco",
+      "fr":"La castagne",
+      "ru":"Удар по воротам"
+    },
+    "otlc":"ot",
+    "year":1977,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0076723"
+  }
+}

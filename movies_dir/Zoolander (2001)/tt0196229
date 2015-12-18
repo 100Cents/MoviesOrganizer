@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Zoolander",
+      "ot":"Zoolander",
+      "fr":"Zoolander",
+      "ru":"Образцовый самец"
+    },
+    "otlc":"ot",
+    "year":2001,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0196229"
+  }
+}

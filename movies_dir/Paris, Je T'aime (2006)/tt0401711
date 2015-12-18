@@ -1,0 +1,13 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Paris, je t'aime",
+      "de":"Paris, je t'aime",
+      "en":"Paris, je t'aime",
+      "ru":"Париж, я люблю тебя"
+    },
+    "otlc":"ot",
+    "year":2006,
+    "imdbCode":"tt0401711"
+  }
+}

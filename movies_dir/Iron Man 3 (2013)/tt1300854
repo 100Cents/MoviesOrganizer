@@ -1,0 +1,14 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Iron Man 3",
+      "de":"Iron Man 3",
+      "it":"Iron Man 3",
+      "en":"Iron Man Three",
+      "ru":"Железный человек 3"
+    },
+    "otlc":"ot",
+    "year":2013,
+    "imdbCode":"tt1300854"
+  }
+}

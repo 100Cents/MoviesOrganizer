@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Das Fenster zum Hof",
+      "ot":"Rear Window",
+      "it":"La finestra sul cortile",
+      "fr":"Fenêtre sur cour",
+      "ru":"Окно во двор"
+    },
+    "otlc":"ot",
+    "year":1954,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0047396"
+  }
+}

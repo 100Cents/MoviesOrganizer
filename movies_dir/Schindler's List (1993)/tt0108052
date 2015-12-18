@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Schindlers Liste",
+      "ot":"Schindler's List",
+      "it":"Schindler's List",
+      "fr":"La liste de Schindler",
+      "ru":"Список Шиндлера"
+    },
+    "otlc":"ot",
+    "year":1993,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0108052"
+  }
+}

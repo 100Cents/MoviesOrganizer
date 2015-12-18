@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Star Wars: Episode VI - Die Rückkehr der Jedi-Ritter",
+      "ot":"Star Wars: Episode VI - Return of the Jedi",
+      "it":"Il ritorno dello Jedi",
+      "fr":"Le retour du Jedi",
+      "ru":"Звёздные войны. Эпизод 6: Возвращение Джедая"
+    },
+    "otlc":"ot",
+    "year":1983,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0086190"
+  }
+}

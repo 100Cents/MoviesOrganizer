@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Angel Heart",
+      "it":"Angel Heart - Ascensore per l'inferno",
+      "fr":"Angel Heart - Aux portes de l'enfer",
+      "ru":"Сердце Ангела"
+    },
+    "otlc":"ot",
+    "year":1987,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0092563"
+  }
+}

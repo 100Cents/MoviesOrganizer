@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Lethal Weapon 2 - Brennpunkt L.A.",
+      "ot":"Lethal Weapon 2",
+      "it":"Arma letale 2",
+      "fr":"L'arme fatale 2",
+      "ru":"Смертельное оружие 2"
+    },
+    "otlc":"ot",
+    "year":1989,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0097733"
+  }
+}

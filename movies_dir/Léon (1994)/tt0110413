@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Léon",
+      "de":"Léon - Der Profi",
+      "it":"Léon",
+      "en":"Léon",
+      "ru":"Леон"
+    },
+    "otlc":"ot",
+    "year":1994,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0110413"
+  }
+}

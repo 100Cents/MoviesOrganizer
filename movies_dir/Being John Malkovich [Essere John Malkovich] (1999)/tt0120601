@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Being John Malkovich",
+      "ot":"Being John Malkovich",
+      "it":"Essere John Malkovich",
+      "fr":"Dans la peau de John Malkovich",
+      "ru":"Быть Джоном Малковичем"
+    },
+    "otlc":"ot",
+    "year":1999,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0120601"
+  }
+}

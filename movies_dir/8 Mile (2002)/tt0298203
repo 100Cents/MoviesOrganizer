@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"8 Mile",
+      "ot":"8 Mile",
+      "fr":"8 Mile",
+      "ru":"8 Миля"
+    },
+    "otlc":"ot",
+    "year":2002,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0298203"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Jäger des verlorenen Schatzes",
+      "ot":"Raiders of the Lost Ark",
+      "it":"I predatori dell'arca perduta",
+      "fr":"Les aventuriers de l'arche perdue",
+      "ru":"Индиана Джонс: В поисках утраченного ковчега"
+    },
+    "otlc":"ot",
+    "year":1981,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0082971"
+  }
+}

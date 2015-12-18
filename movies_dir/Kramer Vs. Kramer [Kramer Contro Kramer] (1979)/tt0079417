@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Kramer gegen Kramer",
+      "ot":"Kramer vs. Kramer",
+      "it":"Kramer contro Kramer",
+      "fr":"Kramer contre Kramer",
+      "ru":"Крамер против Крамера"
+    },
+    "otlc":"ot",
+    "year":1979,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0079417"
+  }
+}

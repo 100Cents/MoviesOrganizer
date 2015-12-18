@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Butch Cassidy und Sundance Kid",
+      "ot":"Butch Cassidy and the Sundance Kid",
+      "it":"Butch Cassidy",
+      "fr":"Butch Cassidy et le Kid",
+      "ru":"Бутч Кэссиди и Санденс Кид"
+    },
+    "otlc":"ot",
+    "year":1969,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0064115"
+  }
+}

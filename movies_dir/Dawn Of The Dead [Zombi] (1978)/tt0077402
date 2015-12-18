@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Zombie",
+      "ot":"Dawn of the Dead",
+      "it":"Zombi",
+      "fr":"Zombie - Le crépuscule des morts-vivants",
+      "ru":"Рассвет мертвецов"
+    },
+    "otlc":"ot",
+    "year":1978,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0077402"
+  }
+}

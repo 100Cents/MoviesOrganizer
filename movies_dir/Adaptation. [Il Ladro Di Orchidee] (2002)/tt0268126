@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Adaption: Der Orchideen-Dieb",
+      "ot":"Adaptation.",
+      "it":"Il ladro di orchidee",
+      "fr":"Adaptation.",
+      "ru":"Адаптация."
+    },
+    "otlc":"ot",
+    "year":2002,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0268126"
+  }
+}

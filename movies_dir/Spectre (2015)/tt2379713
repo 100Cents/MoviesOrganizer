@@ -1,0 +1,13 @@
+{
+  "myData":{
+    "title":{
+      "de":"James Bond 007 - Spectre",
+      "ot":"Spectre",
+      "fr":"007 Spectre",
+      "ru":"007: Спектр"
+    },
+    "otlc":"ot",
+    "year":2015,
+    "imdbCode":"tt2379713"
+  }
+}

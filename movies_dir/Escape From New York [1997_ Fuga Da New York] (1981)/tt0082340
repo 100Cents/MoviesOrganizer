@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Klapperschlange",
+      "ot":"Escape from New York",
+      "it":"1997: fuga da New York",
+      "fr":"New York 1997",
+      "ru":"Побег из Нью-Йорка"
+    },
+    "otlc":"ot",
+    "year":1981,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0082340"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Lost Highway",
+      "ot":"Lost Highway",
+      "it":"Strade perdute",
+      "fr":"Lost Highway",
+      "ru":"Шоссе в никуда"
+    },
+    "otlc":"ot",
+    "year":1997,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0116922"
+  }
+}

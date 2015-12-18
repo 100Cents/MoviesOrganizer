@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Gefährliche Brandung",
+      "ot":"Point Break",
+      "it":"Point Break - Punto di rottura",
+      "fr":"Point Break - Extrême limite",
+      "ru":"На гребне волны"
+    },
+    "otlc":"ot",
+    "year":1991,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0102685"
+  }
+}

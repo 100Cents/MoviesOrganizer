@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"The Man Who Wasn't There",
+      "ot":"The Man Who Wasn't There",
+      "it":"L'uomo che non c'era",
+      "fr":"The barber: l'homme qui n'était pas là",
+      "ru":"Чeловек, которого не было"
+    },
+    "otlc":"ot",
+    "year":2001,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0243133"
+  }
+}

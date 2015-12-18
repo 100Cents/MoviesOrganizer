@@ -1,0 +1,12 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Blue Valentine",
+      "en":"Blue Valentine",
+      "ru":"Валентинка"
+    },
+    "otlc":"ot",
+    "year":2010,
+    "imdbCode":"tt1120985"
+  }
+}

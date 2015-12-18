@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Nightmare - Mörderische Träume",
+      "ot":"A Nightmare on Elm Street",
+      "it":"Nightmare - Dal profondo della notte",
+      "fr":"Les griffes de la nuit",
+      "ru":"Кошмар на улице Вязов"
+    },
+    "otlc":"ot",
+    "year":1984,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0087800"
+  }
+}

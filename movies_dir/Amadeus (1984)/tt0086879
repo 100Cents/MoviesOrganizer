@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Amadeus",
+      "ot":"Amadeus",
+      "fr":"Amadeus",
+      "ru":"Амадей"
+    },
+    "otlc":"ot",
+    "year":1984,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0086879"
+  }
+}

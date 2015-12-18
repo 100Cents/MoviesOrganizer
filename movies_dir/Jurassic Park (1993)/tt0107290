@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "de":"Jurassic Park",
+      "ot":"Jurassic Park",
+      "fr":"Jurassic Park",
+      "ru":"Парк юрского периода"
+    },
+    "otlc":"ot",
+    "year":1993,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0107290"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Dead Presidents",
+      "it":"Dollari sporchi",
+      "fr":"Génération sacrifiée",
+      "ru":"Мертвые президенты"
+    },
+    "otlc":"ot",
+    "year":1995,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0112819"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Casablanca",
+      "fr":"Casablanca",
+      "ru":"Касабланка"
+    },
+    "otlc":"ot",
+    "year":1942,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0034583"
+  }
+}

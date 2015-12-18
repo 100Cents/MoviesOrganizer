@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Die Regeln des Spiels",
+      "ot":"The Rules of Attraction",
+      "it":"Le regole dell'attrazione",
+      "fr":"Les lois de l'attraction",
+      "ru":"Правила секса"
+    },
+    "otlc":"ot",
+    "year":2002,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0292644"
+  }
+}

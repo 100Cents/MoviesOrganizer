@@ -1,0 +1,12 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Fantastic Mr. Fox",
+      "de":"Der fantastische Mr. Fox",
+      "ru":"Бесподобный мистер Фокс"
+    },
+    "otlc":"ot",
+    "year":2009,
+    "imdbCode":"tt0432283"
+  }
+}

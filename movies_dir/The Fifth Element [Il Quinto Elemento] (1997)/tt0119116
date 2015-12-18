@@ -1,0 +1,18 @@
+{
+  "myData":{
+    "title":{
+      "de":"Das fünfte Element",
+      "ot":"The Fifth Element",
+      "it":"Il quinto elemento",
+      "fr":"Le cinquième élément",
+      "en":"The Fifth Element",
+      "ru":"Пятый элемент"
+    },
+    "otlc":"ot",
+    "year":1997,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0119116"
+  }
+}

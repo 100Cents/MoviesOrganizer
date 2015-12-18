@@ -1,0 +1,16 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Kind Hearts and Coronets",
+      "it":"Sangue blu",
+      "fr":"Noblesse oblige",
+      "ru":"Добрые сердца и короны"
+    },
+    "otlc":"ot",
+    "year":1949,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0041546"
+  }
+}
