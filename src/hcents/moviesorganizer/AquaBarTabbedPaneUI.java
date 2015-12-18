@@ -86,13 +86,11 @@ public class AquaBarTabbedPaneUI extends BasicTabbedPaneUI {
 		return contentInsets;
 	}
 
-	protected int calculateTabHeight(int tabPlacement, int tabIndex,
-			int fontHeight) {
+	protected int calculateTabHeight(int tabPlacement, int tabIndex, int fontHeight) {
 		return 21;
 	}
 
-	protected int calculateTabWidth(int tabPlacement, int tabIndex,
-			FontMetrics metrics) {
+	protected int calculateTabWidth(int tabPlacement, int tabIndex, FontMetrics metrics) {
 		int w = super.calculateTabWidth(tabPlacement, tabIndex, metrics);
 		int wid = metrics.charWidth('M');
 		w += wid * 2;
@@ -105,26 +103,48 @@ public class AquaBarTabbedPaneUI extends BasicTabbedPaneUI {
 
 	protected void paintTabArea(Graphics g, int tabPlacement, int selectedIndex) {
 		Graphics2D g2d = (Graphics2D) g;
-		g2d.setPaint(new GradientPaint(0, 0, defaultColorSet.topGradColor1, 0,
-				10, defaultColorSet.topGradColor2));
-		g2d.fillRect(0, 0, tabPane.getWidth(), 10);
-
-		g2d.setPaint(new GradientPaint(0, 10, defaultColorSet.bottomGradColor1,
-				0, 21, defaultColorSet.bottomGradColor2));
-		g2d.fillRect(0, 10, tabPane.getWidth(), 11);
-		super.paintTabArea(g, tabPlacement, selectedIndex);
-
-		if (contentTopBorderDrawn) {
+		
+		if (tabPlacement == JTabbedPane.TOP) {
+			
+			//g2d.setPaint(new GradientPaint(0, 0, defaultColorSet.topGradColor1, 0, 10, defaultColorSet.topGradColor2));
+			//g2d.fillRect(0, 0, tabPane.getWidth(), 10);
+	
+			
+			//g2d.setPaint(new GradientPaint(0, 10, defaultColorSet.bottomGradColor1, 0, 21, defaultColorSet.bottomGradColor2));
+			//g2d.fillRect(0, 10, tabPane.getWidth(), 11);
+			
+			super.paintTabArea(g, tabPlacement, selectedIndex);
+	
+			if (contentTopBorderDrawn) {
+				g2d.setColor(lineColor);
+				g2d.drawLine(0, 20, tabPane.getWidth() - 1, 20);
+			}
+		
+		} else if (tabPlacement == JTabbedPane.LEFT) {
+			
+			g2d.setPaint(new GradientPaint(0, 0, defaultColorSet.topGradColor1, 0, 10, defaultColorSet.topGradColor2));
+			g2d.fillRect(0, 0, tabPane.getWidth(), tabPane.getHeight());
+			
+			super.paintTabArea(g, tabPlacement, selectedIndex);
+			
 			g2d.setColor(lineColor);
-			g2d.drawLine(0, 20, tabPane.getWidth() - 1, 20);
+			System.out.println(tabPane.getWidth());
+			System.out.println(tabPane.getHeight());
+			g2d.drawLine(50, 0, 50, tabPane.getHeight());
+			
 		}
+		
+		
 	}
 
 	protected void paintTabBackground(Graphics g, int tabPlacement,
 			int tabIndex, int x, int y, int w, int h, boolean isSelected) {
+		
+		
 		Graphics2D g2d = (Graphics2D) g;
 		ColorSet colorSet;
 
+		
 		Rectangle rect = rects[tabIndex];
 
 		if (isSelected) {
@@ -137,33 +157,50 @@ public class AquaBarTabbedPaneUI extends BasicTabbedPaneUI {
 
 		g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
 				RenderingHints.VALUE_ANTIALIAS_ON);
+		
+		if (tabPlacement == JTabbedPane.TOP) {
 
-		int width = rect.width;
-		int xpos = rect.x;
-		if (tabIndex > 0) {
-			width--;
-			xpos++;
+			int width = rect.width;
+			int xpos = rect.x;
+			if (tabIndex > 0) {
+				width--;
+				xpos++;
+			}
+	
+			g2d.setPaint(new GradientPaint(xpos, 0, colorSet.topGradColor1, xpos,
+					10, colorSet.topGradColor2));
+			g2d.fillRect(xpos, 0, width, 10);
+	
+			g2d.setPaint(new GradientPaint(0, 10, colorSet.bottomGradColor1, 0, 21,
+					colorSet.bottomGradColor2));
+			g2d.fillRect(xpos, 10, width, 11);
+	
+			if (contentTopBorderDrawn) {
+				g2d.setColor(lineColor);
+				g2d.drawLine(rect.x, 20, rect.x + rect.width - 1, 20);
+			}
+			
+		} else if (tabPlacement == JTabbedPane.LEFT) {
+			
 		}
-
-		g2d.setPaint(new GradientPaint(xpos, 0, colorSet.topGradColor1, xpos,
-				10, colorSet.topGradColor2));
-		g2d.fillRect(xpos, 0, width, 10);
-
-		g2d.setPaint(new GradientPaint(0, 10, colorSet.bottomGradColor1, 0, 21,
-				colorSet.bottomGradColor2));
-		g2d.fillRect(xpos, 10, width, 11);
-
-		if (contentTopBorderDrawn) {
-			g2d.setColor(lineColor);
-			g2d.drawLine(rect.x, 20, rect.x + rect.width - 1, 20);
-		}
+		
+		
 	}
 
 	protected void paintTabBorder(Graphics g, int tabPlacement, int tabIndex,
 			int x, int y, int w, int h, boolean isSelected) {
+		
 		Rectangle rect = getTabBounds(tabIndex, new Rectangle(x, y, w, h));
 		g.setColor(dividerColor);
-		g.drawLine(rect.x + rect.width, 0, rect.x + rect.width, 20);
+		if (tabPlacement == JTabbedPane.TOP) {
+			
+			g.drawLine(rect.x + rect.width, rect.y, rect.x + rect.width, rect.y + rect.height);
+			
+		} else if (tabPlacement == JTabbedPane.LEFT) {
+			
+			g.drawLine(rect.x, rect.y + rect.height, rect.width, rect.y + rect.height);
+			
+		}
 	}
 
 	protected void paintContentBorderTopEdge(Graphics g, int tabPlacement,

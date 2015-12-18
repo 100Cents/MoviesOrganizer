@@ -21,6 +21,8 @@ public class Movie implements Serializable {
 	private int year;
 	private String imdbCode;
 	private MovieTitle movieTitle;
+	
+	private File movieDirectory;
 
 	private String folderName;
 
@@ -69,6 +71,9 @@ public class Movie implements Serializable {
 			}
 			if (myData.has("year")) {
 				year = myData.getInt("year");
+			}
+			if (myData.has("otlc")) {
+				this.otlc = myData.getString("otlc");
 			}
 		}
 	}
@@ -268,6 +273,14 @@ public class Movie implements Serializable {
 
 	public void setAllFileNamesStartsWithDirectoryName(boolean allFileNamesStartsWithDirectoryName) {
 		this.allFileNamesStartsWithDirectoryName = allFileNamesStartsWithDirectoryName;
+	}
+
+	public File getMovieDirectory() {
+		return movieDirectory;
+	}
+
+	public void setMovieDirectory(File movieDirectory) {
+		this.movieDirectory = movieDirectory;
 	}
 
 }

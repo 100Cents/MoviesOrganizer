@@ -22,15 +22,19 @@ public class MoviesListTableModel extends AbstractTableModel {
 		moviesList = new ArrayList<Movie>();
 	}
 	
+	public Movie getMovieAtRow(int row) {
+		return moviesList.get(row);
+	}
+	
 	public synchronized void updateRows() throws IOException {
 		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(new File(Utility.BASE_DIRECTORY))) {
-			
 			File descriptorFile = Utility.getDescriptorFile(movieDirectory);
 			if (descriptorFile != null) {
 				
 				JSONObject jsonObject = Utility.readJSONObjectFromFile(descriptorFile);
 				if (jsonObject != null) {
 					Movie movie = new Movie(jsonObject);
+					movie.setMovieDirectory(movieDirectory);
 					movie.setFolderName(movieDirectory.getName());
 					try {
 						movie.setRealAvailableLanguages(Utility.showLanguagesByFileName(movieDirectory));
@@ -40,12 +44,18 @@ public class MoviesListTableModel extends AbstractTableModel {
 					} catch (IOException e) {
 						e.printStackTrace();
 					}
-					moviesList.add(movie);
+					
+					if (!moviesList.contains(movie)) {
+						moviesList.add(movie);
+						System.out.println("add: " + movie);
+						fireTableRowsInserted(moviesList.size() - 1, moviesList.size());
+					}
 				}
+				
 			}
 			
 		}
-		fireTableRowsDeleted(0, moviesList.size());
+		
 	}
 
 	@Override
@@ -68,6 +78,9 @@ public class MoviesListTableModel extends AbstractTableModel {
 				
 			case 1:
 				return "Original title";
+				
+			case 2:
+				return "OTLC";
 				
 			default:
 				return "";
@@ -92,7 +105,10 @@ public class MoviesListTableModel extends AbstractTableModel {
 				return moviesList.get(rowIndex).getImdbCode();
 				
 			case 1:
-				return moviesList.get(rowIndex).getMovieTitle().getOriginalTitle();
+				return moviesList.get(rowIndex).getMovieTitle().getTitleForCatalog();
+				
+			case 2:
+				return moviesList.get(rowIndex).getOtlc();
 				
 			default:
 				return "";

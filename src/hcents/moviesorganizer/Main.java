@@ -1,20 +1,14 @@
 package hcents.moviesorganizer;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
 import java.awt.GridLayout;
-import java.awt.Insets;
+import java.awt.Point;
+import java.awt.Window;
 import java.awt.event.*;
 import java.io.*;
-import java.net.URL;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -24,16 +18,8 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 
 import org.fife.ui.rtextarea.*;
-import org.fife.ui.rsyntaxtextarea.*;
 import org.json.JSONObject;
-import org.jsoup.Jsoup;
-import org.pdfclown.files.SerializationModeEnum;
-
-import com.javaswingcomponents.accordion.JSCAccordion;
-import com.javaswingcomponents.accordion.TabOrientation;
-
-import javax.swing.border.Border;
-import javax.swing.plaf.basic.BasicTabbedPaneUI;
+import com.alee.laf.WebLookAndFeel;
 
 /**
  * A simple example showing how to use RSyntaxTextArea to add Java syntax
@@ -52,8 +38,10 @@ public class Main extends JFrame {
 	private final MoviesListTableModel mltm = new MoviesListTableModel();
 
 	public Main() {
-		System.setProperty("http.proxyHost", "195.213.138.202");
-		System.setProperty("http.proxyPort", "8080");
+		WebLookAndFeel.install();
+		
+		//System.setProperty("http.proxyHost", "195.213.138.202");
+		//System.setProperty("http.proxyPort", "8080");
 		
 		//
 		// MenuBar
@@ -186,18 +174,35 @@ public class Main extends JFrame {
 		
 		// Test accordion
 		//
-		eastPanel.add(new AccordianTest().getContent(), BorderLayout.CENTER);
+		final JTabbedPane tp = new JTabbedPane();
+		tp.setPreferredSize(new Dimension(400, 400));
+		tp.setMaximumSize(new Dimension(Integer.MAX_VALUE, Integer.MAX_VALUE));
+		//tp.setUI(new AquaBarTabbedPaneUI());
+		tp.setTabPlacement(JTabbedPane.LEFT);
+		tp.setTabLayoutPolicy(JTabbedPane.SCROLL_TAB_LAYOUT);
+		
+		tp.add(new JPanel(), "Pippo");
+		tp.add(new JPanel(), "Pippo 2");
+		tp.add(new JPanel(), "Pluto");
+		tp.add(new JPanel(), "Paperino");
+		tp.add(new JPanel(), "Pippo");
+		tp.add(new JPanel(), "Pippo 2");
+		tp.add(new JPanel(), "Pluto");
+		tp.add(new JPanel(), "Paperino");
+		
+		eastPanel.add(tp);
 		//
 		// End test accordion
 		
 		
 		JSplitPane verticalSplitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT, topWestPanel, bottomWestPanel);
 		verticalSplitPane.setResizeWeight(1.0);
+		verticalSplitPane.setDividerSize(2);
 		
 		JSplitPane horizontalSplitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, eastPanel, verticalSplitPane);
 		horizontalSplitPane.setOneTouchExpandable(false);
 		horizontalSplitPane.setEnabled(false);
-		horizontalSplitPane.setDividerSize(5);
+		horizontalSplitPane.setDividerSize(2);
 		horizontalSplitPane.setResizeWeight(0);
 		
 		textArea = new RTextArea(20, 120);
@@ -214,7 +219,7 @@ public class Main extends JFrame {
 		final JTabbedPane tabbedPane = new JTabbedPane();
 		tabbedPane.setPreferredSize(new Dimension(150, 400));
 		tabbedPane.setMaximumSize(new Dimension(Integer.MAX_VALUE, Integer.MAX_VALUE));
-		tabbedPane.setUI(new AquaBarTabbedPaneUI());
+		//tabbedPane.setUI(new AquaBarTabbedPaneUI());
 
 		JComponent panel1 = new JPanel(false);
 		
@@ -300,6 +305,72 @@ public class Main extends JFrame {
  		table.getColumnModel().getColumn(0).setMaxWidth(100);
  		table.getColumnModel().getColumn(0).setPreferredWidth(90);
  		table.getColumnModel().getColumn(2).setMaxWidth(100);
+        table.setBorder(null);
+        
+        table.addMouseListener(new MouseAdapter() {
+            public void mousePressed(MouseEvent me) {
+                
+                if (me.getClickCount() == 2) {
+
+                    JTable table = (JTable) me.getSource();
+                    Point p = me.getPoint();
+                    int row = table.rowAtPoint(p);
+                    
+                	MoviesListTableModel mltm = (MoviesListTableModel) table.getModel();
+                    File movieDirectory = mltm.getMovieAtRow(row).getMovieDirectory();
+                    
+                    System.out.println("Double click on row " + row);
+                    JDialog dialog = new JDialog();
+                    dialog.setLayout(new BorderLayout());
+                    
+                    MoviesDialogTableModel mdtm = new MoviesDialogTableModel();
+                    try {
+						mdtm.updateRows(movieDirectory);
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+                    JTable dialogTable = new JTable(mdtm);
+                    dialogTable.setAutoResizeMode(JTable.AUTO_RESIZE_LAST_COLUMN);
+                    dialogTable.getColumnModel().getColumn(0).setPreferredWidth(700);
+                    
+                    
+                    JScrollPane dialogTableScrollPane = new JScrollPane(dialogTable);
+             		dialogTableScrollPane.setBorder(null);
+             		dialogTableScrollPane.setPreferredSize(new Dimension(700, 400));
+                    
+                    JButton saveButton = new JButton("Save");
+                    JButton cancelButton = new JButton("Cancel");
+                    
+                    JPanel dialogButtonPanel = new JPanel();
+                    dialogButtonPanel.setLayout(new GridLayout(1, 2));
+                    dialogButtonPanel.setPreferredSize(new Dimension(700, 25));
+                    
+                    
+                    dialogButtonPanel.add(cancelButton);
+                    dialogButtonPanel.add(saveButton);
+                    
+                    
+                    JPanel backPanel = new JPanel();
+                    backPanel.setLayout(new BorderLayout());
+                    
+                    
+                    backPanel.add(dialogTableScrollPane, BorderLayout.NORTH);
+                    backPanel.add(dialogButtonPanel, BorderLayout.SOUTH);
+                    
+                    dialog.add(backPanel);
+                    
+                    dialog.pack();
+                    
+                    dialog.setLocationRelativeTo(null);
+                    
+                    dialog.setModal(true);
+                    //dialog.add(newPane("Label in dialog"));
+                    
+                    dialog.setVisible(true);
+                }
+            }
+        });
  		
  		DefaultTableCellRenderer centerRenderer =
  				new DefaultTableCellRenderer();
@@ -308,6 +379,7 @@ public class Main extends JFrame {
  		
  		// Add the table to a scrolling pane
  		JScrollPane scrollPane = new JScrollPane(table);
+ 		scrollPane.setBorder(null);
  		panel3.add(scrollPane, BorderLayout.CENTER);
  		
  		tabbedPane.add(panel3, "Table");
@@ -801,8 +873,3 @@ class PrintImdbDescriptorFromWebPageActionListener implements ActionListener {
 	}
 	
 }
-
-
-
-
-
