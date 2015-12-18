@@ -1,90 +1,80 @@
 import java.awt.geom.Dimension2D;
 import java.awt.geom.Point2D;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
-import org.json.*;
-import org.pdfclown.documents.*;
+import org.pdfclown.documents.Document;
+import org.pdfclown.documents.Page;
+import org.pdfclown.documents.PageFormat;
+import org.pdfclown.documents.Pages;
 import org.pdfclown.documents.contents.LineCapEnum;
 import org.pdfclown.documents.contents.colorSpaces.DeviceRGBColor;
-import org.pdfclown.documents.contents.composition.*;
+import org.pdfclown.documents.contents.composition.PrimitiveComposer;
+import org.pdfclown.documents.contents.composition.XAlignmentEnum;
+import org.pdfclown.documents.contents.composition.YAlignmentEnum;
 import org.pdfclown.documents.contents.fonts.Font;
 import org.pdfclown.documents.interaction.viewer.ViewerPreferences;
 import org.pdfclown.documents.interchange.metadata.Information;
-import org.pdfclown.files.File;
 import org.pdfclown.files.SerializationModeEnum;
 import org.pdfclown.tools.PageStamper;
 
-public class PdfCatalogWriter {
+
+public class MoviesCatalog {
 	
 	private static final double MARGIN = 30;
 	private static final double MARGIN_TOP = 20;
 	
-	private ArrayList<Movie> moviesList = new ArrayList<Movie>();
+	private List<Movie> moviesList;
 	
-	public PdfCatalogWriter(java.io.File baseMoviesDirectory) throws IOException {
-		if (baseMoviesDirectory == null) {
-			throw new NullPointerException("baseMoviesDirectory can't be null");
-		}
-		if (!baseMoviesDirectory.exists()) {
-			throw new IOException("directory baseMoviesDirectory does not exist");
-		}
-		
-		java.io.File[] movieDirectories = Utility.listMoviesDirectoriesFiles(baseMoviesDirectory);
-		
-		Arrays.sort(movieDirectories);
-		
-		int descriptorAnomalies = 0;
-		
-		for (java.io.File movieDirectory : movieDirectories) {
-			
-			java.io.File descriptorFile = Utility.getDescriptorFile(movieDirectory);
-			if (descriptorFile != null) {
-				
-				JSONObject jsonObject = Utility.readJSON(descriptorFile);
-				
-				if (jsonObject == null) {
-					System.out.println("Il descrittore non contiene dati: " + movieDirectory);
-					
-					jsonObject = Utility.getJsonFromDirectoryName(movieDirectory, descriptorFile.getName());
-					
-					Utility.writeJSONObjectToFile(jsonObject, descriptorFile, true);
-				}
-				
-				Movie movie = new Movie(jsonObject);
-				movie.setFolderName(movieDirectory.getName());
-				try {
-					movie.setRealAvailableLanguages(Utility.showLanguagesByFileName(movieDirectory));
-					movie.setAllFileNamesStartsWithDirectoryName(
-							Utility.allFileNamesStartsWithDirectoryName(movieDirectory));
-					movie.setAllTags(MoviesBackup.getAllTags(movieDirectory));
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-				moviesList.add(movie);
-				
-			} else {
-				
-				descriptorAnomalies++;
-				Movie movie = new Movie();
-				movie.setFolderName(movieDirectory.getName());
-				moviesList.add(movie);
-				
-			}
-			
-		}
-		System.out.println("Descriptor anomalies: " + descriptorAnomalies);
+	/**
+	 * 
+	 */
+	public MoviesCatalog() {
+		super();
+		moviesList = new ArrayList<Movie>();
 	}
-
-	public File composePdf() {
+	
+	/**
+	 * 
+	 * @param moviesList
+	 */
+	public MoviesCatalog(List<Movie> moviesList) {
+		super();
+		
+		if (moviesList == null) {
+			throw new NullPointerException("argument moviesList must not be null");
+		}
+		
+		this.moviesList = moviesList;
+	}
+	
+	/**
+	 * 
+	 * @param movie
+	 */
+	public void addMovie(Movie movie) {
+		
+		if (movie == null) {
+			throw new NullPointerException("argument movie must not be null");
+		}
+		
+		moviesList.add(movie);
+		
+	}
+	
+	/**
+	 * 
+	 * @return
+	 */
+	public org.pdfclown.files.File makePDF() {
 		
 		int startY = 40;
 		
 		int rowsPerPage = 20;
 		double distance = 38.5;
 		
-		File pdfFile = new File();
+		org.pdfclown.files.File pdfFile = new org.pdfclown.files.File();
 		Document document = pdfFile.getDocument();
 		
 		Font bodyFont = Font.get(document, new java.io.File("fonts", "Cousine-Regular.ttf"));
@@ -295,8 +285,13 @@ public class PdfCatalogWriter {
 		
 		return pdfFile;
 	}
-
-	protected String serialize(File file) {
+	
+	/**
+	 * 
+	 * @param file
+	 * @return
+	 */
+	protected String serialize(org.pdfclown.files.File file) {
 		return serialize(file, null, null, null);
 	}
 
@@ -307,7 +302,7 @@ public class PdfCatalogWriter {
 	 * @param serializationMode Serialization mode.
 	 * @return Serialization path.
 	 */
-	protected String serialize(File file, SerializationModeEnum serializationMode) {
+	protected String serialize(org.pdfclown.files.File file, SerializationModeEnum serializationMode) {
 		return serialize(file, serializationMode, null, null, null);
 	}
 
@@ -318,7 +313,7 @@ public class PdfCatalogWriter {
 	 * @param fileName Output file name.
 	 * @return Serialization path.
 	 */
-	protected String serialize(File file, String fileName) {
+	protected String serialize(org.pdfclown.files.File file, String fileName) {
 		return serialize(file, fileName, null, null);
 	}
 
@@ -330,7 +325,7 @@ public class PdfCatalogWriter {
 	 * @param serializationMode Serialization mode.
 	 * @return Serialization path.
 	 */
-	protected String serialize(File file, String fileName, SerializationModeEnum serializationMode) {
+	protected String serialize(org.pdfclown.files.File file, String fileName, SerializationModeEnum serializationMode) {
 		return serialize(file, fileName, serializationMode, null, null, null);
 	}
 
@@ -343,7 +338,7 @@ public class PdfCatalogWriter {
 	 * @param keywords Document keywords.
 	 * @return Serialization path.
 	 */
-	protected String serialize(File file, String title, String subject, String keywords) {
+	protected String serialize(org.pdfclown.files.File file, String title, String subject, String keywords) {
 		return serialize(file, null, title, subject, keywords);
 	}
 
@@ -357,7 +352,7 @@ public class PdfCatalogWriter {
 	 * @param keywords Document keywords.
 	 * @return Serialization path.
 	 */
-	protected String serialize(File file, SerializationModeEnum serializationMode, String title, String subject, String keywords) {
+	protected String serialize(org.pdfclown.files.File file, SerializationModeEnum serializationMode, String title, String subject, String keywords) {
 		return serialize(file, getClass().getSimpleName(), serializationMode, title, subject, keywords);
 	}
 
@@ -372,7 +367,7 @@ public class PdfCatalogWriter {
 	 * @param keywords Document keywords.
 	 * @return Serialization path.
 	 */
-	protected String serialize(File file, String fileName, SerializationModeEnum serializationMode, String title, String subject, String keywords) {
+	protected String serialize(org.pdfclown.files.File file, String fileName, SerializationModeEnum serializationMode, String title, String subject, String keywords) {
 		applyDocumentSettings(file.getDocument(), title, subject, keywords);
 		
 		java.io.File outputFile = new java.io.File("catalogs", fileName);
@@ -409,22 +404,5 @@ public class PdfCatalogWriter {
 		//info.setSubject("Sample about " + subject + " using PDF Clown");
 		//info.setKeywords(keywords);
 	}
-	
-	public static void main(String[] args) {
-		
-		try {
-			PdfCatalogWriter pdfCatalogWriter = new PdfCatalogWriter(new java.io.File(Utility.BASE_DIRECTORY));
-			File pdfFile = pdfCatalogWriter.composePdf();
-			
-			SimpleDateFormat nowDateFormat = new SimpleDateFormat("yyyyMMdd");
-			String now = nowDateFormat.format(new Date());
-			
-			String fileName = "catalog-" + now + ".pdf";
-			pdfCatalogWriter.serialize(pdfFile, fileName, SerializationModeEnum.Standard, "Movies catalog", "Movies catalog", null);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
 
-	}
-	
 }

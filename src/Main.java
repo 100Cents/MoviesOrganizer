@@ -84,15 +84,8 @@ public class Main extends JFrame {
 					public synchronized void run() {
 						try {
 							System.out.println("todo: " + rightButtonNames[0]);
-
-							PdfCatalogWriter pdfCatalogWriter = new PdfCatalogWriter(new File(Utility.BASE_DIRECTORY));
-							org.pdfclown.files.File pdfFile = pdfCatalogWriter.composePdf();
-
-							SimpleDateFormat nowDateFormat = new SimpleDateFormat("yyyyMMdd");
-							String now = nowDateFormat.format(new Date());
-
-							String fileName = "catalog-" + now + ".pdf";
-							pdfCatalogWriter.serialize(pdfFile, fileName, SerializationModeEnum.Standard, "Movies catalog", "Movies catalog", null);
+							
+							Utility.createClassicPdfCatalog(new File(Utility.BASE_DIRECTORY));
 						} catch (Exception e) {
 							e.printStackTrace();
 						}

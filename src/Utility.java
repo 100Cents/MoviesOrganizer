@@ -40,6 +40,7 @@ import org.jsoup.Connection.Response;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.pdfclown.files.SerializationModeEnum;
 
 import com.cedarsoftware.util.io.JsonWriter;
 
@@ -956,6 +957,69 @@ public class Utility {
 		String[] urls = mainURLs.toArray(new String[] {});
 		
 		return Utility.getImdbDescriptorsFromWebPage(urls);
+	}
+	
+	/**
+	 * 
+	 * @param baseMoviesDirectory
+	 * @throws IOException
+	 */
+	public static void createClassicPdfCatalog(File baseMoviesDirectory) throws IOException {
+		
+		if (baseMoviesDirectory == null) {
+			throw new NullPointerException("argument baseMoviesDirectory can't be null");
+		}
+		if (!baseMoviesDirectory.exists()) {
+			throw new IOException("directory baseMoviesDirectory does not exist");
+		}
+		
+		List<Movie> moviesList = new ArrayList<Movie>();
+		
+		int descriptorAnomalies = 0;
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(baseMoviesDirectory)) {
+			
+			File descriptorFile = Utility.getDescriptorFile(movieDirectory);
+			if (descriptorFile != null) {
+				
+				JSONObject jsonObject = Utility.readJSON(descriptorFile);
+				
+				if (jsonObject == null) {
+					System.out.println("empty or not valid descriptor: " + movieDirectory);
+					
+					jsonObject = Utility.getJsonFromDirectoryName(movieDirectory, descriptorFile.getName());
+					
+					Utility.writeJSONObjectToFile(jsonObject, descriptorFile, true);
+				}
+				
+				Movie movie = new Movie(jsonObject);
+				movie.setFolderName(movieDirectory.getName());
+				try {
+					movie.setRealAvailableLanguages(Utility.showLanguagesByFileName(movieDirectory));
+					movie.setAllFileNamesStartsWithDirectoryName(
+							Utility.allFileNamesStartsWithDirectoryName(movieDirectory));
+					movie.setAllTags(MoviesBackup.getAllTags(movieDirectory));
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+				moviesList.add(movie);
+				
+			} else {
+				
+				descriptorAnomalies++;
+				Movie movie = new Movie();
+				movie.setFolderName(movieDirectory.getName());
+				moviesList.add(movie);
+				
+			}
+			
+		}
+		System.out.println("descriptor anomalies: " + descriptorAnomalies);
+		
+		MoviesCatalog moviesCatalog = new MoviesCatalog(moviesList);
+		
+		String fileName = "catalog-" + new SimpleDateFormat("yyyyMMdd").format(new Date()) + ".pdf";
+		moviesCatalog.serialize(moviesCatalog.makePDF(), fileName, SerializationModeEnum.Standard, "Movies catalog", "Movies catalog", null);
+		
 	}
 	
 	public static void getDiff(File dirA, File dirB) throws IOException	{
