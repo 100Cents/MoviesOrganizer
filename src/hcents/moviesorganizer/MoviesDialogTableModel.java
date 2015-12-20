@@ -77,6 +77,10 @@ public class MoviesDialogTableModel extends AbstractTableModel {
 	public boolean isCellEditable(int row, int col) {
 		return true;
 	}
+	
+	public File getMovieFileAtRow(int row) {
+		return moviesFiles[row];
+	}
 
 	/*
 	public void addRow() {

@@ -602,7 +602,10 @@ public class MoviesBackup {
 				//long freeSpace = parentDirectory.getFreeSpace();
 				System.out.println("Usable space: " + usableSpace);
 				if (usableSpace > fromDirectorySize.longValue()) {
+					System.out.println("cp: " + fromDirectory.getName());
+					
 					FileUtils.copyDirectory(fromDirectory, toDirectory);
+					
 				} else {
 					throw new IOException("Spazio insufficiente per aggiungere questa directory.");
 				}
@@ -971,102 +974,6 @@ public class MoviesBackup {
 			}
 			
 		}
-	}
-	
-
-	/**
-	 * @param args
-	 * @throws IOException 
-	 */
-	public static void main(String[] args) throws IOException {
-		
-		moveFilesInOthersFolder(new File(Utility.BASE_DIRECTORY));
-		/*
-		MoviesBackup mb = new MoviesBackup();
-		
-		//String fromDirectoryName = "Z:\\+Video\\+Movies\\IT\\__A__\\";
-		String toDirectoryName = "E:\\";
-		//String fromDirectoryName = "movies_dir";
-		//String toDirectoryName = "movies_dir2";
-		
-		//File fromDirectory = new File(fromDirectoryName);
-		File toDirectory = new File(toDirectoryName);
-		
-		//mb.copyDirectory(fromDirectory, toDirectory);
-		//mb.listMoviesDirectory(toDirectoryName);
-		
-		//mb.resetAllDescriptorsTags(fromDirectoryName);
-		//mb.addTagToAllDescriptors(fromDirectoryName, "BACKUP:USBHD:01");
-		//mb.resetAllDescriptorsTagsStartingWith(fromDirectoryName, "BACKUP:USBHD:");
-		//mb.addTagToDefinedDescriptors(new String[]{"tt0078748"}, fromDirectoryName, "PROVATAG11");
-		
-		//mb.resetAllDescriptorsTagsStartingWith(fromDirectoryName, "BACKUP:USBHD:");
-		
-		//mb.distributeBackupOnHardDisksTagging(fromDirectoryName, 64);
-		
-		try {
-			// L'ultimo backup che ho fatto
-			
-			
-			MoviesBackup.verifySlice(new File(Utility.BASE_DIRECTORY), "BACKUP:SLICE:01");
-			MoviesBackup.verifySlice(new File(Utility.BASE_DIRECTORY), "BACKUP:SLICE:02");
-			MoviesBackup.verifySlice(new File(Utility.BASE_DIRECTORY), "BACKUP:SLICE:03");
-			MoviesBackup.verifySlice(new File(Utility.BASE_DIRECTORY), "BACKUP:SLICE:04");
-			
-			System.exit(0);
-			
-			MoviesBackup.doBackup(new File(Utility.BASE_DIRECTORY), toDirectory, "BACKUP:SLICE:01", true);
-			MoviesBackup.doBackup(new File(Utility.BASE_DIRECTORY), toDirectory, "BACKUP:SLICE:02", true);
-			MoviesBackup.doBackup(new File(Utility.BASE_DIRECTORY), toDirectory, "BACKUP:SLICE:03", true);
-			MoviesBackup.doBackup(new File(Utility.BASE_DIRECTORY), toDirectory, "BACKUP:SLICE:04", true);
-			
-			
-			for (File movieDirectory : Utility.listMoviesDirectoriesFiles(fromDirectory)) {
-				
-				
-				if (hasTag(movieDirectory, "BACKUP:USBHD:02")) {
-					
-					Utility.changePriority(movieDirectory, 2);
-					
-				}
-				
-			}
-			
-			
-			
-			//MoviesBackup.compactSlices(fromDirectory);
-			
-			//MoviesBackup.deprioritizeNotItalianLanguage(fromDirectory);
-			
-			//File moviesBaseDirectory = new File("/media/rabbit/USBHD-01");
-			
-			//MoviesBackup.addMovieTagBaseDir(moviesBaseDirectory, "BACKUP:EXTHD:01");
-			//MoviesBackup.printMoviesDirectoryByTag(fromDirectory, "BACKUP:SLICE:10");
-			
-			//MoviesBackup.removeTagsStartingWithBaseDir(fromDirectory, "BACKUP:USBHD:");
-			
-			
-			
-			for (File f : Utility.listMoviesDirectoriesFiles("/media/rabbit/USBHD-01")) {
-				
-				String[] sArray = Utility.showLanguagesByFileName(f);
-				
-				System.out.println(f);
-				
-				for (String s : sArray) {
-					System.out.println(s);
-				}
-				
-				System.out.println("---");
-				
-			}
-			
-			
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		*/
 	}
 
 }

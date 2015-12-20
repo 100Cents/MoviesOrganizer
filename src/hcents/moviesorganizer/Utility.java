@@ -47,10 +47,12 @@ import com.cedarsoftware.util.io.JsonWriter;
 
 public final class Utility {
 	//public static final String BASE_DIRECTORY = "/home/rabbit/VMShared/__PRIVATE__/movies_dir/";
-	public static final String BASE_DIRECTORY = "Z:\\+Video\\+Movies\\IT\\__A__\\";
+	public static final String BASE_DIRECTORY = "Z:\\+Video\\+Movies\\_D_\\";
 	//public static final String BASE_DIRECTORY = "/media/rabbit/USBHD-01/";
 	//public static final String BASE_DIRECTORY = "C:\\Users\\Rabbit\\Desktop\\MoviesPDF\\movies_dir\\";
 	//public static final String BASE_DIRECTORY = "movies_dir";
+	//public static final String BASE_DIRECTORY = "Z:\\+Video\\+Movies\\RU\\__TO_SORT__\\";
+	
 		
 	public static final SimpleDateFormat MY_DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy");
 	public static final SimpleDateFormat MY_TIME_FORMAT = new SimpleDateFormat("HH:mm");

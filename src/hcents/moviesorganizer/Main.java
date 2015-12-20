@@ -2,6 +2,7 @@ package hcents.moviesorganizer;
 
 import java.awt.BorderLayout;
 import java.awt.Component;
+import java.awt.Desktop;
 import java.awt.Dimension;
 import java.awt.GridLayout;
 import java.awt.Point;
@@ -125,7 +126,7 @@ public class Main extends JFrame {
         compactBackupSlices.addActionListener(new CompactBackupSlicesActionListener());
         renameFilesAddingDots.addActionListener(new RenameFilesAddingDotsActionListener());
         formatFromDirectoryNames.addActionListener(new FormatFromDirectoryNamesActionListener());
-        renameDirectoryReadingDescriptor.addActionListener(new FormatFromDirectoryNamesActionListener());
+        renameDirectoryReadingDescriptor.addActionListener(new RenameDirectoryReadingDescriptorActionListener());
         printAllMediainfo.addActionListener(new PrintAllMediainfoActionListener());
         makeImdbDirFromTtlist.addActionListener(new MakeImdbDirFromTtlistActionListener());
         doBackup.addActionListener(new DoBackupActionListener());
@@ -330,7 +331,7 @@ public class Main extends JFrame {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
-                    JTable dialogTable = new JTable(mdtm);
+                    final JTable dialogTable = new JTable(mdtm);
                     dialogTable.setAutoResizeMode(JTable.AUTO_RESIZE_LAST_COLUMN);
                     dialogTable.getColumnModel().getColumn(0).setPreferredWidth(700);
                     
@@ -340,14 +341,71 @@ public class Main extends JFrame {
              		dialogTableScrollPane.setPreferredSize(new Dimension(700, 400));
                     
                     JButton saveButton = new JButton("Save");
+                    JButton playButton = new JButton("Play");
                     JButton cancelButton = new JButton("Cancel");
                     
+                    
+                    playButton.addActionListener(new ActionListener() {
+                    	
+                    	@Override
+                    	public void actionPerformed(ActionEvent event) {
+                    		final JButton source = (JButton) event.getSource();
+                    		
+                    		source.setEnabled(false);
+                    		Thread th = new Thread() {
+
+                    			public synchronized void run() {
+                    				try {
+                    					int selectedRowIndex = dialogTable.getSelectedRow();
+                    					MoviesDialogTableModel mdtm = (MoviesDialogTableModel) dialogTable.getModel();
+                    					File selectedFile = mdtm.getMovieFileAtRow(selectedRowIndex);
+                    					
+                    					System.out.println(selectedFile);
+                    					
+                    					System.out.println("opening file");
+                    					
+                    					if (Desktop.isDesktopSupported()) {
+                    			            Desktop desktop = Desktop.getDesktop();
+                    			            desktop.open(selectedFile);
+                    			        }
+                    					
+                    					try {
+                    						Thread.sleep(5000);
+                    					} catch (InterruptedException e) {
+                    						e.printStackTrace();
+                    					}
+                    				} catch (IOException e) {
+                    					e.printStackTrace();
+                    				}
+                    				source.setEnabled(true);
+                    				System.out.println("done");
+                    				/*
+                    				try {
+                    					System.out.println("todo: " + source.getText());
+                    					
+                    					mltm.updateRows();
+                    				} catch (Exception e) {
+                    					e.printStackTrace();
+                    				}
+                    				source.setEnabled(true);
+                    				System.out.println("done");
+                    				*/
+                    			}
+
+                    		};
+                    		th.start();
+                    	}
+                    	
+                    });
+                    
+                    
                     JPanel dialogButtonPanel = new JPanel();
-                    dialogButtonPanel.setLayout(new GridLayout(1, 2));
+                    dialogButtonPanel.setLayout(new GridLayout(1, 3));
                     dialogButtonPanel.setPreferredSize(new Dimension(700, 25));
                     
                     
                     dialogButtonPanel.add(cancelButton);
+                    dialogButtonPanel.add(playButton);
                     dialogButtonPanel.add(saveButton);
                     
                     
