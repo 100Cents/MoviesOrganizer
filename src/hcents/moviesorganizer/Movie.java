@@ -28,7 +28,7 @@ public class Movie implements Serializable {
 
 	private String[] realAvailableLanguages;
 
-	private boolean allFileNamesStartsWithDirectoryName;
+	private boolean allFilesCorrectlyNamed;
 
 	private String[] allTags;
 	
@@ -41,7 +41,7 @@ public class Movie implements Serializable {
 	}
 
 	public boolean isAllFileNamesStartsWithDirectoryName() {
-		return allFileNamesStartsWithDirectoryName;
+		return allFilesCorrectlyNamed;
 	}
 
 	public String[] getRealAvailableLanguages() {
@@ -271,8 +271,8 @@ public class Movie implements Serializable {
 		this.realAvailableLanguages = showLanguagesByFileName;
 	}
 
-	public void setAllFileNamesStartsWithDirectoryName(boolean allFileNamesStartsWithDirectoryName) {
-		this.allFileNamesStartsWithDirectoryName = allFileNamesStartsWithDirectoryName;
+	public void setAllFilesCorrectlyNamed(boolean allFilesCorrectlyNamed) {
+		this.allFilesCorrectlyNamed = allFilesCorrectlyNamed;
 	}
 
 	public File getMovieDirectory() {

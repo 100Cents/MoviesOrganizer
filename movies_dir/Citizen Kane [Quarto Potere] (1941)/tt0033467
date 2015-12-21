@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Citizen Kane",
+      "ot":"Citizen Kane",
+      "it":"Quarto potere",
+      "fr":"Citizen Kane",
+      "ru":"Гражданин Кейн"
+    },
+    "otlc":"ot",
+    "year":1941,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0033467"
+  }
+}

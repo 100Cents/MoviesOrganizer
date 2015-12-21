@@ -81,7 +81,7 @@ public class MoviesBackup {
 		
 		if (tag == null) throw new NullPointerException("tag is null");
 		
-		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory)) {
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory, true)) {
 			
 			addMovieTag(movieDirectory, tag);
 			
@@ -104,7 +104,7 @@ public class MoviesBackup {
 		
 		if (descriptorNames == null) throw new NullPointerException("descriptors is null");
 		
-		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory)) {
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory, true)) {
 			
 			File movieDescriptor = Utility.getDescriptorFile(movieDirectory);
 			
@@ -224,7 +224,7 @@ public class MoviesBackup {
 	public static void resetAllMovieTagsBaseDir(File moviesBaseDirectory) throws IOException {
 		Utility.checkMoviesBaseDirectory(moviesBaseDirectory);
 		
-		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory)) {
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory, true)) {
 			
 			resetAllMovieTags(movieDirectory);
 			
@@ -286,7 +286,7 @@ public class MoviesBackup {
 		
 		if (tag == null) throw new NullPointerException("tag is null");
 		
-		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory)) {
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory, true)) {
 			
 			removeTagsStartingWith(movieDirectory, tag);
 			
@@ -330,7 +330,7 @@ public class MoviesBackup {
 		
 		if (tag == null) throw new NullPointerException("tag is null");
 		
-		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory)) {
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory, true)) {
 			
 			if (hasTag(movieDirectory, tag)) {
 				
@@ -643,8 +643,8 @@ public class MoviesBackup {
 			throw new IOException("le cartelle di origine e destinazione coincidono, impossibile procedere");
 		}
 		
-		File[] fromMovieDirectoryList = Utility.listMoviesDirectoriesFiles(fromDirectory);
-		File[] toMovieDirectoryList = Utility.listMoviesDirectoriesFiles(toDirectory);
+		File[] fromMovieDirectoryList = Utility.listMoviesDirectoriesFiles(fromDirectory, true);
+		File[] toMovieDirectoryList = Utility.listMoviesDirectoriesFiles(toDirectory, true);
 		
 		BigInteger totalSize = new BigInteger("0");
 		
@@ -768,7 +768,7 @@ public class MoviesBackup {
 		BigInteger totalSize = new BigInteger("0");
 		BigInteger thresholdSize = new BigInteger("1000000000000");
 		int sliceNumber = 1;
-		File[] listMoviesDirectoriesFiles = Utility.listMoviesDirectoriesFiles(moviesBaseDirectory);
+		File[] listMoviesDirectoriesFiles = Utility.listMoviesDirectoriesFiles(moviesBaseDirectory, true);
 		File[] listMoviesDirectoriesFilesPriority = orderByPriority(listMoviesDirectoriesFiles);
 		for (File movieDirectory : listMoviesDirectoriesFilesPriority) {
 			BigInteger x = FileUtils.sizeOfAsBigInteger(movieDirectory);
@@ -795,14 +795,16 @@ public class MoviesBackup {
 		}
 	}
 	
-	public static void deprioritizeNotItalianLanguage(File moviesBaseDirectory) throws IOException {
+	public static void adjustPriorityWithLanguages(File moviesBaseDirectory) throws IOException {
 		Utility.checkMoviesBaseDirectory(moviesBaseDirectory);
 		
-		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory)) {
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory, true)) {
 			String[] languages = Utility.showLanguagesByFileName(movieDirectory);
 			
-			if (Utility.getPriority(movieDirectory) < 0) {
+			int priority = Utility.getPriority(movieDirectory);
 			
+			if (priority > 9 || priority < 0) {
+				
 				if (languages.length > 0) {
 					boolean deprioritize = true;
 					for (String language : languages) {
@@ -822,6 +824,21 @@ public class MoviesBackup {
 				}
 				
 			}
+			
+			if (priority > 9 || priority < 0) {
+				
+				System.out.println("Priority " + priority);
+				for (String language : languages) {
+					
+					System.out.println(language);
+					if (language.equals("IT")) {
+						System.out.println(movieDirectory.getName() + ": 10");
+						Utility.changePriority(movieDirectory, 10);
+						break;
+					}
+					
+				}
+			}
 		
 		}
 		
@@ -835,7 +852,7 @@ public class MoviesBackup {
 		BigInteger totalSize = new BigInteger("0");
 		BigInteger thresholdSize = new BigInteger("1000000000000");
 		
-		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory)) {
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory, true)) {
 			
 			if (hasTag(movieDirectory, tag)) {
 				BigInteger x = FileUtils.sizeOfAsBigInteger(movieDirectory);
@@ -852,7 +869,7 @@ public class MoviesBackup {
 	public static void renameFilesAddingDirNameBaseDir(File moviesBaseDirectory) throws IOException {
 		Utility.checkMoviesBaseDirectory(moviesBaseDirectory);
 		
-		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory)) {
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory, true)) {
 			
 			for (File movieFile : Utility.listMovieFiles(movieDirectory, true)) {
 				
@@ -875,7 +892,7 @@ public class MoviesBackup {
 	public static void renameFilesRemovingStringBaseDir(File moviesBaseDirectory) throws IOException {
 		Utility.checkMoviesBaseDirectory(moviesBaseDirectory);
 		
-		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory)) {
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory, true)) {
 			
 			for (File movieFile : Utility.listMovieFiles(movieDirectory, true)) {
 				
@@ -895,7 +912,7 @@ public class MoviesBackup {
 	public static void moveFilesInOthersFolder(File moviesBaseDirectory) throws IOException {
 		Utility.checkMoviesBaseDirectory(moviesBaseDirectory);
 		
-		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory)) {
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory, true)) {
 			
 			File othersFolder = new File(movieDirectory, "_others_");
 			if (!othersFolder.exists()) {

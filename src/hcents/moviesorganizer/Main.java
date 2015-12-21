@@ -6,7 +6,6 @@ import java.awt.Desktop;
 import java.awt.Dimension;
 import java.awt.GridLayout;
 import java.awt.Point;
-import java.awt.Window;
 import java.awt.event.*;
 import java.io.*;
 import java.util.ArrayList;
@@ -17,6 +16,8 @@ import java.util.Map;
 import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.DefaultTreeModel;
 
 import org.fife.ui.rtextarea.*;
 import org.json.JSONObject;
@@ -30,6 +31,7 @@ import com.alee.laf.WebLookAndFeel;
  */
 public class Main extends JFrame {
 	private RTextArea textArea;
+	private FileTree fileTree;
 	
 	/**
 	 * 
@@ -41,8 +43,8 @@ public class Main extends JFrame {
 	public Main() {
 		WebLookAndFeel.install();
 		
-		//System.setProperty("http.proxyHost", "195.213.138.202");
-		//System.setProperty("http.proxyPort", "8080");
+		System.setProperty("http.proxyHost", "195.213.138.202");
+		System.setProperty("http.proxyPort", "8080");
 		
 		//
 		// MenuBar
@@ -76,6 +78,7 @@ public class Main extends JFrame {
         JMenuItem printImdbDescriptorFromSearchPage = new JMenuItem("Print IMDB descriptors from search page");
         JMenuItem printImdbDescriptorFromWebPage = new JMenuItem("Print IMDB descriptors from web page");
         JMenuItem updateMoviesTableAction = new JMenuItem("Update Movies table");
+        JMenuItem adjustPriorityWithLanguageAction = new JMenuItem("Adjust priority with language");
         /*
         JMenuItem cutAction = new JMenuItem("Cut");
         JMenuItem copyAction = new JMenuItem("Copy");
@@ -112,6 +115,7 @@ public class Main extends JFrame {
         todoMenu.add(printImdbDescriptorFromSearchPage);
         todoMenu.add(printImdbDescriptorFromWebPage);
         todoMenu.add(updateMoviesTableAction);
+        todoMenu.add(adjustPriorityWithLanguageAction);
         /*
         editMenu.add(cutAction);
         editMenu.add(copyAction);
@@ -132,6 +136,7 @@ public class Main extends JFrame {
         doBackup.addActionListener(new DoBackupActionListener());
         printImdbDescriptorFromSearchPage.addActionListener(new PrintImdbDescriptorFromSearchPageActionListener());
         printImdbDescriptorFromWebPage.addActionListener(new PrintImdbDescriptorFromWebPageActionListener());
+        adjustPriorityWithLanguageAction.addActionListener(new AdjustPriorityWithLanguageActionActionListener());
         
         updateMoviesTableAction.addActionListener(new ActionListener() {
         	
@@ -162,6 +167,46 @@ public class Main extends JFrame {
         
         //
         // End Menubar
+        
+        
+		
+		///////////////////////////////////////////////////////////////////////
+		//
+		// Begin: Backup setup panel
+		//
+		JPanel panel01 = new JPanel();
+		panel01.setLayout(new BorderLayout());
+				
+		final GroupLabelTree tt = new GroupLabelTree(new File(Utility.BASE_DIRECTORY));
+		
+		new Thread() {
+
+			public synchronized void run() {
+				
+				try {
+					tt.scan();
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				
+			}
+
+		}.start();
+		
+		
+		
+		
+		JScrollPane scrollPane3 = new JScrollPane(tt);
+		scrollPane3.setBorder(null);
+		
+		
+
+		//
+		// End: Backup setup panel
+		//
+		///////////////////////////////////////////////////////////////////////
+		
 		
 		JPanel topWestPanel = new JPanel();
 		topWestPanel.setLayout(new BorderLayout());
@@ -173,7 +218,7 @@ public class Main extends JFrame {
 		eastPanel.setLayout(new BorderLayout());
 		
 		
-		// Test accordion
+		// Begin: tabbed pane on the left
 		//
 		final JTabbedPane tp = new JTabbedPane();
 		tp.setPreferredSize(new Dimension(400, 400));
@@ -182,18 +227,18 @@ public class Main extends JFrame {
 		tp.setTabPlacement(JTabbedPane.LEFT);
 		tp.setTabLayoutPolicy(JTabbedPane.SCROLL_TAB_LAYOUT);
 		
-		tp.add(new JPanel(), "Pippo");
-		tp.add(new JPanel(), "Pippo 2");
-		tp.add(new JPanel(), "Pluto");
-		tp.add(new JPanel(), "Paperino");
-		tp.add(new JPanel(), "Pippo");
-		tp.add(new JPanel(), "Pippo 2");
-		tp.add(new JPanel(), "Pluto");
-		tp.add(new JPanel(), "Paperino");
+		//tp.add(fileTreeScrollPane, "File tree");
+		tp.add(scrollPane3, "Backup setup");
+		//tp.add(new JPanel(), "Pluto");
+		//tp.add(new JPanel(), "Paperino");
+		//tp.add(new JPanel(), "Pippo");
+		//tp.add(new JPanel(), "Pippo 2");
+		//tp.add(new JPanel(), "Pluto");
+		//tp.add(new JPanel(), "Paperino");
 		
 		eastPanel.add(tp);
 		//
-		// End test accordion
+		// End: tabbed pane on the left
 		
 		
 		JSplitPane verticalSplitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT, topWestPanel, bottomWestPanel);
@@ -288,7 +333,7 @@ public class Main extends JFrame {
         JComponent panel3 = new JPanel(false);
         panel3.setLayout(new BorderLayout());
         
-        Thread th = new Thread() {
+        Thread th2 = new Thread() {
 
 			public synchronized void run() {
 				try {
@@ -299,7 +344,7 @@ public class Main extends JFrame {
 			}
 
 		};
-		th.start();
+		th2.start();
 		
  		JTable table = new JTable(mltm);
  		table.setAutoResizeMode(JTable.AUTO_RESIZE_LAST_COLUMN);
@@ -429,6 +474,20 @@ public class Main extends JFrame {
                 }
             }
         });
+        
+        final JPopupMenu popupMenu = new JPopupMenu();
+        JMenuItem deleteItem = new JMenuItem("Delete");
+        deleteItem.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                //JOptionPane.showMessageDialog(frame, "Right-click performed on table and choose DELETE");
+            }
+        });
+        popupMenu.add(deleteItem);
+        table.setComponentPopupMenu(popupMenu);
+        
+        
  		
  		DefaultTableCellRenderer centerRenderer =
  				new DefaultTableCellRenderer();
@@ -436,6 +495,9 @@ public class Main extends JFrame {
  		table.getColumnModel().getColumn(0).setCellRenderer(centerRenderer);
  		
  		// Add the table to a scrolling pane
+ 		
+ 		//JXTreeTable treeTable = new JXTreeTable(new FileSystemModel());
+ 		
  		JScrollPane scrollPane = new JScrollPane(table);
  		scrollPane.setBorder(null);
  		panel3.add(scrollPane, BorderLayout.CENTER);
@@ -445,11 +507,35 @@ public class Main extends JFrame {
  		// End Panel3
  		//
  		///////////////////////////////////////////////////////////////////////
+ 		
+ 		
+ 		///////////////////////////////////////////////////////////////////////
+ 		//
+ 		// Panel 4
+ 		//
+		fileTree = new FileTree();
+		
+		new Thread() {
+			public synchronized void run() {
+				DefaultMutableTreeNode top = (DefaultMutableTreeNode) FileTree.scan(new File(Utility.BASE_DIRECTORY));
+				DefaultTreeModel model = new DefaultTreeModel(top);
+				fileTree.setModel(model);
+				model.reload();
+			}
+		}.start();
+		
+		JScrollPane fileTreeScrollPane = new JScrollPane(fileTree);
+		fileTreeScrollPane.setBorder(null);
+		
+		tabbedPane.add(fileTreeScrollPane, "File tree");
+ 		//
+ 		// End Panel 4
+ 		//
+ 		///////////////////////////////////////////////////////////////////////
         
         
         topWestPanel.add(tabbedPane);
 		
-
 		setContentPane(horizontalSplitPane);
 		setTitle("Movies Organizer");
 		//setResizable(false);
@@ -464,7 +550,7 @@ public class Main extends JFrame {
         try {
             List<String[]> dataList = new ArrayList<String[]>();
             
-            for (File movieDirectory : Utility.listMoviesDirectoriesFiles(new File(Utility.BASE_DIRECTORY))) {
+            for (File movieDirectory : Utility.listMoviesDirectoriesFiles(new File(Utility.BASE_DIRECTORY), true)) {
             	
             	JSONObject jsonObject = Utility.getDescriptorJson(movieDirectory);
             	
@@ -594,9 +680,7 @@ public class Main extends JFrame {
         return panel;
     }
 
-    private final static void addMnemonics(
-            JLabel[] labels,
-            JComponent[] fields) {
+    private final static void addMnemonics(JLabel[] labels, JComponent[] fields) {
         Map<Character, Object> m = new HashMap<Character, Object>();
         for (int ii = 0; ii < labels.length; ii++) {
             labels[ii].setLabelFor(fields[ii]);
@@ -918,6 +1002,33 @@ class PrintImdbDescriptorFromWebPageActionListener implements ActionListener {
 					for (String s : moviesList) {
 						System.out.println(s);
 					}
+				} catch (IOException e) {
+					e.printStackTrace();
+				} finally {
+					source.setEnabled(true);
+					System.out.println("done");
+				}
+			}
+
+		};
+		th.start();
+	}
+	
+}
+
+class AdjustPriorityWithLanguageActionActionListener implements ActionListener {
+
+	@Override
+	public void actionPerformed(ActionEvent event) {
+		final JMenuItem source = (JMenuItem) event.getSource();
+		
+		source.setEnabled(false);
+		Thread th = new Thread() {
+
+			public synchronized void run() {
+				try {
+					System.out.println("todo: " + source.getText());
+					MoviesBackup.adjustPriorityWithLanguages(new File(Utility.BASE_DIRECTORY));
 				} catch (IOException e) {
 					e.printStackTrace();
 				} finally {

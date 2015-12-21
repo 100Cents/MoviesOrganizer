@@ -27,7 +27,7 @@ public class MoviesListTableModel extends AbstractTableModel {
 	}
 	
 	public synchronized void updateRows() throws IOException {
-		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(new File(Utility.BASE_DIRECTORY))) {
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(new File(Utility.BASE_DIRECTORY), true)) {
 			File descriptorFile = Utility.getDescriptorFile(movieDirectory);
 			if (descriptorFile != null) {
 				
@@ -38,8 +38,8 @@ public class MoviesListTableModel extends AbstractTableModel {
 					movie.setFolderName(movieDirectory.getName());
 					try {
 						movie.setRealAvailableLanguages(Utility.showLanguagesByFileName(movieDirectory));
-						movie.setAllFileNamesStartsWithDirectoryName(
-								Utility.allFileNamesStartsWithDirectoryName(movieDirectory));
+						movie.setAllFilesCorrectlyNamed(
+								Utility.allFilesCorrectlyNamed(movieDirectory));
 						movie.setAllTags(MoviesBackup.getAllTags(movieDirectory));
 					} catch (IOException e) {
 						e.printStackTrace();

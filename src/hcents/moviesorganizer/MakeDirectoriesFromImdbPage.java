@@ -392,7 +392,7 @@ public class MakeDirectoriesFromImdbPage {
 	public static void renameDirectoryReadingDescriptorBaseDir(File moviesBaseDirectory) throws IOException {
 		
 		Utility.checkMoviesBaseDirectory(moviesBaseDirectory);
-		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory)) {
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory, true)) {
 			renameDirectoryReadingDescriptor(movieDirectory);
 		}
 		

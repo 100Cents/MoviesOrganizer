@@ -1,0 +1,17 @@
+{
+  "myData":{
+    "title":{
+      "de":"Im Rausch der Sterne",
+      "ot":"Burnt",
+      "it":"Il sapore del successo",
+      "fr":"À vif!",
+      "ru":"Шеф Адам Джонс"
+    },
+    "otlc":"ot",
+    "year":2015,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt2503944"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "myData":{
+    "title":{
+      "ot":"Grandi magazzini"
+    },
+    "otlc":"ot",
+    "year":1986,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt0091148"
+  }
+}

@@ -1,4 +1,4 @@
-package hcents.lifefolders.video.tts;
+package hcents.moviesorganizer;
 import java.io.File;
 
 import javax.swing.JTree;
@@ -11,7 +11,6 @@ public class FileTree extends JTree {
 	private static final long serialVersionUID = -2251228834619159465L;
 
 	public FileTree(String path) {
-		super(scan(new File(path)));
 	}
 
 	public FileTree() {

@@ -47,10 +47,10 @@ import com.cedarsoftware.util.io.JsonWriter;
 
 public final class Utility {
 	//public static final String BASE_DIRECTORY = "/home/rabbit/VMShared/__PRIVATE__/movies_dir/";
-	public static final String BASE_DIRECTORY = "Z:\\+Video\\+Movies\\_D_\\";
+	//public static final String BASE_DIRECTORY = "Z:\\+Video\\+Movies\\_D_\\";
 	//public static final String BASE_DIRECTORY = "/media/rabbit/USBHD-01/";
 	//public static final String BASE_DIRECTORY = "C:\\Users\\Rabbit\\Desktop\\MoviesPDF\\movies_dir\\";
-	//public static final String BASE_DIRECTORY = "movies_dir";
+	public static final String BASE_DIRECTORY = "movies_dir";
 	//public static final String BASE_DIRECTORY = "Z:\\+Video\\+Movies\\RU\\__TO_SORT__\\";
 	
 		
@@ -294,7 +294,7 @@ public final class Utility {
 	 * @param directory
 	 * @return
 	 */
-	public static File[] listMoviesDirectoriesFiles(File directory) {
+	public static File[] listMoviesDirectoriesFiles(File directory, boolean sort) {
 		File[] directories = directory.listFiles(new FilenameFilter() {
 			
 			@Override
@@ -309,9 +309,13 @@ public final class Utility {
 			}
 			
 		});
-		Arrays.sort(directories);
 		
-		return directories;
+		if (directories != null && directories.length > 0) {
+			if (sort) Arrays.sort(directories);
+			return directories;
+		} else {
+			return new File[] {};
+		}
 	}
 	
 	public static File[] listMovieFiles(File directory, boolean sort) {
@@ -345,11 +349,12 @@ public final class Utility {
 			
 		});
 		
-		if (sort) {
-			Arrays.sort(files);
+		if (files != null && files.length > 0) {
+			if (sort) Arrays.sort(files);
+			return files;
+		} else {
+			return new File[] {};
 		}
-		
-		return files;
 	}
 	
 	/**
@@ -453,6 +458,12 @@ public final class Utility {
 	    }
 	}
 	
+	/**
+	 * 
+	 * @param movieDirectory
+	 * @param imdbCode
+	 * @return
+	 */
 	public static JSONObject getJsonFromDirectoryName(File movieDirectory, String imdbCode) {
 		String originalTitle = "";
 		String itTitle = "";
@@ -502,7 +513,12 @@ public final class Utility {
 		return jso;
 	}
 	
-	
+	/**
+	 * 
+	 * @param movieDirectory
+	 * @return
+	 * @throws IOException
+	 */
 	public static String[] showLanguagesByFileName(File movieDirectory) throws IOException {
 		if (movieDirectory == null) {
             throw new NullPointerException("movieDirectory must not be null");
@@ -514,34 +530,17 @@ public final class Utility {
 			throw new IOException("movieDirectory is not a directory");
 		}
 		
-		File[] movieFilesList = Utility.listMovieFiles(movieDirectory, true);
-		
 		ArrayList<String> outputList = new ArrayList<String>();
 		
-		for (File movieFile : movieFilesList) {
+		for (File movieFile : Utility.listMovieFiles(movieDirectory, true)) {
+			MovieFileName mfn = new MovieFileName(movieFile);
 			
-			Pattern pattern = Pattern.compile("\\{[A-Z\\-]+}");
-			Matcher matcher = pattern.matcher(movieFile.getName());
-			
-			while (matcher.find()) {
-			    //System.out.println("I found the text " + matcher.group() + " starting at " + "index " + matcher.start() + " and ending at index " + matcher.end());
+			for (String s : mfn.getLanguagesList()) {
 				
-				String g = matcher.group();
-				
-				if (g.startsWith("{") && g.endsWith("}")) {
-					
-					g = g.substring(1, g.length() - 1);
-					
-					String[] tempStringArray = g.split("-");
-					
-					for (String s : tempStringArray) {
-						if (!outputList.contains(s)) {
-							outputList.add(s);
-						}
-					}
-					
+				if (!outputList.contains(s)) {
+					outputList.add(s);
 				}
-			    
+				
 			}
 			
 		}
@@ -552,7 +551,13 @@ public final class Utility {
 		return o;
 	}
 	
-	public static boolean allFileNamesStartsWithDirectoryName(File movieDirectory) throws IOException {
+	/**
+	 * 
+	 * @param movieDirectory
+	 * @return
+	 * @throws IOException
+	 */
+	public static boolean allFilesCorrectlyNamed(File movieDirectory) throws IOException {
 		if (movieDirectory == null) {
             throw new NullPointerException("movieDirectory must not be null");
         }
@@ -563,10 +568,16 @@ public final class Utility {
 			throw new IOException("movieDirectory is not a directory");
 		}
 		
-		String startsWithString = movieDirectory.getName().replaceAll(" ", ".");
 		for (File movieFile : Utility.listMovieFiles(movieDirectory, true)) {
+			MovieFileName mfn = new MovieFileName(movieFile);
 			
-			if (!movieFile.getName().startsWith(startsWithString)) {
+			if
+			(
+				!mfn.startsWithDottedAppendix()
+				||
+				mfn.getGarbage() != null
+			)
+			{
 				return false;
 			}
 			
@@ -575,6 +586,12 @@ public final class Utility {
 		return true;
 	}
 	
+	/**
+	 * 
+	 * @param movieDirectory
+	 * @return
+	 * @throws IOException
+	 */
 	public static File getDescriptorFile(File movieDirectory) throws IOException {
 		
 		if (movieDirectory == null) {
@@ -598,6 +615,12 @@ public final class Utility {
 		
 	}
 	
+	/**
+	 * 
+	 * @param movieDirectory
+	 * @return
+	 * @throws IOException
+	 */
 	public static JSONObject getDescriptorJson(File movieDirectory) throws IOException {
 		Utility.checkMovieDirectory(movieDirectory);
 		
@@ -614,6 +637,11 @@ public final class Utility {
 		
 	}
 	
+	/**
+	 * 
+	 * @param moviesBaseDirectory
+	 * @throws IOException
+	 */
 	public static void checkMoviesBaseDirectory(File moviesBaseDirectory) throws IOException {
 		
 		if (moviesBaseDirectory == null) {
@@ -642,7 +670,7 @@ public final class Utility {
 		
 		BigInteger sum = new BigInteger("0");
 		
-		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory)) {
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory, true)) {
 			
 			File descriptorFile = Utility.getDescriptorFile(movieDirectory);
 			if (descriptorFile != null) {
@@ -689,7 +717,7 @@ public final class Utility {
 		
 		Utility.checkMoviesBaseDirectory(moviesBaseDirectory);
 		
-		File[] movieDirectories = Utility.listMoviesDirectoriesFiles(moviesBaseDirectory);
+		File[] movieDirectories = Utility.listMoviesDirectoriesFiles(moviesBaseDirectory, true);
 
 		for (File movieDirectory : movieDirectories) {
 			File[] movieFiles = Utility.listMovieFiles(movieDirectory, true);
@@ -819,7 +847,7 @@ public final class Utility {
 		
 		Utility.checkMoviesBaseDirectory(moviesBaseDirectory);
 
-		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory)) {
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(moviesBaseDirectory, true)) {
 			printMediaInfo(movieDirectory);
 		}
 
@@ -972,7 +1000,7 @@ public final class Utility {
 		List<Movie> moviesList = new ArrayList<Movie>();
 		
 		int descriptorAnomalies = 0;
-		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(baseMoviesDirectory)) {
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(baseMoviesDirectory, true)) {
 			
 			File descriptorFile = Utility.getDescriptorFile(movieDirectory);
 			if (descriptorFile != null) {
@@ -991,8 +1019,7 @@ public final class Utility {
 				movie.setFolderName(movieDirectory.getName());
 				try {
 					movie.setRealAvailableLanguages(Utility.showLanguagesByFileName(movieDirectory));
-					movie.setAllFileNamesStartsWithDirectoryName(
-							Utility.allFileNamesStartsWithDirectoryName(movieDirectory));
+					movie.setAllFilesCorrectlyNamed(Utility.allFilesCorrectlyNamed(movieDirectory));
 					movie.setAllTags(MoviesBackup.getAllTags(movieDirectory));
 				} catch (IOException e) {
 					e.printStackTrace();

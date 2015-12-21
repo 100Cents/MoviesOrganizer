@@ -1,0 +1,15 @@
+{
+  "myData":{
+    "title":{
+      "ot":"A Perfect Day",
+      "it":"Perfect Day",
+      "fr":"Un jour comme un autre"
+    },
+    "otlc":"ot",
+    "year":2015,
+    "groups":[
+      "BACKUP:SLICE:01"
+    ],
+    "imdbCode":"tt3577624"
+  }
+}
