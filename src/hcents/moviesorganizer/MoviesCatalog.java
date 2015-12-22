@@ -371,7 +371,13 @@ public class MoviesCatalog {
 	protected String serialize(org.pdfclown.files.File file, String fileName, SerializationModeEnum serializationMode, String title, String subject, String keywords) {
 		applyDocumentSettings(file.getDocument(), title, subject, keywords);
 		
-		java.io.File outputFile = new java.io.File("catalogs", fileName);
+		java.io.File outputDir = new java.io.File("catalogs");
+		
+		if (!outputDir.exists()) {
+			outputDir.mkdir();
+		}
+		
+		java.io.File outputFile = new java.io.File(outputDir, fileName);
 		
 		try {
 			file.save(outputFile, serializationMode);

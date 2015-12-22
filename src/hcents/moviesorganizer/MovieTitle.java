@@ -4,6 +4,48 @@ package hcents.moviesorganizer;
 import org.apache.commons.lang3.text.WordUtils;
 
 public class MovieTitle {
+	/* (non-Javadoc)
+	 * @see java.lang.Object#hashCode()
+	 */
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result
+				+ ((originalTitle == null) ? 0 : originalTitle.hashCode());
+		result = prime * result
+				+ ((translatedTitle == null) ? 0 : translatedTitle.hashCode());
+		result = prime * result + year;
+		return result;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#equals(java.lang.Object)
+	 */
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		MovieTitle other = (MovieTitle) obj;
+		if (originalTitle == null) {
+			if (other.originalTitle != null)
+				return false;
+		} else if (!originalTitle.equals(other.originalTitle))
+			return false;
+		if (translatedTitle == null) {
+			if (other.translatedTitle != null)
+				return false;
+		} else if (!translatedTitle.equals(other.translatedTitle))
+			return false;
+		if (year != other.year)
+			return false;
+		return true;
+	}
+
 	private String originalTitle;
 	private String translatedTitle;
 	private int year;

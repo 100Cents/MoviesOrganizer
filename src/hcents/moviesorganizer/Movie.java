@@ -9,6 +9,91 @@ import org.json.JSONObject;
 
 public class Movie implements Serializable {
 
+	/* (non-Javadoc)
+	 * @see java.lang.Object#hashCode()
+	 */
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + (allFilesCorrectlyNamed ? 1231 : 1237);
+		result = prime * result + Arrays.hashCode(allTags);
+		result = prime * result
+				+ ((folderName == null) ? 0 : folderName.hashCode());
+		result = prime * result
+				+ ((imdbCode == null) ? 0 : imdbCode.hashCode());
+		result = prime * result + infoStatus;
+		result = prime * result
+				+ ((movieDirectory == null) ? 0 : movieDirectory.hashCode());
+		result = prime * result
+				+ ((movieTitle == null) ? 0 : movieTitle.hashCode());
+		result = prime * result + ((otlc == null) ? 0 : otlc.hashCode());
+		result = prime * result + Arrays.hashCode(realAvailableLanguages);
+		result = prime * result + realDataStatus;
+		result = prime * result
+				+ ((titleHashMap == null) ? 0 : titleHashMap.hashCode());
+		result = prime * result + year;
+		return result;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#equals(java.lang.Object)
+	 */
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Movie other = (Movie) obj;
+		if (allFilesCorrectlyNamed != other.allFilesCorrectlyNamed)
+			return false;
+		if (!Arrays.equals(allTags, other.allTags))
+			return false;
+		if (folderName == null) {
+			if (other.folderName != null)
+				return false;
+		} else if (!folderName.equals(other.folderName))
+			return false;
+		if (imdbCode == null) {
+			if (other.imdbCode != null)
+				return false;
+		} else if (!imdbCode.equals(other.imdbCode))
+			return false;
+		if (infoStatus != other.infoStatus)
+			return false;
+		if (movieDirectory == null) {
+			if (other.movieDirectory != null)
+				return false;
+		} else if (!movieDirectory.equals(other.movieDirectory))
+			return false;
+		if (movieTitle == null) {
+			if (other.movieTitle != null)
+				return false;
+		} else if (!movieTitle.equals(other.movieTitle))
+			return false;
+		if (otlc == null) {
+			if (other.otlc != null)
+				return false;
+		} else if (!otlc.equals(other.otlc))
+			return false;
+		if (!Arrays
+				.equals(realAvailableLanguages, other.realAvailableLanguages))
+			return false;
+		if (realDataStatus != other.realDataStatus)
+			return false;
+		if (titleHashMap == null) {
+			if (other.titleHashMap != null)
+				return false;
+		} else if (!titleHashMap.equals(other.titleHashMap))
+			return false;
+		if (year != other.year)
+			return false;
+		return true;
+	}
+
 	/**
 	 * 
 	 */

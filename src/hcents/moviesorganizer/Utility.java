@@ -47,11 +47,13 @@ import com.cedarsoftware.util.io.JsonWriter;
 
 public final class Utility {
 	//public static final String BASE_DIRECTORY = "/home/rabbit/VMShared/__PRIVATE__/movies_dir/";
-	public static final String BASE_DIRECTORY = "Z:\\+Video\\+Movies\\_A_\\";
+	//public static final String BASE_DIRECTORY = "Z:\\+Video\\+Movies\\_A_\\";
 	//public static final String BASE_DIRECTORY = "/media/rabbit/USBHD-01/";
 	//public static final String BASE_DIRECTORY = "C:\\Users\\Rabbit\\Desktop\\MoviesPDF\\movies_dir\\";
-	//public static final String BASE_DIRECTORY = "movies_dir";
+	public static final String BASE_DIRECTORY = "movies_dir";
 	//public static final String BASE_DIRECTORY = "Z:\\+Video\\+Movies\\RU\\__TO_SORT__\\";
+	
+	public static File[] moviesDirectoriesFiles = null;
 	
 		
 	public static final SimpleDateFormat MY_DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy");
@@ -294,27 +296,44 @@ public final class Utility {
 	 * @param directory
 	 * @return
 	 */
-	public static File[] listMoviesDirectoriesFiles(File directory, boolean sort) {
-		File[] directories = directory.listFiles(new FilenameFilter() {
+	public synchronized static File[] listMoviesDirectoriesFiles(File directory, boolean sort) {
+		if (moviesDirectoriesFiles == null) {
+			System.out.println("load movies directories files from reality");
+		
+			File[] directories = directory.listFiles(new FilenameFilter() {
+				
+				@Override
+				public boolean accept(File current, String name) {
+					
+					File f = new File(current, name);
+					boolean accept = f.isDirectory();
+					
+					if (f.getName().startsWith("$") || f.getName().startsWith(".")) accept = false;
+					
+					return accept;
+				}
+				
+			});
 			
-			@Override
-			public boolean accept(File current, String name) {
-				
-				File f = new File(current, name);
-				boolean accept = f.isDirectory();
-				
-				if (f.getName().startsWith("$") || f.getName().startsWith(".")) accept = false;
-				
-				return accept;
+			moviesDirectoriesFiles = directories;
+			
+			if (directories != null && directories.length > 0) {
+				if (sort) Arrays.sort(directories);
+				return directories;
+			} else {
+				return new File[] {};
 			}
 			
-		});
-		
-		if (directories != null && directories.length > 0) {
-			if (sort) Arrays.sort(directories);
-			return directories;
 		} else {
-			return new File[] {};
+			System.out.println("load movies directories files from cache");
+			
+			if (moviesDirectoriesFiles.length > 0) {
+				if (sort) Arrays.sort(moviesDirectoriesFiles);
+				return moviesDirectoriesFiles;
+			} else {
+				return new File[] {};
+			}
+			
 		}
 	}
 	
