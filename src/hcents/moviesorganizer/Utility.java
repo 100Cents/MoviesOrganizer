@@ -47,10 +47,10 @@ import com.cedarsoftware.util.io.JsonWriter;
 
 public final class Utility {
 	//public static final String BASE_DIRECTORY = "/home/rabbit/VMShared/__PRIVATE__/movies_dir/";
-	//public static final String BASE_DIRECTORY = "Z:\\+Video\\+Movies\\_D_\\";
+	public static final String BASE_DIRECTORY = "Z:\\+Video\\+Movies\\_A_\\";
 	//public static final String BASE_DIRECTORY = "/media/rabbit/USBHD-01/";
 	//public static final String BASE_DIRECTORY = "C:\\Users\\Rabbit\\Desktop\\MoviesPDF\\movies_dir\\";
-	public static final String BASE_DIRECTORY = "movies_dir";
+	//public static final String BASE_DIRECTORY = "movies_dir";
 	//public static final String BASE_DIRECTORY = "Z:\\+Video\\+Movies\\RU\\__TO_SORT__\\";
 	
 		
@@ -1041,6 +1041,62 @@ public final class Utility {
 		MoviesCatalog moviesCatalog = new MoviesCatalog(moviesList);
 		
 		String fileName = "catalog-" + new SimpleDateFormat("yyyyMMdd").format(new Date()) + ".pdf";
+		moviesCatalog.serialize(moviesCatalog.makePDF(), fileName, SerializationModeEnum.Standard, "Movies catalog", "Movies catalog", null);
+		
+	}
+	
+	public static void makeClassicPdfCatalog(File baseMoviesDirectory, String tag, String n) throws IOException {
+		
+		if (baseMoviesDirectory == null) {
+			throw new NullPointerException("argument baseMoviesDirectory can't be null");
+		}
+		if (!baseMoviesDirectory.exists()) {
+			throw new IOException("directory baseMoviesDirectory does not exist");
+		}
+		
+		List<Movie> moviesList = new ArrayList<Movie>();
+		for (File movieDirectory : Utility.listMoviesDirectoriesFiles(baseMoviesDirectory, true)) {
+			
+			File descriptorFile = Utility.getDescriptorFile(movieDirectory);
+			if (descriptorFile != null) {
+				
+				JSONObject jsonDescriptorObject = Utility.readJSONObjectFromFile(descriptorFile);
+				
+				if (jsonDescriptorObject != null && jsonDescriptorObject.has("myData")) {
+					JSONObject myData = jsonDescriptorObject.getJSONObject("myData");
+					if (myData.has("groups")) {
+						JSONArray jsonGroupsArray = myData.getJSONArray("groups");
+						
+						for (Object s : jsonGroupsArray) {
+							String group = (String) s;
+							
+							if (group.equals(tag)) {
+								
+								Movie movie = new Movie(jsonDescriptorObject);
+								movie.setFolderName(movieDirectory.getName());
+								try {
+									movie.setRealAvailableLanguages(Utility.showLanguagesByFileName(movieDirectory));
+									movie.setAllFilesCorrectlyNamed(Utility.allFilesCorrectlyNamed(movieDirectory));
+									movie.setAllTags(MoviesBackup.getAllTags(movieDirectory));
+								} catch (IOException e) {
+									e.printStackTrace();
+								}
+								moviesList.add(movie);
+								
+								continue;
+							}
+						}
+						
+						jsonGroupsArray.put(tag);
+					}
+				}
+			}
+			
+		}
+		
+		MoviesCatalog moviesCatalog = new MoviesCatalog(moviesList);
+		
+		String fileName = "catalog-" + n + "-" + new SimpleDateFormat("yyyyMMdd").format(new Date()) + ".pdf";
 		moviesCatalog.serialize(moviesCatalog.makePDF(), fileName, SerializationModeEnum.Standard, "Movies catalog", "Movies catalog", null);
 		
 	}

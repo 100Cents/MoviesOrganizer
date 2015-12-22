@@ -43,8 +43,8 @@ public class Main extends JFrame {
 	public Main() {
 		WebLookAndFeel.install();
 		
-		System.setProperty("http.proxyHost", "195.213.138.202");
-		System.setProperty("http.proxyPort", "8080");
+		//System.setProperty("http.proxyHost", "195.213.138.202");
+		//System.setProperty("http.proxyPort", "8080");
 		
 		//
 		// MenuBar
